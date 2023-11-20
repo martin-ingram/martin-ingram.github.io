@@ -1,0 +1,34 @@
+## `r species`
+
+\
+\
+
+
+Average Dimensions for **`r species`**:
+
+Bill Length: `r data$bill_length_mm` mm
+
+Bill Depth: `r data$bill_depth_mm` mm
+
+Flipper Length: `r data$flipper_length_mm` mm
+
+Body Mass: `r data$body_mass_g` g
+
+## `r species` plot
+
+```{r}
+# cant give chunks names as they are duplicated by the code
+test <- species
+plot_color_hightlight <- case_when(.default = "green1", 
+                                   test == "Adelie" ~ "darkred", 
+                                   test == "Chinstrap" ~ "seagreen", 
+                                   test == "Gentoo" ~ "dodgerblue")
+
+ggplot2::ggplot(penguin_data,
+                aes(x = body_mass_g, y = flipper_length_mm, fill = species))+
+    geom_jitter(size = 3, shape = 21, fill = plot_color_hightlight)+ 
+    gghighlight::gghighlight(species == test, 
+                             use_group_by = FALSE, use_direct_label = FALSE)+
+    theme_minimal()
+```
+
