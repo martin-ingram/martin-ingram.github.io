@@ -1,17 +1,15 @@
 ---
-title: "Quarto Test Slides <br> with Palmer Penguins"
+title-block-banner-color: "#FFFFFF"
+title-block-banner: "#0354D6"
 author: "Martin Ingram"
-format:
-  revealjs:
-    transition: slide
-    background-transition: fade
-    incremental: true  
-    slide-number: c/t
-    # theme: [default, scss_style.scss] 
-    footer: "[palmer penguins](https://allisonhorst.github.io/palmerpenguins/)"
 date: today
 date-format: "DD/MM/YYYY"
-editor: visual
+title: "Quarto Test Report"
+toc: true
+format:
+  html:
+    code-fold: true
+    code-summary: "Reveal code"
 ---
 
 ```{r Setup, include=FALSE}
@@ -22,7 +20,7 @@ library(downloadthis)
 
 # load penguins data and remove NA values
 penguin_data <- palmerpenguins::penguins %>% 
-    drop_na() 
+    drop_na()
 
 # make up table data
 table_data <- penguin_data %>% 
@@ -35,14 +33,11 @@ names(table_data) <- str_replace_all(names(table_data),
 
 ```
 
-##  {#image background-image="https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png" background-size="contain"}
+##  {#image background-image="https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png"}
 
 ## Palmer Penguins
 
-\
-\
-
--   [https://allisonhorst.github.io/palmerpenguins/](https://allisonhorst.github.io/palmerpenguins/https://allisonhorst.github.io/palmerpenguins/)
+-   <https://allisonhorst.github.io/palmerpenguins/>
 
 -   Artwork by @allison_horst
 
@@ -50,20 +45,22 @@ names(table_data) <- str_replace_all(names(table_data),
 # option to download data
 palmerpenguins::penguins %>% 
   download_this(output_name =
-                paste0(Sys.Date(), 
-                       " - penguins_table_data"),
-                button_label = "Download Penguins Data",
-                output_extension = ".xlsx",
-                button_type = "primary",
-                has_icon = TRUE,
-                self_contained = TRUE,
-                icon = "fa fa-save")
+                            paste0(Sys.Date(), 
+                                   " - penguins_table_data"),
+                            button_label = "Download Penguins Data",
+                            output_extension = ".xlsx",
+                            button_type = "primary",
+                            has_icon = TRUE,
+                            self_contained = TRUE,
+                            icon = "fa fa-save")
 ```
+
+![](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png)
 
 ## Plot
 
-```{r Build Plot, fig.width=10, fig.height=5.5}
-
+```{r Build Plot, echo=FALSE}
+# plot penguins data
 peng_plot <- ggplot(penguin_data, 
                     aes(
                x = flipper_length_mm,
@@ -78,7 +75,7 @@ ggplotly(peng_plot)
 
 ## Table
 
-```{r Build Table}
+```{r Build Table, echo=FALSE}
 # make interactive table
 reactable(table_data,
           defaultPageSize = 6)
@@ -92,19 +89,20 @@ avg_dimensions <- penguin_data %>%
                      \(x) mean(x, na.rm = TRUE))) %>% 
   mutate(across(where(is.numeric), 
                 \(x) janitor::round_half_up(x, digits = 1)))
+
 ```
 
-# Automated Slides
+# Automated Sections
 
 ```{r Function for building slides, include=FALSE}
-# Function to build automated slides
+# Function to render each child document
 render_child <- function(row) {
     
     species <- row$species
     data <- row
     
   res <- knitr::knit_child(
-    text = xfun::read_utf8("_template_slides.qmd"),
+    text = xfun::read_utf8("_template_report.qmd"),
     envir = rlang::env(data = data, species = species),
     quiet = TRUE
   )
@@ -113,7 +111,7 @@ render_child <- function(row) {
 }
 ```
 
-```{r Render Slides, results='asis'}
-# render each slide
+```{r Render Sections, results='asis', echo=FALSE}
+
 purrr::walk(1:nrow(avg_dimensions), ~ render_child(avg_dimensions[.x, ]))
 ```
