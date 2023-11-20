@@ -68,7 +68,9 @@ peng_plot <- ggplot(penguin_data,
                fill = species))+
   geom_point(shape = 21, size = 4, alpha = 0.7) +
   theme_minimal() +
-  scale_fill_brewer(palette = "RdYlBu")
+  scale_fill_brewer(palette = "RdYlBu")+
+    xlab("Flipper Length (mm)") +
+    ylab("Body Mass (g)")
 
 ggplotly(peng_plot) 
 ```

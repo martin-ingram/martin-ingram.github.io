@@ -28,5 +28,7 @@ ggplot2::ggplot(penguin_data,
     geom_jitter(size = 3, shape = 21, fill = plot_color_hightlight)+ 
     gghighlight::gghighlight(species == test, 
                              use_group_by = FALSE, use_direct_label = FALSE)+
-    theme_minimal()
+    theme_minimal()+
+    xlab("Flipper Length (mm)") +
+    ylab("Body Mass (g)")
 ```
