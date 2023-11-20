@@ -46,7 +46,7 @@ names(table_data) <- str_replace_all(names(table_data),
 
 -   Artwork by @allison_horst
 
-```{r Download Button, include=FALSE}
+```{r Download Button, echo=FALSE}
 # option to download data
 palmerpenguins::penguins %>% 
   download_this(output_name =
