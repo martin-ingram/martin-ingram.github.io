@@ -1,631 +1,617 @@
-time,organisation,content_type,source_content,classification,fte,running_costs,investment_costs,funding
-2010,Abstergo Industries,Video Game,Assassins Creed,Research and Development,814,16543736,1730474.7856,19378431.12948628
-2011,Abstergo Industries,Video Game,Assassins Creed,Research and Development,862,4605666,481752.66359999997,6873182.564647085
-2012,Abstergo Industries,Video Game,Assassins Creed,Research and Development,578,10425386,1090495.3756,12825919.409848418
-2013,Abstergo Industries,Video Game,Assassins Creed,Research and Development,925,25683550,2686499.33,30282449.46169304
-2014,Abstergo Industries,Video Game,Assassins Creed,Research and Development,594,15420834,1613019.2364,18188542.034039184
-2015,Abstergo Industries,Video Game,Assassins Creed,Research and Development,517,10959366,61902882.9144,13854212.352564432
-2016,Abstergo Industries,Video Game,Assassins Creed,Research and Development,698,5461152,571236.4992,5995207.604938063
-2017,Abstergo Industries,Video Game,Assassins Creed,Research and Development,628,4903424,512898.1504,6782626.277612416
-2018,Abstergo Industries,Video Game,Assassins Creed,Research and Development,643,12325667,1289264.7682,14509637.227001581
-2019,Abstergo Industries,Video Game,Assassins Creed,Research and Development,413,5977762,625273.9052,6897855.0482757725
-2020,Abstergo Industries,Video Game,Assassins Creed,Research and Development,773,3854951,403227.8746,5244644.531769704
-2021,Abstergo Industries,Video Game,Assassins Creed,Research and Development,490,15521730,1623572.9579999999,18830167.952708784
-2022,Abstergo Industries,Video Game,Assassins Creed,Research and Development,747,14830191,1551237.9786,17817513.33832252
-2023,Abstergo Industries,Video Game,Assassins Creed,Research and Development,754,21031322,2199876.2812,25202062.293893848
-2010,Acme Corporation,Various,Looney Tunes,Research and Development,425,7472775,781652.265,10445394.064266223
-2011,Acme Corporation,Various,Looney Tunes,Research and Development,918,12393000,1296307.8,15780251.335885143
-2012,Acme Corporation,Various,Looney Tunes,Research and Development,825,7688175,804183.105,9557625.265161913
-2013,Acme Corporation,Various,Looney Tunes,Research and Development,610,4860480,508406.208,5541283.173959584
-2014,Acme Corporation,Various,Looney Tunes,Research and Development,989,24968294,2611683.5524,28684524.647182673
-2015,Acme Corporation,Various,Looney Tunes,Research and Development,992,4969920,519853.632,7884243.766930286
-2016,Acme Corporation,Various,Looney Tunes,Research and Development,954,13816782,1445235.3972,16507886.375088248
-2017,Acme Corporation,Various,Looney Tunes,Research and Development,772,16799492,1757226.8632,18454106.462498028
-2018,Acme Corporation,Various,Looney Tunes,Research and Development,542,18917426,1978762.7596,22687262.518946156
-2019,Acme Corporation,Various,Looney Tunes,Research and Development,943,4301966,16199483.1696,6356595.673823576
-2020,Acme Corporation,Various,Looney Tunes,Research and Development,889,29959300,3133742.78,34090598.159191616
-2021,Acme Corporation,Various,Looney Tunes,Research and Development,422,10499782,1098277.1972,13106218.295803627
-2022,Acme Corporation,Various,Looney Tunes,Research and Development,708,21484968,2247327.6528,26304449.17660656
-2023,Acme Corporation,Various,Looney Tunes,Research and Development,534,4286952,448415.1792,7245077.716878677
-2010,All Saints Hospital,TV Show,Nurse Jackie,Medical,623,6255543,654329.7978,7857882.760697138
-2011,All Saints Hospital,TV Show,Nurse Jackie,Medical,565,15341445,1604715.1469999999,18309583.015040852
-2012,All Saints Hospital,TV Show,Nurse Jackie,Medical,616,8900584,931001.0864,9891951.097553972
-2013,All Saints Hospital,TV Show,Nurse Jackie,Medical,689,4416490,461964.854,5584975.007703962
-2014,All Saints Hospital,TV Show,Nurse Jackie,Medical,980,403760,42233.296,3586475.306225841
-2015,All Saints Hospital,TV Show,Nurse Jackie,Medical,471,12078795,1263441.957,16028813.652938819
-2016,All Saints Hospital,TV Show,Nurse Jackie,Medical,987,8258229,863810.7534,10272028.241554476
-2017,All Saints Hospital,TV Show,Nurse Jackie,Medical,974,28929748,3026051.6408,32693712.441713408
-2018,All Saints Hospital,TV Show,Nurse Jackie,Medical,540,1058400,3321259.2,1307284.9675253138
-2019,All Saints Hospital,TV Show,Nurse Jackie,Medical,552,17831256,1865149.3776,22941693.399782617
-2020,All Saints Hospital,TV Show,Nurse Jackie,Medical,693,22277178,2330192.8188,26063281.658850987
-2021,All Saints Hospital,TV Show,Nurse Jackie,Medical,676,3037268,16838006.3384,4180519.863610689
-2022,All Saints Hospital,TV Show,Nurse Jackie,Medical,862,23746376,126677417.40959999,28543239.560946852
-2023,All Saints Hospital,TV Show,Nurse Jackie,Medical,440,7482200,782638.12,8640573.107409906
-2010,Angel of Mercy Hospital,TV Show,Mercy,Medical,830,4502750,470987.64999999997,6974030.281811357
-2011,Angel of Mercy Hospital,TV Show,Mercy,Medical,489,12369744,1293875.2224,16299364.266862828
-2012,Angel of Mercy Hospital,TV Show,Mercy,Medical,715,9453015,988785.369,11608766.639110059
-2013,Angel of Mercy Hospital,TV Show,Mercy,Medical,622,14245666,55133576.55320001,18380769.097973287
-2014,Angel of Mercy Hospital,TV Show,Mercy,Medical,927,7016463,733922.0298,9675049.626185272
-2015,Angel of Mercy Hospital,TV Show,Mercy,Medical,515,16788485,1756075.531,19294623.176440775
-2016,Angel of Mercy Hospital,TV Show,Mercy,Medical,855,472815,49456.449,2387119.9655233296
-2017,Angel of Mercy Hospital,TV Show,Mercy,Medical,997,21497314,2248619.0444,24473126.619803566
-2018,Angel of Mercy Hospital,TV Show,Mercy,Medical,438,7276494,761121.2724,8916514.114343224
-2019,Angel of Mercy Hospital,TV Show,Mercy,Medical,558,4186674,437926.1004,6667434.149795628
-2020,Angel of Mercy Hospital,TV Show,Mercy,Medical,608,3279552,343041.1392,4553411.871043341
-2021,Angel of Mercy Hospital,TV Show,Mercy,Medical,773,9854204,1030749.7384,12217158.268949278
-2022,Angel of Mercy Hospital,TV Show,Mercy,Medical,433,4187976,438062.2896,6886491.348117754
-2023,Angel of Mercy Hospital,TV Show,Mercy,Medical,915,5178900,541712.94,6002054.318291822
-2010,Aperture Science,Video Game,Portal,Research and Development,412,6818600,713225.5599999999,10304947.04078541
-2011,Aperture Science,Video Game,Portal,Research and Development,468,1090908,114108.9768,4375492.175782129
-2012,Aperture Science,Video Game,Portal,Research and Development,808,4856080,507945.968,7264608.714953567
-2013,Aperture Science,Video Game,Portal,Research and Development,707,1381478,144502.5988,3255269.261190183
-2014,Aperture Science,Video Game,Portal,Research and Development,677,20299168,116781113.50400001,23334775.616318025
-2015,Aperture Science,Video Game,Portal,Research and Development,488,10068904,1053207.3584,12912809.872164134
-2016,Aperture Science,Video Game,Portal,Research and Development,936,12630384,56808941.1552,14858890.143031754
-2017,Aperture Science,Video Game,Portal,Research and Development,690,15823770,1655166.342,19089229.834440514
-2018,Aperture Science,Video Game,Portal,Research and Development,823,11156588,1166979.1048,13066674.448654544
-2019,Aperture Science,Video Game,Portal,Research and Development,685,16803050,1757599.03,20615954.65330983
-2020,Aperture Science,Video Game,Portal,Research and Development,520,1025440,107261.024,3101683.585593921
-2021,Aperture Science,Video Game,Portal,Research and Development,509,2576049,269454.7254,5305220.8870400675
-2022,Aperture Science,Video Game,Portal,Research and Development,557,7577985,38840204.319,11487967.13602705
-2023,Aperture Science,Video Game,Portal,Research and Development,463,14943325,1563071.795,17285252.300480075
-2010,Arkham Asylum,Comic,Batman,Medical,882,928746,97146.8316,3239357.860400884
-2011,Arkham Asylum,Comic,Batman,Medical,876,29645592,3100928.9232,32830747.730856612
-2012,Arkham Asylum,Comic,Batman,Medical,879,25466388,2663784.1848,29077126.303027708
-2013,Arkham Asylum,Comic,Batman,Medical,466,9346562,977650.3852,12519242.416844264
-2014,Arkham Asylum,Comic,Batman,Medical,484,12311992,1287834.3632,14296884.802616643
-2015,Arkham Asylum,Comic,Batman,Medical,564,10899864,1140125.7744,13701409.821898362
-2016,Arkham Asylum,Comic,Batman,Medical,450,846450,88538.67,1487881.2042823029
-2017,Arkham Asylum,Comic,Batman,Medical,473,4190780,438355.588,5653603.967082553
-2018,Arkham Asylum,Comic,Batman,Medical,577,3627599,379446.8554,5324687.905766623
-2019,Arkham Asylum,Comic,Batman,Medical,761,9998018,37648536.5808,11853022.342150904
-2020,Arkham Asylum,Comic,Batman,Medical,635,10314940,1078942.724,11016772.493873816
-2021,Arkham Asylum,Comic,Batman,Medical,729,11337408,1185892.8768,14093496.633871082
-2022,Arkham Asylum,Comic,Batman,Medical,526,5626622,588544.6612,7991576.898775994
-2023,Arkham Asylum,Comic,Batman,Medical,611,6110000,639106,8224663.698212469
-2010,Blue Star Group,Movie,Wall Street,finance,709,15939029,1667222.4334,18525392.87698308
-2011,Blue Star Group,Movie,Wall Street,finance,642,17222934,1801518.8964,21179216.577601936
-2012,Blue Star Group,Movie,Wall Street,finance,512,12676608,1325973.1968,16315100.84325192
-2013,Blue Star Group,Movie,Wall Street,finance,876,1299984,135978.3264,678261.1067558319
-2014,Blue Star Group,Movie,Wall Street,finance,550,16846500,1762143.9,20963009.97421888
-2015,Blue Star Group,Movie,Wall Street,finance,559,8018296,838713.7616,8627845.202236287
-2016,Blue Star Group,Movie,Wall Street,finance,790,3347230,16455652.125999998,4744770.826992784
-2017,Blue Star Group,Movie,Wall Street,finance,554,15949660,1668334.436,17985200.501790177
-2018,Blue Star Group,Movie,Wall Street,finance,825,25141050,84152122.56,28564192.017471924
-2019,Blue Star Group,Movie,Wall Street,finance,404,1510960,158046.416,4194452.050522093
-2020,Blue Star Group,Movie,Wall Street,finance,725,11262875,1178096.725,14270414.423786605
-2021,Blue Star Group,Movie,Wall Street,finance,679,2916305,305045.50299999997,5014661.504432154
-2022,Blue Star Group,Movie,Wall Street,finance,966,15695568,1641756.4128,16842661.080035724
-2023,Blue Star Group,Movie,Wall Street,finance,637,3756389,392918.2894,5677895.203275388
-2010,Bluth Company,TV Show,Arrested Development,Commercial,738,9032382,944787.1572,11890492.7841263
-2011,Bluth Company,TV Show,Arrested Development,Commercial,438,12042372,1259632.1112,15421844.884299666
-2012,Bluth Company,TV Show,Arrested Development,Commercial,536,16387128,1714093.5888,18589348.298639297
-2013,Bluth Company,TV Show,Arrested Development,Commercial,854,26263062,2747116.2852,31198159.3900524
-2014,Bluth Company,TV Show,Arrested Development,Commercial,959,24557113,2568674.0198,27238536.14395431
-2015,Bluth Company,TV Show,Arrested Development,Commercial,988,9880000,52705848,13814182.99096199
-2016,Bluth Company,TV Show,Arrested Development,Commercial,482,1446000,151251.6,2240715.4820756037
-2017,Bluth Company,TV Show,Arrested Development,Commercial,438,1920192,200852.0832,4155551.206300325
-2018,Bluth Company,TV Show,Arrested Development,Commercial,595,19671890,2057679.694,23366321.486169025
-2019,Bluth Company,TV Show,Arrested Development,Commercial,685,10577770,1106434.742,12091952.553106673
-2020,Bluth Company,TV Show,Arrested Development,Commercial,899,1753949,183463.0654,4309289.021718296
-2021,Bluth Company,TV Show,Arrested Development,Commercial,743,23443879,2452229.7434,27279736.370832346
-2022,Bluth Company,TV Show,Arrested Development,Commercial,709,21620246,2261477.7316,25963721.142869517
-2023,Bluth Company,TV Show,Arrested Development,Commercial,858,26642616,2786817.6336,30977474.376671884
-2010,Buy ‘n Large,Movie,WALL-E,Research and Development,419,475984,49787.9264,2652329.3367495444
-2011,Buy ‘n Large,Movie,WALL-E,Research and Development,594,12397374,1296765.3204,15067361.806655696
-2012,Buy ‘n Large,Movie,WALL-E,Research and Development,563,16977265,1775821.919,21099138.54991365
-2013,Buy ‘n Large,Movie,WALL-E,Research and Development,451,12708729,1329333.0534,15078694.46647968
-2014,Buy ‘n Large,Movie,WALL-E,Research and Development,933,27875241,2915750.2086,32614006.42740888
-2015,Buy ‘n Large,Movie,WALL-E,Research and Development,576,16004736,1674095.3856,19369546.955546506
-2016,Buy ‘n Large,Movie,WALL-E,Research and Development,953,1536236,160690.2856,3801566.0012429887
-2017,Buy ‘n Large,Movie,WALL-E,Research and Development,483,13489707,1411023.3522,15702181.312994657
-2018,Buy ‘n Large,Movie,WALL-E,Research and Development,922,2967918,11796880.4664,4790373.3195305
-2019,Buy ‘n Large,Movie,WALL-E,Research and Development,791,21503335,2249248.841,24590399.677217837
-2020,Buy ‘n Large,Movie,WALL-E,Research and Development,701,17346245,1814417.227,21322929.01180153
-2021,Buy ‘n Large,Movie,WALL-E,Research and Development,996,3359508,351404.5368,4498446.573049457
-2022,Buy ‘n Large,Movie,WALL-E,Research and Development,988,21686600,2268418.36,26849967.0537454
-2023,Buy ‘n Large,Movie,WALL-E,Research and Development,829,3078077,321966.8542,5457100.062339246
-2010,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,827,27217397,2846939.7262,31406077.32058659
-2011,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,649,16763670,1753479.882,20944127.216643345
-2012,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,828,21374820,2235806.172,24889308.71820253
-2013,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,797,26371136,2758420.8256,30984574.769401442
-2014,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,927,7500357,784537.3422,10108715.618581006
-2015,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,780,4984980,521428.908,7236682.596189013
-2016,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,944,17346944,1814490.3424,19984483.44176107
-2017,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,439,831905,87017.26299999999,1160096.5305419278
-2018,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,921,2017911,211073.4906,2086954.3975545247
-2019,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,872,14883296,1556792.7616,17388099.200031914
-2020,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,599,7234123,756689.2657999999,9952165.861800559
-2021,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,524,14974872,76752208.9488,17682529.27955107
-2022,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,664,14431376,1509521.9296,16224322.65519997
-2023,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,585,9932715,1038961.989,14244031.99964371
-2010,County General,TV Show,ER,Medical,972,30172824,154647792.1296,35307349.898755446
-2011,County General,TV Show,ER,Medical,651,18811296,1967661.5616,23864619.884335216
-2012,County General,TV Show,ER,Medical,857,554479,57998.5034,3045539.6485702433
-2013,County General,TV Show,ER,Medical,551,2259100,236301.86,3305449.4377494208
-2014,County General,TV Show,ER,Medical,453,14038017,1468376.5781999999,16493880.509417165
-2015,County General,TV Show,ER,Medical,937,26210701,2741639.3246,29024634.347849846
-2016,County General,TV Show,ER,Medical,634,7570594,791884.1324,10375144.548938094
-2017,County General,TV Show,ER,Medical,688,5286592,552977.5231999999,8637925.076691292
-2018,County General,TV Show,ER,Medical,584,4337952,453749.7792,5326766.405666759
-2019,County General,TV Show,ER,Medical,812,25051824,117918935.56799999,27956695.489008855
-2020,County General,TV Show,ER,Medical,921,24039021,2514481.5966,28692675.37402153
-2021,County General,TV Show,ER,Medical,708,13027200,1362645.1199999999,14394708.586387817
-2022,County General,TV Show,ER,Medical,453,10690800,1118257.68,14872473.982914302
-2023,County General,TV Show,ER,Medical,604,1416380,148153.348,3427445.224827427
-2010,Cragen and Stark,TV Show,Law and Order: SVU,Legal,936,7660224,801259.4304,8289834.423101406
-2011,Cragen and Stark,TV Show,Law and Order: SVU,Legal,963,4951746,517952.63159999996,7139372.63619403
-2012,Cragen and Stark,TV Show,Law and Order: SVU,Legal,790,14441990,1510632.1539999999,17400128.10324231
-2013,Cragen and Stark,TV Show,Law and Order: SVU,Legal,808,22651472,2369343.9712,24178830.909690388
-2014,Cragen and Stark,TV Show,Law and Order: SVU,Legal,745,2137405,8272184.831,3677675.6468901155
-2015,Cragen and Stark,TV Show,Law and Order: SVU,Legal,559,7704138,805852.8348,9341494.289677458
-2016,Cragen and Stark,TV Show,Law and Order: SVU,Legal,867,29899362,3127473.2652,33591424.09936662
-2017,Cragen and Stark,TV Show,Law and Order: SVU,Legal,908,13544636,1416768.9256,16527704.635813983
-2018,Cragen and Stark,TV Show,Law and Order: SVU,Legal,456,9776640,1022636.544,12910170.670978228
-2019,Cragen and Stark,TV Show,Law and Order: SVU,Legal,856,29699776,3106596.5696,35696668.735328324
-2020,Cragen and Stark,TV Show,Law and Order: SVU,Legal,756,24446772,2557132.3512,26015939.856958628
-2021,Cragen and Stark,TV Show,Law and Order: SVU,Legal,678,11718552,1225760.5392,14959770.43411965
-2022,Cragen and Stark,TV Show,Law and Order: SVU,Legal,669,21569229,2256141.3534,24332086.524383068
-2023,Cragen and Stark,TV Show,Law and Order: SVU,Legal,746,22734350,2378013.01,27494978.87736337
-2010,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,528,4415664,20322651.9936,6539159.082381725
-2011,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,617,11196082,42159966.379200004,15006572.933679895
-2012,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,736,3671168,384004.1728,4090031.2008099332
-2013,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,425,10211900,50203742.78,13074028.01257968
-2014,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,938,5295948,553956.1608,7466415.585833546
-2015,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,918,11854134,1239942.4164,15380198.356762249
-2016,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,952,27386184,2864594.8464,31399064.817607824
-2017,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,789,1821801,190560.3846,4384023.224687623
-2018,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,897,17801862,55862242.956,20622031.34026195
-2019,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,621,5336253,558172.0638,6866507.364695084
-2020,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,820,7500540,784556.4839999999,9661609.434965463
-2021,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,456,13488480,1410895.008,15302095.061909294
-2022,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,562,6236514,652339.3644,7836618.909915817
-2023,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,637,17965311,1879171.5306,22185886.118857402
-2010,Crichton Davies,Movie,Boiler Room,finance,977,9822758,51373024.339999996,13673633.809723757
-2011,Crichton Davies,Movie,Boiler Room,finance,915,16584375,1734725.625,20664285.804369383
-2012,Crichton Davies,Movie,Boiler Room,finance,729,10800135,1129694.121,12905800.991452085
-2013,Crichton Davies,Movie,Boiler Room,finance,624,6737952,704789.7792,9079999.349450978
-2014,Crichton Davies,Movie,Boiler Room,finance,788,7019504,734240.1184,9195296.618097264
-2015,Crichton Davies,Movie,Boiler Room,finance,516,8300376,868219.3295999999,9402489.761249656
-2016,Crichton Davies,Movie,Boiler Room,finance,936,22454640,2348755.344,26386323.06519917
-2017,Crichton Davies,Movie,Boiler Room,finance,454,4732950,495066.57,5848653.967555347
-2018,Crichton Davies,Movie,Boiler Room,finance,616,8808184,921336.0464,10139915.596558116
-2019,Crichton Davies,Movie,Boiler Room,finance,996,17619240,1842972.504,21461563.275600374
-2020,Crichton Davies,Movie,Boiler Room,finance,956,30351088,3174723.8048,34249965.268741205
-2021,Crichton Davies,Movie,Boiler Room,finance,814,6495720,679452.312,8400960.715472344
-2022,Crichton Davies,Movie,Boiler Room,finance,533,1444430,151087.378,2083227.5498907082
-2023,Crichton Davies,Movie,Boiler Room,finance,846,1713996,179283.9816,3296983.9112164075
-2010,Cyberdyne Systems,Movie,Terminator,Research and Development,503,11314482,1183494.8172,14289907.562853694
-2011,Cyberdyne Systems,Movie,Terminator,Research and Development,867,23852904,84830467.7856,28148921.350334156
-2012,Cyberdyne Systems,Movie,Terminator,Research and Development,609,19525758,2042394.2868,21965529.528775796
-2013,Cyberdyne Systems,Movie,Terminator,Research and Development,748,22832700,128968222.67999999,27694100.169784397
-2014,Cyberdyne Systems,Movie,Terminator,Research and Development,800,4905600,513125.76,8100820.635416794
-2015,Cyberdyne Systems,Movie,Terminator,Research and Development,657,21741444,2274155.0424,25701278.45630342
-2016,Cyberdyne Systems,Movie,Terminator,Research and Development,576,15712128,1643488.5888,18849646.97348264
-2017,Cyberdyne Systems,Movie,Terminator,Research and Development,785,25692265,2687410.9189999998,29802416.1049859
-2018,Cyberdyne Systems,Movie,Terminator,Research and Development,540,10132560,1059865.776,12775476.027175862
-2019,Cyberdyne Systems,Movie,Terminator,Research and Development,423,6927894,724657.7124,9341356.463540006
-2020,Cyberdyne Systems,Movie,Terminator,Research and Development,865,13567525,1419163.115,16462342.820414422
-2021,Cyberdyne Systems,Movie,Terminator,Research and Development,529,14522108,69874574.8528,17976702.130608894
-2022,Cyberdyne Systems,Movie,Terminator,Research and Development,564,13426020,1404361.692,15885614.638217438
-2023,Cyberdyne Systems,Movie,Terminator,Research and Development,987,3215646,336356.57159999997,5910612.156825911
-2010,Dunder Mifflin,TV Show,The Office,Commercial,776,10322352,1079718.0192,12722482.41084397
-2011,Dunder Mifflin,TV Show,The Office,Commercial,569,12207326,1276886.2996,13276268.209406625
-2012,Dunder Mifflin,TV Show,The Office,Commercial,844,14248408,53653805.1648,17004014.761974905
-2013,Dunder Mifflin,TV Show,The Office,Commercial,633,16449138,1720579.8348,19921326.1196349
-2014,Dunder Mifflin,TV Show,The Office,Commercial,821,6251915,653950.309,9354046.62571831
-2015,Dunder Mifflin,TV Show,The Office,Commercial,907,26607752,2783170.8592,30798421.862485386
-2016,Dunder Mifflin,TV Show,The Office,Commercial,463,4890206,511515.5476,5029755.820930019
-2017,Dunder Mifflin,TV Show,The Office,Commercial,479,1765115,184631.029,3307979.728336257
-2018,Dunder Mifflin,TV Show,The Office,Commercial,882,4708116,16251474.808799999,5487691.756870573
-2019,Dunder Mifflin,TV Show,The Office,Commercial,947,32424333,3391585.2318,36301502.12783835
-2020,Dunder Mifflin,TV Show,The Office,Commercial,874,30450160,3185086.736,34076776.04592085
-2021,Dunder Mifflin,TV Show,The Office,Commercial,690,1631160,170619.336,2444716.005899155
-2022,Dunder Mifflin,TV Show,The Office,Commercial,742,2487926,260237.0596,5113697.497526928
-2023,Dunder Mifflin,TV Show,The Office,Commercial,722,22376224,2340553.0304,25330977.60545981
-2010,Florrick Agos and Associates,TV Show,The Good Wife,Legal,878,16365042,1711783.3932,19040166.966458514
-2011,Florrick Agos and Associates,TV Show,The Good Wife,Legal,959,33035632,3455527.1072,38008936.61043138
-2012,Florrick Agos and Associates,TV Show,The Good Wife,Legal,849,1178412,123261.8952,3447698.039397657
-2013,Florrick Agos and Associates,TV Show,The Good Wife,Legal,510,2365890,247472.09399999998,3374191.3168431316
-2014,Florrick Agos and Associates,TV Show,The Good Wife,Legal,716,6529204,682954.7384,7831078.715542874
-2015,Florrick Agos and Associates,TV Show,The Good Wife,Legal,621,5689602,595132.3692,7177305.004651754
-2016,Florrick Agos and Associates,TV Show,The Good Wife,Legal,686,9702098,41608417.4828,11028502.464480333
-2017,Florrick Agos and Associates,TV Show,The Good Wife,Legal,984,24328416,132327120.3072,29045572.64728253
-2018,Florrick Agos and Associates,TV Show,The Good Wife,Legal,691,6076654,635618.0083999999,6125119.956556189
-2019,Florrick Agos and Associates,TV Show,The Good Wife,Legal,625,15720625,52620076,18249498.61246598
-2020,Florrick Agos and Associates,TV Show,The Good Wife,Legal,696,13979160,1462220.136,15513265.790199537
-2021,Florrick Agos and Associates,TV Show,The Good Wife,Legal,438,6447360,674393.856,6734917.813688659
-2022,Florrick Agos and Associates,TV Show,The Good Wife,Legal,636,19635864,2053911.3743999999,23069205.257085998
-2023,Florrick Agos and Associates,TV Show,The Good Wife,Legal,564,5496180,21271315.836,8793442.473126125
-2010,Gardner Ross,TV Show,The Street,finance,432,4110048,429911.0208,7348083.450796768
-2011,Gardner Ross,TV Show,The Street,finance,482,13246806,1385615.9076,15485707.022070114
-2012,Gardner Ross,TV Show,The Street,finance,795,24381060,2550258.876,27665236.836030867
-2013,Gardner Ross,TV Show,The Street,finance,676,4081688,426944.5648,5383757.470622788
-2014,Gardner Ross,TV Show,The Street,finance,608,12130208,1268819.7568,15384682.809271276
-2015,Gardner Ross,TV Show,The Street,finance,475,12620275,1320080.765,13015385.019706562
-2016,Gardner Ross,TV Show,The Street,finance,493,5282002,552497.4092,7408791.05032215
-2017,Gardner Ross,TV Show,The Street,finance,429,4301154,449900.7084,5744218.070016298
-2018,Gardner Ross,TV Show,The Street,finance,616,20048952,2097120.3792,22838194.075688384
-2019,Gardner Ross,TV Show,The Street,finance,574,16974328,97653308.984,18319117.636821356
-2020,Gardner Ross,TV Show,The Street,finance,773,466119,48756.047399999996,1685705.544923832
-2021,Gardner Ross,TV Show,The Street,finance,722,15673898,1639489.7308,17200308.984175578
-2022,Gardner Ross,TV Show,The Street,finance,514,3883270,406190.042,5629777.357611857
-2023,Gardner Ross,TV Show,The Street,finance,776,21367160,2235004.9359999998,24159988.5819029
-2010,General Hospital,TV Show,General Hospital,Medical,864,6075648,635512.7808,8106302.498981673
-2011,General Hospital,TV Show,General Hospital,Medical,757,21761479,2276250.7034,25801777.934198562
-2012,General Hospital,TV Show,General Hospital,Medical,823,23683471,2477291.0666,27066567.35998965
-2013,General Hospital,TV Show,General Hospital,Medical,495,1733490,181323.054,2359214.547822076
-2014,General Hospital,TV Show,General Hospital,Medical,937,7336710,28394535.042000003,8913854.417602584
-2015,General Hospital,TV Show,General Hospital,Medical,796,9063256,948016.5776,10771489.311450306
-2016,General Hospital,TV Show,General Hospital,Medical,803,17222744,63052465.783999994,19049748.2465508
-2017,General Hospital,TV Show,General Hospital,Medical,547,4717328,493432.5088,5870251.63619919
-2018,General Hospital,TV Show,General Hospital,Medical,791,27251532,2850510.2472,31283922.8171679
-2019,General Hospital,TV Show,General Hospital,Medical,992,10214624,1068449.6704,12440553.916993018
-2020,General Hospital,TV Show,General Hospital,Medical,846,25967970,116798735.466,30331317.946180265
-2021,General Hospital,TV Show,General Hospital,Medical,737,19364675,2025545.005,23893418.282528207
-2022,General Hospital,TV Show,General Hospital,Medical,642,6629934,693491.0964,8974196.831506906
-2023,General Hospital,TV Show,General Hospital,Medical,505,3254220,340391.412,6261418.60704533
-2010,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,410,8444770,26499688.26,10105628.153494967
-2011,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,763,26304425,140323585.605,31611368.57608825
-2012,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,785,22045940,2306005.324,26233781.947098956
-2013,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,802,9168464,959021.3343999999,10421266.919041868
-2014,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,860,12049460,1260373.516,15021543.380848816
-2015,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,540,18599220,1945478.412,20797572.3029071
-2016,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,430,7714200,806905.32,10717704.612193033
-2017,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,514,14797032,1547769.5472,17218574.38984239
-2018,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,493,5439269,568947.5374,7152106.35205464
-2019,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,415,3857840,403530.064,5010784.30081426
-2020,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,819,25519221,2669310.5165999997,28784362.226972308
-2021,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,577,13567001,49668790.661,17854281.699084003
-2022,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,816,8361552,874618.3392,11472422.881684115
-2023,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,863,16059567,1679830.7082,19694007.973232355
-2010,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,811,17529765,1833613.419,20782806.64400285
-2011,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,576,14075136,1472259.2256,17556378.986632217
-2012,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,923,27932749,2921765.5454,32797114.8356866
-2013,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,836,12948804,1354444.8984,17083688.944672413
-2014,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,977,3146917,329167.5182,5586222.012166109
-2015,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,961,9876197,1033050.2062,12079755.141944567
-2016,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,603,7513380,785899.548,9462044.392085722
-2017,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,574,12383476,1295311.5896,14616321.8217621
-2018,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,772,2226448,7918139.6672,3489685.0553431837
-2019,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,863,708523,74111.5058,1926013.905687198
-2020,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,783,13743999,79069226.247,17623441.0937256
-2021,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,521,13899238,1453860.2948,14635706.301147869
-2022,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,798,9324630,975356.298,11029553.968339322
-2023,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,802,4438268,464242.8328,6138234.405926277
-2010,Hooten and Briggs,TV Show,Franklin and Bash,Legal,714,18523302,1937537.3891999999,20673177.791370332
-2011,Hooten and Briggs,TV Show,Franklin and Bash,Legal,658,7157724,38183594.450399995,10700722.079470232
-2012,Hooten and Briggs,TV Show,Franklin and Bash,Legal,893,5690196,595194.5016,7431203.547319589
-2013,Hooten and Briggs,TV Show,Franklin and Bash,Legal,688,12165904,1272553.5584,13798773.594837973
-2014,Hooten and Briggs,TV Show,Franklin and Bash,Legal,447,5379645,562710.867,6503104.446717749
-2015,Hooten and Briggs,TV Show,Franklin and Bash,Legal,730,22764320,2381147.872,27275492.89429283
-2016,Hooten and Briggs,TV Show,Franklin and Bash,Legal,499,10753949,1124863.0654,14895433.015937008
-2017,Hooten and Briggs,TV Show,Franklin and Bash,Legal,507,872547,3650736.6479999996,2207200.485030764
-2018,Hooten and Briggs,TV Show,Franklin and Bash,Legal,700,12104400,1266120.24,14819669.243202088
-2019,Hooten and Briggs,TV Show,Franklin and Bash,Legal,409,2122710,222035.466,2854856.426663671
-2020,Hooten and Briggs,TV Show,Franklin and Bash,Legal,569,15967278,1670177.2788,20162688.245421402
-2021,Hooten and Briggs,TV Show,Franklin and Bash,Legal,679,13514816,1413649.7536,16925282.445708115
-2022,Hooten and Briggs,TV Show,Franklin and Bash,Legal,747,23687370,2477698.902,25446881.749903
-2023,Hooten and Briggs,TV Show,Franklin and Bash,Legal,801,17449785,1825247.511,20054963.80945118
-2010,InGen,Movie,Jurassic Park,Research and Development,608,2478208,259220.5568,3883091.086782923
-2011,InGen,Movie,Jurassic Park,Research and Development,867,26449569,2766624.9174,29584300.658232946
-2012,InGen,Movie,Jurassic Park,Research and Development,708,7737732,809366.7672,9657971.68136317
-2013,InGen,Movie,Jurassic Park,Research and Development,794,8167878,854360.0388,9367855.062036611
-2014,InGen,Movie,Jurassic Park,Research and Development,507,8234694,861348.9924,10769621.538024975
-2015,InGen,Movie,Jurassic Park,Research and Development,407,6002843,26999587.2454,8283267.960828534
-2016,InGen,Movie,Jurassic Park,Research and Development,660,19095120,1997349.552,23167863.02805997
-2017,InGen,Movie,Jurassic Park,Research and Development,940,22401140,89040051.272,26468717.268699907
-2018,InGen,Movie,Jurassic Park,Research and Development,705,17319735,1811644.281,21903451.176828664
-2019,InGen,Movie,Jurassic Park,Research and Development,725,25248850,2641029.71,28900303.693806216
-2020,InGen,Movie,Jurassic Park,Research and Development,473,7173991,750399.4586,7362729.915916728
-2021,InGen,Movie,Jurassic Park,Research and Development,681,9030060,944544.276,11351366.238580668
-2022,InGen,Movie,Jurassic Park,Research and Development,984,19052208,1992860.9568,22977114.998572648
-2023,InGen,Movie,Jurassic Park,Research and Development,666,20998314,2196423.6444,24191730.57399708
-2010,LexCorp,Comic/Movie,Superman,Research and Development,661,7489130,783362.998,10872659.216841659
-2011,LexCorp,Comic/Movie,Superman,Research and Development,603,14776515,1545623.469,18649988.746383514
-2012,LexCorp,Comic/Movie,Superman,Research and Development,618,4929168,515590.9728,7276852.623876635
-2013,LexCorp,Comic/Movie,Superman,Research and Development,751,10109962,1057502.0252,12583471.528494803
-2014,LexCorp,Comic/Movie,Superman,Research and Development,518,12673388,1325636.3847999999,14862340.340939172
-2015,LexCorp,Comic/Movie,Superman,Research and Development,851,26631194,2785622.8924,30613341.981764577
-2016,LexCorp,Comic/Movie,Superman,Research and Development,978,29351736,3070191.5856,34193247.26591327
-2017,LexCorp,Comic/Movie,Superman,Research and Development,435,7454595,779750.637,10449240.707092466
-2018,LexCorp,Comic/Movie,Superman,Research and Development,454,760904,2546897.8688,1931003.9177528387
-2019,LexCorp,Comic/Movie,Superman,Research and Development,889,5974969,624981.7574,7306026.1672013635
-2020,LexCorp,Comic/Movie,Superman,Research and Development,639,7246899,758025.6354,11561178.693516267
-2021,LexCorp,Comic/Movie,Superman,Research and Development,703,21376121,2235942.2566,25427311.17654118
-2022,LexCorp,Comic/Movie,Superman,Research and Development,409,7670386,802322.3756,9022791.072890423
-2023,LexCorp,Comic/Movie,Superman,Research and Development,821,26891034,2812802.1563999997,31885977.878291585
-2010,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,504,1369368,143235.8928,2921416.015543653
-2011,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,787,11460294,1198746.7523999999,14748494.38955509
-2012,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,862,13773036,1440659.5656,16613709.869868234
-2013,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,579,18457941,1930700.6286,21690597.999999877
-2014,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,677,14363232,1502394.0672,17300170.210095044
-2015,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,772,10584120,1107098.952,13412367.36589284
-2016,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,640,16072960,1681231.616,18565389.800989512
-2017,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,423,491949,51457.8654,1314325.826090963
-2018,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,958,23754568,109328023.7632,27428850.077811994
-2019,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,436,5649252,31909234.996799998,7746490.202002699
-2020,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,965,16490885,1724946.571,19287426.264724243
-2021,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,702,9835722,1028816.5212,12500465.840101019
-2022,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,418,6250772,653830.7511999999,7278425.455311371
-2023,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,777,11766111,1230735.2105999999,13077789.470058123
-2010,Monarch,Movie,Godzilla,Research and Development,948,10267788,1074010.6247999999,14378881.708312292
-2011,Monarch,Movie,Godzilla,Research and Development,643,13317816,1393043.5536,16418749.531244226
-2012,Monarch,Movie,Godzilla,Research and Development,447,9914013,1037005.7598,11951754.684842084
-2013,Monarch,Movie,Godzilla,Research and Development,587,4349670,454975.482,5909528.067010066
-2014,Monarch,Movie,Godzilla,Research and Development,863,25431747,2660160.7362,30144290.770448796
-2015,Monarch,Movie,Godzilla,Research and Development,792,968616,101317.23359999999,2236765.4801684516
-2016,Monarch,Movie,Godzilla,Research and Development,538,2545278,266236.0788,4336356.40602771
-2017,Monarch,Movie,Godzilla,Research and Development,698,5783628,604967.4887999999,7507028.780441601
-2018,Monarch,Movie,Godzilla,Research and Development,770,3019170,315805.182,4242869.0162890665
-2019,Monarch,Movie,Godzilla,Research and Development,588,6326880,661791.648,8878319.834905883
-2020,Monarch,Movie,Godzilla,Research and Development,710,884660,92535.436,2457005.4463923415
-2021,Monarch,Movie,Godzilla,Research and Development,588,10238256,1070921.5776,13821215.839696284
-2022,Monarch,Movie,Godzilla,Research and Development,817,18838386,1970495.1756,21161654.469296433
-2023,Monarch,Movie,Godzilla,Research and Development,968,8796216,920084.1936,10949864.966882212
-2010,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,781,10276398,1074911.2308,12519326.31546846
-2011,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,437,12560254,1313802.5684,14271785.777827691
-2012,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,483,1196874,125193.0204,3563705.430517032
-2013,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,718,19905832,2082150.0272,23246373.674901135
-2014,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,801,1592388,166563.7848,1880283.6580517131
-2015,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,519,12989532,1358705.0472,15175399.340088446
-2016,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,730,16277540,1702630.684,18350792.446889013
-2017,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,932,14518696,1518655.6016,18315668.358777516
-2018,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,840,12127080,1268492.568,17011695.993437845
-2019,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,598,10224006,1069431.0276,12048029.378738085
-2020,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,898,9528678,996699.7188,11797264.489163065
-2021,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,998,9048866,46379057.796399996,11598167.224897921
-2022,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,471,14081016,1472874.2736,19317737.518900674
-2023,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,714,24955014,2610294.4644,26847343.713570755
-2010,Oscorp,Comic/Movie,Spider-Man,Research and Development,480,12589440,1316855.4239999999,14803011.620656233
-2011,Oscorp,Comic/Movie,Spider-Man,Research and Development,454,11339558,1186117.7668,12809595.271222943
-2012,Oscorp,Comic/Movie,Spider-Man,Research and Development,533,18623020,1947967.892,21722426.369148873
-2013,Oscorp,Comic/Movie,Spider-Man,Research and Development,823,27009214,2825163.7844,30942870.95986073
-2014,Oscorp,Comic/Movie,Spider-Man,Research and Development,405,10446570,1092711.222,12243972.804238044
-2015,Oscorp,Comic/Movie,Spider-Man,Research and Development,527,15900644,1663207.3624,20549466.251713388
-2016,Oscorp,Comic/Movie,Spider-Man,Research and Development,448,15364160,1607091.136,18553873.833684392
-2017,Oscorp,Comic/Movie,Spider-Man,Research and Development,875,26394375,2760851.625,32638514.6025467
-2018,Oscorp,Comic/Movie,Spider-Man,Research and Development,638,19892202,2080724.3292,24059557.576228537
-2019,Oscorp,Comic/Movie,Spider-Man,Research and Development,739,15395587,1610378.4002,17234268.93273794
-2020,Oscorp,Comic/Movie,Spider-Man,Research and Development,592,17411904,1821285.1584,19916812.680507597
-2021,Oscorp,Comic/Movie,Spider-Man,Research and Development,858,26787618,2801984.8427999998,31186435.321824376
-2022,Oscorp,Comic/Movie,Spider-Man,Research and Development,702,650754,68068.86839999999,1558654.6791137941
-2023,Oscorp,Comic/Movie,Spider-Man,Research and Development,547,3225112,337346.7152,5231572.972531247
-2010,Pearson Hardman,TV Show,Suits,Legal,589,18332036,1917530.9656,22255204.75746928
-2011,Pearson Hardman,TV Show,Suits,Legal,590,15435580,77498960.06400001,18778710.72872981
-2012,Pearson Hardman,TV Show,Suits,Legal,845,6574100,687650.86,8495933.529969806
-2013,Pearson Hardman,TV Show,Suits,Legal,518,917378,95957.73879999999,1794773.687965615
-2014,Pearson Hardman,TV Show,Suits,Legal,921,22051503,2306587.2138,24565035.558476355
-2015,Pearson Hardman,TV Show,Suits,Legal,458,14661496,1533592.4816,17852286.626396533
-2016,Pearson Hardman,TV Show,Suits,Legal,460,5902720,617424.512,8694597.012045603
-2017,Pearson Hardman,TV Show,Suits,Legal,821,25997786,2719368.4156,30000215.194526482
-2018,Pearson Hardman,TV Show,Suits,Legal,507,7659249,801157.4454,10484766.046839401
-2019,Pearson Hardman,TV Show,Suits,Legal,691,17103632,1789039.9072,22228235.416787323
-2020,Pearson Hardman,TV Show,Suits,Legal,772,6543472,684447.1712,10302197.342217486
-2021,Pearson Hardman,TV Show,Suits,Legal,934,7044228,22104787.463999998,8694717.707860911
-2022,Pearson Hardman,TV Show,Suits,Legal,514,5941326,621462.6995999999,8403083.239648676
-2023,Pearson Hardman,TV Show,Suits,Legal,999,32973993,3449079.6678,37152315.8008421
-2010,Pied Piper,TV Show,Silicon Valley,Research and Development,812,16555868,1731743.7928,20255210.642959338
-2011,Pied Piper,TV Show,Silicon Valley,Research and Development,602,9095016,951338.6736,11348369.680101475
-2012,Pied Piper,TV Show,Silicon Valley,Research and Development,645,13524360,1414648.0559999999,16539887.503098903
-2013,Pied Piper,TV Show,Silicon Valley,Research and Development,839,13874543,1451277.1978,15915569.261510009
-2014,Pied Piper,TV Show,Silicon Valley,Research and Development,650,2048800,214304.48,4689353.617690785
-2015,Pied Piper,TV Show,Silicon Valley,Research and Development,959,17820138,1863986.4348,20963172.586452305
-2016,Pied Piper,TV Show,Silicon Valley,Research and Development,944,1663328,173984.1088,2794553.4764325647
-2017,Pied Piper,TV Show,Silicon Valley,Research and Development,561,9015270,51864848.309999995,11244039.579088371
-2018,Pied Piper,TV Show,Silicon Valley,Research and Development,721,17319141,56159046.6066,20552623.079096112
-2019,Pied Piper,TV Show,Silicon Valley,Research and Development,975,2931825,306668.895,6048596.507920103
-2020,Pied Piper,TV Show,Silicon Valley,Research and Development,567,8713656,911448.4176,9990930.81298882
-2021,Pied Piper,TV Show,Silicon Valley,Research and Development,841,21464002,83069980.5404,27250610.134598736
-2022,Pied Piper,TV Show,Silicon Valley,Research and Development,477,13097943,1370044.8378,15133978.287611641
-2023,Pied Piper,TV Show,Silicon Valley,Research and Development,892,26832252,2806653.5592,31148205.021459986
-2010,Princeton-Plainsboro,TV Show,House,Medical,598,1371214,143428.9844,1037639.3189408901
-2011,Princeton-Plainsboro,TV Show,House,Medical,823,4220344,20748055.1728,5433513.992166458
-2012,Princeton-Plainsboro,TV Show,House,Medical,844,23297776,2436947.3696,27739650.11753191
-2013,Princeton-Plainsboro,TV Show,House,Medical,494,10822552,1132038.9392,13757985.622949844
-2014,Princeton-Plainsboro,TV Show,House,Medical,863,23601324,2468698.4904,27789206.13807594
-2015,Princeton-Plainsboro,TV Show,House,Medical,778,14484026,1515029.1196,16937752.30140809
-2016,Princeton-Plainsboro,TV Show,House,Medical,741,10712637,1120541.8302,11547057.369819693
-2017,Princeton-Plainsboro,TV Show,House,Medical,620,2767060,289434.476,3456036.445711296
-2018,Princeton-Plainsboro,TV Show,House,Medical,560,7854560,821586.976,9825624.793551791
-2019,Princeton-Plainsboro,TV Show,House,Medical,847,6970810,729146.726,9606905.440909158
-2020,Princeton-Plainsboro,TV Show,House,Medical,641,8312488,869486.2448,11280907.75177823
-2021,Princeton-Plainsboro,TV Show,House,Medical,935,27304805,2856082.603,31245371.298458736
-2022,Princeton-Plainsboro,TV Show,House,Medical,806,4207320,440085.672,5866518.6494132485
-2023,Princeton-Plainsboro,TV Show,House,Medical,628,8988564,940203.7944,11137829.101794865
-2010,Sacred Heart Hospital,TV Show,Scrubs,Medical,623,20511652,2145518.7992,24062565.968870513
-2011,Sacred Heart Hospital,TV Show,Scrubs,Medical,873,4070799,425805.5754,7217996.257723671
-2012,Sacred Heart Hospital,TV Show,Scrubs,Medical,840,12382440,1295203.224,14385089.279804744
-2013,Sacred Heart Hospital,TV Show,Scrubs,Medical,570,4676850,489198.51,6337825.281960778
-2014,Sacred Heart Hospital,TV Show,Scrubs,Medical,422,12054430,1260893.378,14739294.237991704
-2015,Sacred Heart Hospital,TV Show,Scrubs,Medical,617,12752773,1333940.0558,14250116.356272757
-2016,Sacred Heart Hospital,TV Show,Scrubs,Medical,883,5631774,589083.5604,6755437.922418252
-2017,Sacred Heart Hospital,TV Show,Scrubs,Medical,700,3742200,15265930.68,5665724.069879232
-2018,Sacred Heart Hospital,TV Show,Scrubs,Medical,478,5566788,26785157.1408,7882933.451728637
-2019,Sacred Heart Hospital,TV Show,Scrubs,Medical,910,6396390,669062.394,9433621.066869646
-2020,Sacred Heart Hospital,TV Show,Scrubs,Medical,906,17475834,1827972.2364,20243445.821839344
-2021,Sacred Heart Hospital,TV Show,Scrubs,Medical,563,4510756,471825.0776,7629917.9978563795
-2022,Sacred Heart Hospital,TV Show,Scrubs,Medical,636,1179780,5676629.448,1888004.1975249588
-2023,Sacred Heart Hospital,TV Show,Scrubs,Medical,978,28499898,2981089.3308,31414856.48269475
-2010,Soylent Corporation,Movie,Soylent Green,Commercial,821,6527771,682804.8466,6833322.073123377
-2011,Soylent Corporation,Movie,Soylent Green,Commercial,892,18267268,1910756.2327999999,22514131.49230216
-2012,Soylent Corporation,Movie,Soylent Green,Commercial,608,5789376,605568.7296,8020096.715267785
-2013,Soylent Corporation,Movie,Soylent Green,Commercial,998,7493982,783870.5172,9515763.484604329
-2014,Soylent Corporation,Movie,Soylent Green,Commercial,757,14360290,1502086.334,16955110.84293555
-2015,Soylent Corporation,Movie,Soylent Green,Commercial,757,7070380,739561.748,10575022.585262742
-2016,Soylent Corporation,Movie,Soylent Green,Commercial,440,7403000,774353.8,10599837.750391815
-2017,Soylent Corporation,Movie,Soylent Green,Commercial,528,11654544,1219065.3024,13334609.764732992
-2018,Soylent Corporation,Movie,Soylent Green,Commercial,849,2682840,280625.064,3079940.574049656
-2019,Soylent Corporation,Movie,Soylent Green,Commercial,631,16263394,68046040.49599999,20283968.213282693
-2020,Soylent Corporation,Movie,Soylent Green,Commercial,733,25448294,2661891.5524,29962845.61193355
-2021,Soylent Corporation,Movie,Soylent Green,Commercial,795,6511050,681055.83,8091468.388541905
-2022,Soylent Corporation,Movie,Soylent Green,Commercial,440,13192080,1379891.568,16278593.723061537
-2023,Soylent Corporation,Movie,Soylent Green,Commercial,663,19296615,2018425.929,20869093.710254524
-2010,Spacely Sprockets,TV Show,The Jetsons,Research and Development,600,11010000,1151646,12923866.157965228
-2011,Spacely Sprockets,TV Show,The Jetsons,Research and Development,451,14843763,1552657.6098,18137341.814093906
-2012,Spacely Sprockets,TV Show,The Jetsons,Research and Development,624,18972096,1984481.2416,22245649.78730419
-2013,Spacely Sprockets,TV Show,The Jetsons,Research and Development,466,12023266,1257633.6236,13494457.464486312
-2014,Spacely Sprockets,TV Show,The Jetsons,Research and Development,976,3859104,403662.2784,6519890.454443057
-2015,Spacely Sprockets,TV Show,The Jetsons,Research and Development,856,410880,42978.048,2842460.2421108265
-2016,Spacely Sprockets,TV Show,The Jetsons,Research and Development,940,1162780,121626.788,1802075.1656107141
-2017,Spacely Sprockets,TV Show,The Jetsons,Research and Development,419,9027355,46268805.317,11160559.061038356
-2018,Spacely Sprockets,TV Show,The Jetsons,Research and Development,605,9807655,1025880.713,12837431.027491683
-2019,Spacely Sprockets,TV Show,The Jetsons,Research and Development,523,17174797,1796483.7662,21093592.602792297
-2020,Spacely Sprockets,TV Show,The Jetsons,Research and Development,991,17302860,72395166.24,19996296.379075866
-2021,Spacely Sprockets,TV Show,The Jetsons,Research and Development,444,3576420,16086021.876,4522892.799547937
-2022,Spacely Sprockets,TV Show,The Jetsons,Research and Development,731,2138906,223729.5676,4023552.7259041662
-2023,Spacely Sprockets,TV Show,The Jetsons,Research and Development,680,1201560,125683.17599999999,976673.3963650705
-2010,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,490,15733410,1645714.686,17887863.4002911
-2011,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,537,10983261,1148849.1006,14174234.705812955
-2012,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,526,6771724,708322.3304,7318268.990030003
-2013,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,824,22887424,2394024.5504,25567162.954972707
-2014,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,407,12621070,56767048.646,15080964.929133728
-2015,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,670,9091230,950942.6579999999,11127380.981876545
-2016,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,994,25382784,2655039.2064,27831346.31004385
-2017,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,566,3611646,377778.1716,5796506.977277957
-2018,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,898,10038742,1050052.4132,11534034.023722611
-2019,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,654,19129500,2000945.7,22343770.529375043
-2020,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,998,2608772,272877.5512,4060712.668507523
-2021,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,470,1523270,159334.042,3656265.852503365
-2022,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,480,8993760,47978112.096,11229744.984539049
-2023,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,836,1963764,205409.7144,3403591.9958186243
-2010,Stark Industries,Movie,Iron Man,Research and Development,978,29411394,3076431.8124,35313831.798043996
-2011,Stark Industries,Movie,Iron Man,Research and Development,836,12273316,1283788.8536,15241880.831107074
-2012,Stark Industries,Movie,Iron Man,Research and Development,669,12380514,1295001.7644,15584157.659168432
-2013,Stark Industries,Movie,Iron Man,Research and Development,811,26793007,2802548.5322,31371964.463320993
-2014,Stark Industries,Movie,Iron Man,Research and Development,536,4835792,505823.8432,7204081.891954141
-2015,Stark Industries,Movie,Iron Man,Research and Development,445,6406220,670090.612,9618527.757434258
-2016,Stark Industries,Movie,Iron Man,Research and Development,463,4276731,447346.0626,6027212.066967709
-2017,Stark Industries,Movie,Iron Man,Research and Development,930,26757030,2798785.338,31125786.57304609
-2018,Stark Industries,Movie,Iron Man,Research and Development,628,8628092,902498.4232,12636727.992216682
-2019,Stark Industries,Movie,Iron Man,Research and Development,528,13257552,1386739.9392,15526700.946325133
-2020,Stark Industries,Movie,Iron Man,Research and Development,619,7598844,794839.0824,10896110.297914134
-2021,Stark Industries,Movie,Iron Man,Research and Development,621,7922097,828651.3462,9564622.0587528
-2022,Stark Industries,Movie,Iron Man,Research and Development,906,24323382,2544225.7572,29742896.9854074
-2023,Stark Industries,Movie,Iron Man,Research and Development,521,2166318,226596.8628,3154151.197223808
-2010,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,730,18550760,98960884.296,21120632.739681393
-2011,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,901,23331395,2440463.917,28047786.286625843
-2012,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,883,26452914,110678992.176,31432234.920207776
-2013,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,690,16684890,1745239.494,20274871.180852752
-2014,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,568,14601008,1527265.4368,17725239.455036387
-2015,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,846,15583320,1630015.2719999999,18782431.005505696
-2016,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,960,23897280,137481051.84,29578802.336089596
-2017,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,740,24274960,116801397.536,26893662.015602123
-2018,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,468,2792088,292052.4048,3560623.0654883925
-2019,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,719,20011927,2093247.5642,22321176.621886224
-2020,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,903,29490174,3084672.2004,34783477.27569874
-2021,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,475,11922975,1247143.185,14305528.48028193
-2022,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,401,11323037,1184389.6702,13745705.431836996
-2023,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,505,15669140,1638992.044,20248511.346696015
-2010,Tyrell Corporation,Movie,Blade Runner,Research and Development,510,16014000,1675064.4,18527893.167305525
-2011,Tyrell Corporation,Movie,Blade Runner,Research and Development,773,3285250,343637.15,6782316.696086227
-2012,Tyrell Corporation,Movie,Blade Runner,Research and Development,471,14170035,1482185.661,15752306.18407679
-2013,Tyrell Corporation,Movie,Blade Runner,Research and Development,848,27515904,2878163.5584,32920359.961231075
-2014,Tyrell Corporation,Movie,Blade Runner,Research and Development,628,9381064,981259.2944,12003709.63941336
-2015,Tyrell Corporation,Movie,Blade Runner,Research and Development,922,9301136,972898.8256,11282268.022799037
-2016,Tyrell Corporation,Movie,Blade Runner,Research and Development,734,4850272,507338.4512,6557788.684070231
-2017,Tyrell Corporation,Movie,Blade Runner,Research and Development,455,4078165,426576.059,7049838.933662422
-2018,Tyrell Corporation,Movie,Blade Runner,Research and Development,670,6604860,690868.356,10165382.982549222
-2019,Tyrell Corporation,Movie,Blade Runner,Research and Development,606,9934764,1039176.3144,10834697.26417043
-2020,Tyrell Corporation,Movie,Blade Runner,Research and Development,835,28410040,2971690.184,35779098.57838797
-2021,Tyrell Corporation,Movie,Blade Runner,Research and Development,1000,19928000,2084468.8,25659762.485641282
-2022,Tyrell Corporation,Movie,Blade Runner,Research and Development,691,5825130,27418886.91,7321043.422291798
-2023,Tyrell Corporation,Movie,Blade Runner,Research and Development,786,21085236,2205515.6856,24587412.350596685
-2010,Umbrella Corporation,Video Game,Resident Evil,Research and Development,662,23054812,2411533.3352,26229983.63272649
-2011,Umbrella Corporation,Video Game,Resident Evil,Research and Development,467,7539248,788605.3408,9599054.151805418
-2012,Umbrella Corporation,Video Game,Resident Evil,Research and Development,519,7843647,820445.4762,10676212.660213822
-2013,Umbrella Corporation,Video Game,Resident Evil,Research and Development,964,17156308,1794549.8168,20396745.523858447
-2014,Umbrella Corporation,Video Game,Resident Evil,Research and Development,756,2986956,312435.5976,4824137.8777037505
-2015,Umbrella Corporation,Video Game,Resident Evil,Research and Development,922,29397970,3075027.662,35142492.031785764
-2016,Umbrella Corporation,Video Game,Resident Evil,Research and Development,985,19932460,2084935.3159999999,21410751.646805078
-2017,Umbrella Corporation,Video Game,Resident Evil,Research and Development,655,8968915,44092979.923,10823807.17287125
-2018,Umbrella Corporation,Video Game,Resident Evil,Research and Development,748,3956920,413893.832,5853223.911130164
-2019,Umbrella Corporation,Video Game,Resident Evil,Research and Development,870,12418380,1298962.548,14374625.29171631
-2020,Umbrella Corporation,Video Game,Resident Evil,Research and Development,487,7444282,778671.8972,10520733.25555472
-2021,Umbrella Corporation,Video Game,Resident Evil,Research and Development,815,16246210,1699353.5659999999,18903173.512304924
-2022,Umbrella Corporation,Video Game,Resident Evil,Research and Development,410,531770,55623.142,1559526.3730591447
-2023,Umbrella Corporation,Video Game,Resident Evil,Research and Development,985,21271075,2224954.445,25907719.155874398
-2010,Wags Capital Management,TV Show,Billions,finance,862,7437336,777945.3456,10311411.334573254
-2011,Wags Capital Management,TV Show,Billions,finance,686,16862566,1763824.4036,19846610.99325733
-2012,Wags Capital Management,TV Show,Billions,finance,679,714987,74787.6402,1852134.600340982
-2013,Wags Capital Management,TV Show,Billions,finance,911,23289715,2436104.189,25791455.108627148
-2014,Wags Capital Management,TV Show,Billions,finance,641,13809063,1444427.9897999999,15987116.37908631
-2015,Wags Capital Management,TV Show,Billions,finance,463,8499291,29337852.6738,13053889.813431233
-2016,Wags Capital Management,TV Show,Billions,finance,727,2258789,236269.3294,3815708.9564039726
-2017,Wags Capital Management,TV Show,Billions,finance,571,15748751,1647319.3546,19562655.354115162
-2018,Wags Capital Management,TV Show,Billions,finance,697,12968382,1356492.7571999999,15514653.833154514
-2019,Wags Capital Management,TV Show,Billions,finance,559,11021244,1152822.1224,14070506.006005984
-2020,Wags Capital Management,TV Show,Billions,finance,928,3558880,372258.848,5238167.979630237
-2021,Wags Capital Management,TV Show,Billions,finance,867,28493955,2980467.693,34041713.87412302
-2022,Wags Capital Management,TV Show,Billions,finance,783,15177672,1587584.4912,17671155.504847158
-2023,Wags Capital Management,TV Show,Billions,finance,764,18606456,1946235.2976,20386233.0507141
-2010,Wayne Enterprises,Comic/Movie,Batman,Research and Development,990,31704750,3316316.85,37174359.14261055
-2011,Wayne Enterprises,Comic/Movie,Batman,Research and Development,870,21753480,2275414.008,25171339.242110725
-2012,Wayne Enterprises,Comic/Movie,Batman,Research and Development,626,898310,93963.226,3648067.613135609
-2013,Wayne Enterprises,Comic/Movie,Batman,Research and Development,714,14496342,1516317.3732,17477242.59371271
-2014,Wayne Enterprises,Comic/Movie,Batman,Research and Development,642,4291128,448851.9888,7387174.769804802
-2015,Wayne Enterprises,Comic/Movie,Batman,Research and Development,664,19081368,1995911.0928,22742779.11347474
-2016,Wayne Enterprises,Comic/Movie,Batman,Research and Development,934,21542710,2253367.466,24839516.934987243
-2017,Wayne Enterprises,Comic/Movie,Batman,Research and Development,511,6309317,659954.5582,8968705.193629326
-2018,Wayne Enterprises,Comic/Movie,Batman,Research and Development,855,6356925,664934.355,7967252.503923016
-2019,Wayne Enterprises,Comic/Movie,Batman,Research and Development,492,10349712,1082579.8752,14285002.45776584
-2020,Wayne Enterprises,Comic/Movie,Batman,Research and Development,888,16751232,84104585.6256,19987748.50045921
-2021,Wayne Enterprises,Comic/Movie,Batman,Research and Development,447,989211,103471.4706,640840.7191317406
-2022,Wayne Enterprises,Comic/Movie,Batman,Research and Development,881,7139624,746804.6704,8820317.71982465
-2023,Wayne Enterprises,Comic/Movie,Batman,Research and Development,647,16515322,1727502.6812,18144588.90646987
-2010,Weyland Industries,Movie,Prometheus,Research and Development,504,630504,65950.7184,112507.77110853791
-2011,Weyland Industries,Movie,Prometheus,Research and Development,570,16149240,1689210.504,19245058.31444177
-2012,Weyland Industries,Movie,Prometheus,Research and Development,858,11782914,1232492.8044,14945684.12017325
-2013,Weyland Industries,Movie,Prometheus,Research and Development,915,3889665,406858.959,4973087.84252883
-2014,Weyland Industries,Movie,Prometheus,Research and Development,711,9694485,1014043.1309999999,10880314.711954243
-2015,Weyland Industries,Movie,Prometheus,Research and Development,961,32597120,3409658.752,36825142.715335794
-2016,Weyland Industries,Movie,Prometheus,Research and Development,538,1057708,110636.2568,1142919.9192000937
-2017,Weyland Industries,Movie,Prometheus,Research and Development,880,29180800,3052311.68,34212443.010498546
-2018,Weyland Industries,Movie,Prometheus,Research and Development,649,2252030,235562.338,4352610.119131804
-2019,Weyland Industries,Movie,Prometheus,Research and Development,996,16729812,1749938.3352,18414501.5956251
-2020,Weyland Industries,Movie,Prometheus,Research and Development,729,15803991,1653097.4586,18255847.13949692
-2021,Weyland Industries,Movie,Prometheus,Research and Development,594,11948904,1249855.3584,15484306.442241808
-2022,Weyland Industries,Movie,Prometheus,Research and Development,498,15974844,1670968.6824,18850241.1669134
-2023,Weyland Industries,Movie,Prometheus,Research and Development,497,8341151,872484.3946,10576036.130297001
-2010,Weyland-Yutani,Movie,Alien,Research and Development,457,9255621,968137.9566,11948874.51228324
-2011,Weyland-Yutani,Movie,Alien,Research and Development,823,17424556,1822608.5576,21158736.58449003
-2012,Weyland-Yutani,Movie,Alien,Research and Development,924,22479996,2351407.5816,27258422.428467896
-2013,Weyland-Yutani,Movie,Alien,Research and Development,407,5684976,594648.4896,8320840.130345115
-2014,Weyland-Yutani,Movie,Alien,Research and Development,657,9073170,39860250.444,10150664.247135274
-2015,Weyland-Yutani,Movie,Alien,Research and Development,661,464022,48536.701199999996,1544076.1371547338
-2016,Weyland-Yutani,Movie,Alien,Research and Development,998,6111752,639289.2592,8373903.735967303
-2017,Weyland-Yutani,Movie,Alien,Research and Development,928,2660576,278296.2496,4195769.242871136
-2018,Weyland-Yutani,Movie,Alien,Research and Development,605,4329380,452853.148,4197565.640385631
-2019,Weyland-Yutani,Movie,Alien,Research and Development,598,13167362,1377306.0652,15224178.47596994
-2020,Weyland-Yutani,Movie,Alien,Research and Development,988,19614764,86171581.2048,23922956.439102493
-2021,Weyland-Yutani,Movie,Alien,Research and Development,858,21728850,2272837.71,25496223.048788913
-2022,Weyland-Yutani,Movie,Alien,Research and Development,633,21081432,2205117.7872,23330483.58893775
-2023,Weyland-Yutani,Movie,Alien,Research and Development,928,25996992,89736416.9856,30262302.36169879
-2010,Wolfram and Hart,TV Show,Angel,Legal,454,9612088,1005424.4048,11830260.291546287
-2011,Wolfram and Hart,TV Show,Angel,Legal,930,302250,31615.35,2285487.2406714223
-2012,Wolfram and Hart,TV Show,Angel,Legal,887,8093875,846619.325,12168440.994586604
-2013,Wolfram and Hart,TV Show,Angel,Legal,670,19190810,2007358.726,21203547.190485835
-2014,Wolfram and Hart,TV Show,Angel,Legal,797,7611350,796147.21,9312123.990951031
-2015,Wolfram and Hart,TV Show,Angel,Legal,617,5350624,559675.2704,7140789.9727912415
-2016,Wolfram and Hart,TV Show,Angel,Legal,554,12599068,1317862.5128,13370480.813935025
-2017,Wolfram and Hart,TV Show,Angel,Legal,608,14185248,1483776.9408,16995186.704978585
-2018,Wolfram and Hart,TV Show,Angel,Legal,944,10180096,1064838.0415999999,12071181.452282125
-2019,Wolfram and Hart,TV Show,Angel,Legal,746,17481764,1828592.5144,22653101.90489647
-2020,Wolfram and Hart,TV Show,Angel,Legal,473,4098072,428658.3312,3284810.720292744
-2021,Wolfram and Hart,TV Show,Angel,Legal,964,1387196,145100.7016,4210165.45440851
-2022,Wolfram and Hart,TV Show,Angel,Legal,728,3903536,408309.8656,6562527.978365644
-2023,Wolfram and Hart,TV Show,Angel,Legal,738,6997716,731961.0936,9737555.797001366
-2010,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,454,4289392,448670.4032,6222602.845658621
-2011,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,646,2906354,304004.6284,3931960.3336001933
-2012,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,769,8315966,869850.0436,11523329.885271732
-2013,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,929,29391702,162941717.5476,33032041.69144015
-2014,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,443,11699187,59963013.0498,14894922.941127095
-2015,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,932,25438008,2660815.6368,29810949.991935063
-2016,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,940,29562060,3092191.476,34965616.88845296
-2017,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,775,14883100,1556772.26,17263115.114396714
-2018,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,483,14202615,1485593.5289999999,16525292.619199146
-2019,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,934,11263106,1178120.8876,14063891.93190225
-2020,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,953,6894002,721112.6092,9240989.885486156
-2021,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,593,14116365,1476571.7789999999,18169192.004504368
-2022,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,993,15963468,86828495.14559999,19418997.280807626
-2023,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,859,25375719,2654300.2074,29512805.384393126
+time,organisation,content_type,source_content,classification,parent_company,fte,running_costs,investment_costs,funding
+2010,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,814,24576288,2570679.7248,28704979.305059068
+2011,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,862,13911818,1455176.1628,15133402.716470161
+2012,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,578,14966154,1565459.7084,16294437.759580165
+2013,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,925,17705425,1851987.455,20878638.28535193
+2014,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,594,12072456,1262778.8976,14802970.854334412
+2015,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,517,2762331,288939.8226,2435138.1563855982
+2016,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,698,12589826,1316895.7996,14554969.402609184
+2017,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,628,17437048,1823915.2208,20624923.856771756
+2018,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,643,16692923,1746079.7458,21019175.664462574
+2019,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,413,8754774,915749.3604,9304214.135441832
+2020,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,773,6047952,632615.7792,6956549.039785525
+2021,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,490,3825920,400191.232,4650607.774065527
+2022,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,747,14319243,1497792.8178,17306359.408413317
+2023,Abstergo Industries,Video Game,Assassins Creed,Research and Development,Ubisoft,754,10913396,1141541.2216,13676075.479136692
+2010,Acme Corporation,Various,Looney Tunes,Research and Development,WB,425,2119475,221697.085,3409818.9012429705
+2011,Acme Corporation,Various,Looney Tunes,Research and Development,WB,918,29079486,164252568.72239998,32094546.083692122
+2012,Acme Corporation,Various,Looney Tunes,Research and Development,WB,825,16378725,1713214.635,18897824.69880872
+2013,Acme Corporation,Various,Looney Tunes,Research and Development,WB,610,17014730,1779740.758,19659771.650619987
+2014,Acme Corporation,Various,Looney Tunes,Research and Development,WB,989,17389587,1818950.8002,20377339.305819854
+2015,Acme Corporation,Various,Looney Tunes,Research and Development,WB,992,13392000,1400803.2,17509587.13736498
+2016,Acme Corporation,Various,Looney Tunes,Research and Development,WB,954,8890326,44636548.7808,10586946.535556773
+2017,Acme Corporation,Various,Looney Tunes,Research and Development,WB,772,6151296,643425.5616,8199982.206155803
+2018,Acme Corporation,Various,Looney Tunes,Research and Development,WB,542,13683332,1431276.5272,15857024.785195632
+2019,Acme Corporation,Various,Looney Tunes,Research and Development,WB,943,4724430,494175.37799999997,5507490.060869392
+2020,Acme Corporation,Various,Looney Tunes,Research and Development,WB,889,12875387,1346765.4801999999,16102020.700646406
+2021,Acme Corporation,Various,Looney Tunes,Research and Development,WB,422,9183142,960556.6532,10593362.067878516
+2022,Acme Corporation,Various,Looney Tunes,Research and Development,WB,708,24711324,2584804.4904,30956155.185738128
+2023,Acme Corporation,Various,Looney Tunes,Research and Development,WB,534,2436108,254816.8968,4110006.5798362205
+2010,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,623,20995100,2196087.46,24582871.03668284
+2011,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,565,14057765,1470442.219,16812366.336326532
+2012,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,616,18693136,1955302.0256,23552425.159334414
+2013,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,689,5531292,578573.1432,8013459.534614565
+2014,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,980,9840180,1029282.828,11997213.545127926
+2015,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,471,12789063,1337735.9898,14478467.400078356
+2016,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,987,14261163,47734964.7936,16212635.958129346
+2017,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,974,6243340,653053.364,7571317.057287065
+2018,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,540,222480,23271.408,2616607.915626739
+2019,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,552,14156040,1480721.784,16817095.74472563
+2020,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,693,5798331,606505.4226,7103326.414875232
+2021,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,676,20078552,2100216.5392,24191018.256546382
+2022,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,862,1689520,176723.792,4347535.7494993135
+2023,All Saints Hospital,TV Show,Nurse Jackie,Medical,Paramount,440,14213320,74335663.6,16451664.547034733
+2010,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,830,26681180,2790851.428,30435320.808751218
+2011,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,489,2197077,229814.2542,4060278.7384129018
+2012,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,715,19696820,2060287.372,23093588.302252028
+2013,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,622,10577110,1106365.706,13368660.52830996
+2014,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,927,5028975,526030.785,8349222.781779601
+2015,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,515,13027440,1362670.224,15679491.838068392
+2016,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,855,11303955,1182393.693,13588904.166880362
+2017,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,997,22834291,2388466.8386,26974974.787317265
+2018,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,438,3315222,346772.22119999997,4960739.392515419
+2019,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,558,18190242,57080979.396,21965870.547294836
+2020,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,608,336224,35169.030399999996,1522056.0826638115
+2021,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,773,16667426,1743412.7596,20127531.80862879
+2022,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,433,7193429,752432.6734,7960409.7793505555
+2023,Angel of Mercy Hospital,TV Show,Mercy,Medical,NBC,915,6865245,718104.627,8935728.806816032
+2010,Aperture Science,Video Game,Portal,Research and Development,Fox,412,2222328,232455.5088,3357625.042442353
+2011,Aperture Science,Video Game,Portal,Research and Development,Fox,468,5966064,624050.2944,6921131.7318210825
+2012,Aperture Science,Video Game,Portal,Research and Development,Fox,808,7814976,817446.4896,9622731.750252347
+2013,Aperture Science,Video Game,Portal,Research and Development,Fox,707,4001620,418569.452,6076227.467452541
+2014,Aperture Science,Video Game,Portal,Research and Development,Fox,677,11204350,1171975.01,13795220.156830423
+2015,Aperture Science,Video Game,Portal,Research and Development,Fox,488,1137528,118985.4288,3185171.648601778
+2016,Aperture Science,Video Game,Portal,Research and Development,Fox,936,5625360,588412.656,8352237.423656188
+2017,Aperture Science,Video Game,Portal,Research and Development,Fox,690,1348260,141027.99599999998,3532408.5114460206
+2018,Aperture Science,Video Game,Portal,Research and Development,Fox,823,24676832,2581196.6272,28323453.11726857
+2019,Aperture Science,Video Game,Portal,Research and Development,Fox,685,14133605,60613378.403,15826302.158397019
+2020,Aperture Science,Video Game,Portal,Research and Development,Fox,520,7016880,733965.648,8853712.587621652
+2021,Aperture Science,Video Game,Portal,Research and Development,Fox,509,11672897,1220985.0262,15226330.400322225
+2022,Aperture Science,Video Game,Portal,Research and Development,Fox,557,7550692,789802.3832,9578072.277155323
+2023,Aperture Science,Video Game,Portal,Research and Development,Fox,463,11357390,1187982.994,12497550.428952333
+2010,Arkham Asylum,Comic,Batman,Medical,DC,882,1739304,181931.1984,3678513.614337529
+2011,Arkham Asylum,Comic,Batman,Medical,DC,876,4433436,463737.4056,6476743.131457953
+2012,Arkham Asylum,Comic,Batman,Medical,DC,879,11958795,1250889.957,14210565.171025157
+2013,Arkham Asylum,Comic,Batman,Medical,DC,466,15040150,1573199.69,18100947.974976197
+2014,Arkham Asylum,Comic,Batman,Medical,DC,484,509652,53309.5992,3064781.470211225
+2015,Arkham Asylum,Comic,Batman,Medical,DC,564,19086888,1996488.4848,23525674.40444827
+2016,Arkham Asylum,Comic,Batman,Medical,DC,450,13037400,1363712.04,15354764.534119232
+2017,Arkham Asylum,Comic,Batman,Medical,DC,473,9486961,992336.1206,11828929.824327866
+2018,Arkham Asylum,Comic,Batman,Medical,DC,577,14677726,1535290.1395999999,16320547.981912578
+2019,Arkham Asylum,Comic,Batman,Medical,DC,761,14707086,1538361.1956,16968906.58767879
+2020,Arkham Asylum,Comic,Batman,Medical,DC,635,1194435,124937.901,4362935.28985864
+2021,Arkham Asylum,Comic,Batman,Medical,DC,729,6458940,675605.124,9745435.539339505
+2022,Arkham Asylum,Comic,Batman,Medical,DC,526,3306962,345908.2252,4799052.844834169
+2023,Arkham Asylum,Comic,Batman,Medical,DC,611,8027318,37784585.826,9620358.97824676
+2010,Blue Star Group,Movie,Wall Street,finance,Fox,709,11516996,1204677.7815999999,12903376.033654131
+2011,Blue Star Group,Movie,Wall Street,finance,Fox,642,9984384,1044366.5664,14172216.222752297
+2012,Blue Star Group,Movie,Wall Street,finance,Fox,512,5476864,572879.9744,7487538.134089809
+2013,Blue Star Group,Movie,Wall Street,finance,Fox,876,8760000,916296,10513220.574868094
+2014,Blue Star Group,Movie,Wall Street,finance,Fox,550,12364550,1293331.93,15912664.255359981
+2015,Blue Star Group,Movie,Wall Street,finance,Fox,559,14996293,1568612.2478,16973053.348720822
+2016,Blue Star Group,Movie,Wall Street,finance,Fox,790,19559610,2045935.206,23562255.39679823
+2017,Blue Star Group,Movie,Wall Street,finance,Fox,554,822136,85995.4256,3470568.0549425287
+2018,Blue Star Group,Movie,Wall Street,finance,Fox,825,25269750,2643215.85,29075332.04403501
+2019,Blue Star Group,Movie,Wall Street,finance,Fox,404,5794976,606154.4896,8972395.268170927
+2020,Blue Star Group,Movie,Wall Street,finance,Fox,725,3071825,321312.895,5277757.871581247
+2021,Blue Star Group,Movie,Wall Street,finance,Fox,679,19548410,2044763.686,22358138.68561128
+2022,Blue Star Group,Movie,Wall Street,finance,Fox,966,29437884,92376079.992,34344688.713233724
+2023,Blue Star Group,Movie,Wall Street,finance,Fox,637,2382380,249196.948,3374742.6750447336
+2010,Bluth Company,TV Show,Arrested Development,Commercial,Fox,738,11464830,1199221.2179999999,13551825.556138135
+2011,Bluth Company,TV Show,Arrested Development,Commercial,Fox,438,1881210,7674208.074,4075246.1196554843
+2012,Bluth Company,TV Show,Arrested Development,Commercial,Fox,536,8708928,50102462.783999994,10557147.324404486
+2013,Bluth Company,TV Show,Arrested Development,Commercial,Fox,854,5036038,526769.5748,6882682.310803514
+2014,Bluth Company,TV Show,Arrested Development,Commercial,Fox,959,11737201,1227711.2246,15169612.737854466
+2015,Bluth Company,TV Show,Arrested Development,Commercial,Fox,988,27164072,2841361.9312,30323699.4053632
+2016,Bluth Company,TV Show,Arrested Development,Commercial,Fox,482,14736186,1541405.0556,18970977.757452875
+2017,Bluth Company,TV Show,Arrested Development,Commercial,Fox,438,13469814,74673954.8532,17950909.063761294
+2018,Bluth Company,TV Show,Arrested Development,Commercial,Fox,595,15236165,1593702.859,18691532.516505565
+2019,Bluth Company,TV Show,Arrested Development,Commercial,Fox,685,6850000,716510,9264893.578198068
+2020,Bluth Company,TV Show,Arrested Development,Commercial,Fox,899,2697000,282106.2,3898733.1742695323
+2021,Bluth Company,TV Show,Arrested Development,Commercial,Fox,743,3257312,340714.8352,5354947.559254622
+2022,Bluth Company,TV Show,Arrested Development,Commercial,Fox,709,23440958,2451924.2068,26807793.9154477
+2023,Bluth Company,TV Show,Arrested Development,Commercial,Fox,858,13249236,1385870.0855999999,16220060.996186543
+2010,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,419,817469,85507.2574,1661311.3190726517
+2011,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,594,18742482,1960463.6172,22712095.334154084
+2012,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,563,17168122,1795785.5611999999,20890772.342734233
+2013,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,451,14004452,1464865.6792,17863960.87440979
+2014,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,933,1059888,110864.2848,4192240.8399933768
+2015,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,576,12021696,1257469.4016,14071576.353449209
+2016,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,953,28737715,3005964.989,33903590.53635308
+2017,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,483,13610457,1423653.8022,15164387.251344847
+2018,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,922,27546594,118136323.0284,31380613.773449678
+2019,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,791,21978726,2298974.7396,26420038.6647552
+2020,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,701,1130012,5437165.7392,1962651.544693489
+2021,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,996,27817284,2909687.9063999997,32360661.711203106
+2022,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,988,3180372,332666.9112,4090057.2654896104
+2023,Buy ‘n Large,Movie,WALL-E,Research and Development,Disney,829,22536365,2357303.779,25920203.023523618
+2010,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,827,20464115,2140546.429,23910654.90642019
+2011,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,649,2189077,228977.4542,3239401.5224380926
+2012,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,828,18174600,81745715.88,19766183.562427286
+2013,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,797,2959261,309538.7006,4815532.6169735165
+2014,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,927,30508497,3191188.7862,35442986.628614284
+2015,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,780,20147400,2107418.04,23711339.99296875
+2016,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,944,24369360,2549035.056,27844529.477889106
+2017,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,439,14525632,1519381.1072,18148968.310752433
+2018,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,921,7451811,779459.4306,10485601.896933895
+2019,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,872,5572952,582930.7792,5483615.9452693965
+2020,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,599,11007224,1151355.6304,14452799.980861846
+2021,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,524,992980,103865.708,928390.9967363534
+2022,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,664,1454824,152174.5904,2655411.339079588
+2023,Chicago Hope Hospital,TV Show,Chicago Hope,Medical,Paramount,585,9984780,42820727.508,11429206.143681042
+2010,County General,TV Show,ER,Medical,NBC,972,11738844,1227883.0824,13772990.888578126
+2011,County General,TV Show,ER,Medical,NBC,651,18604278,1946007.4788,23007582.419588722
+2012,County General,TV Show,ER,Medical,NBC,857,18626038,1948283.5748,22368174.060762707
+2013,County General,TV Show,ER,Medical,NBC,551,9355429,978577.8734,12093417.874963032
+2014,County General,TV Show,ER,Medical,NBC,453,14062026,1470887.9196,15111380.26292993
+2015,County General,TV Show,ER,Medical,NBC,937,27075552,2832102.7392,31414726.19521447
+2016,County General,TV Show,ER,Medical,NBC,634,410198,42906.7108,2326914.239732841
+2017,County General,TV Show,ER,Medical,NBC,688,2820800,295055.68,5186521.642175363
+2018,County General,TV Show,ER,Medical,NBC,584,18097576,1893006.4496,20505864.674797654
+2019,County General,TV Show,ER,Medical,NBC,812,22714076,2375892.3496,27225587.091325905
+2020,County General,TV Show,ER,Medical,NBC,921,10997661,36811370.8992,12305480.854259538
+2021,County General,TV Show,ER,Medical,NBC,708,5440272,569052.4512,8824355.001577836
+2022,County General,TV Show,ER,Medical,NBC,453,3364884,11966873.4576,4380203.710638401
+2023,County General,TV Show,ER,Medical,NBC,604,18634608,1949179.9968,22573112.151354536
+2010,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,936,24430536,2555434.0656,28596145.577045728
+2011,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,963,17719200,1853428.32,20011291.709398016
+2012,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,790,18644000,1950162.4,22905074.48699266
+2013,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,808,1894760,198191.896,3461844.196047263
+2014,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,745,6097080,637754.568,8769427.451644944
+2015,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,559,2874378,300659.9388,4700652.235653862
+2016,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,867,15849627,1657870.9842,19584566.384511348
+2017,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,908,25454872,2662579.6112,29476425.514555395
+2018,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,456,1308264,136844.4144,3731403.264806317
+2019,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,856,11797392,48126280.92479999,14073341.34066832
+2020,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,756,26071416,2727070.1136,30586211.792144544
+2021,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,678,10113726,1057895.7396,12833236.644889804
+2022,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,669,14343360,1500315.456,17899851.45447073
+2023,Cragen and Stark,TV Show,Law and Order: SVU,Legal,NBC,746,25883216,2707384.3936,29404549.802778974
+2010,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,528,17073936,1785933.7056,20351139.795199513
+2011,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,617,10664228,1115478.2488,12628319.412557038
+2012,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,736,23729376,2482092.7296,28322576.047348443
+2013,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,425,12951875,1354766.125,15107324.632637927
+2014,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,938,7844494,820534.0724,11474543.004085418
+2015,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,918,16658028,1742429.7288,20411276.139574394
+2016,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,952,4748576,496701.04959999997,6574241.759724162
+2017,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,789,18958092,1983016.4232,23304543.335286696
+2018,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,897,5064462,529742.7252,6863061.1940339785
+2019,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,621,8018973,838784.5758,10675988.916527137
+2020,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,820,23588940,2467403.124,27844837.153364692
+2021,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,456,1052904,110133.75839999999,2862360.28364921
+2022,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,562,11153452,61832507.1976,13154640.28266939
+2023,Crane  Poole and Schmidt,TV Show,Boston Legal,Legal,Disney,637,5473741,572553.3086,6326176.336419466
+2010,Crichton Davies,Movie,Boiler Room,finance,WB,977,8936619,934770.3474,9785993.019276608
+2011,Crichton Davies,Movie,Boiler Room,finance,WB,915,27065700,2831072.2199999997,30850425.167408857
+2012,Crichton Davies,Movie,Boiler Room,finance,WB,729,8089713,846183.9798,10855489.67287152
+2013,Crichton Davies,Movie,Boiler Room,finance,WB,624,17598672,1840821.0912,20577380.00223372
+2014,Crichton Davies,Movie,Boiler Room,finance,WB,788,7922552,828698.9392,9071406.981212879
+2015,Crichton Davies,Movie,Boiler Room,finance,WB,516,9352500,978271.5,13500037.97195428
+2016,Crichton Davies,Movie,Boiler Room,finance,WB,936,13866840,1450471.464,17253199.38260186
+2017,Crichton Davies,Movie,Boiler Room,finance,WB,454,4902292,512779.74319999997,8406378.867298132
+2018,Crichton Davies,Movie,Boiler Room,finance,WB,616,5487328,573974.5088,8430537.588666838
+2019,Crichton Davies,Movie,Boiler Room,finance,WB,996,16021656,1675865.2176,18519665.100618187
+2020,Crichton Davies,Movie,Boiler Room,finance,WB,956,22934440,2398942.424,26324665.184286986
+2021,Crichton Davies,Movie,Boiler Room,finance,WB,814,8485950,887630.37,9492482.241195777
+2022,Crichton Davies,Movie,Boiler Room,finance,WB,533,7621367,797194.9882,10387067.127612188
+2023,Crichton Davies,Movie,Boiler Room,finance,WB,846,14965740,1565416.4039999999,19248596.748086013
+2010,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,503,15969244,1670382.9224,18199651.344661333
+2011,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,867,6918660,22434446.916,7963485.856795149
+2012,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,609,1650390,172630.794,3912114.424234639
+2013,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,748,1515448,158515.8608,1728589.5246135953
+2014,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,800,17995200,63998129.28,22847599.67593896
+2015,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,657,18075384,1890685.1664,21791825.168050185
+2016,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,576,18467712,1931722.6752,20285804.982804324
+2017,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,785,23962125,2506438.275,28110120.923147336
+2018,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,540,3311280,346359.888,5087422.331195337
+2019,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,423,13997916,1464182.0136,14709490.070967069
+2020,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,865,23595470,2468086.162,27368649.830967918
+2021,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,529,17313641,1811006.8486,19967243.919350676
+2022,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,564,10582896,1106970.9216,12278034.431879923
+2023,Cyberdyne Systems,Movie,Terminator,Research and Development,Skydance,987,16165086,62562115.8372,19398973.119185627
+2010,Dunder Mifflin,TV Show,The Office,Commercial,NBC,776,12171560,1273145.176,15506843.009264115
+2011,Dunder Mifflin,TV Show,The Office,Commercial,NBC,569,15620188,1633871.6648,20059139.71014317
+2012,Dunder Mifflin,TV Show,The Office,Commercial,NBC,844,20091420,2101562.532,21301223.96198906
+2013,Dunder Mifflin,TV Show,The Office,Commercial,NBC,633,2062314,215718.04439999998,4249198.078986507
+2014,Dunder Mifflin,TV Show,The Office,Commercial,NBC,821,10920942,1142330.5332,12596274.618876409
+2015,Dunder Mifflin,TV Show,The Office,Commercial,NBC,907,19458778,2035388.1787999999,23815314.81885576
+2016,Dunder Mifflin,TV Show,The Office,Commercial,NBC,463,7816366,817591.8836,10267835.073002966
+2017,Dunder Mifflin,TV Show,The Office,Commercial,NBC,479,12447294,1301986.9524,16315183.217953559
+2018,Dunder Mifflin,TV Show,The Office,Commercial,NBC,882,6716430,21076157.34,7502186.634181244
+2019,Dunder Mifflin,TV Show,The Office,Commercial,NBC,947,27781192,2905912.6832,32447137.443168998
+2020,Dunder Mifflin,TV Show,The Office,Commercial,NBC,874,9231188,965582.2648,11787652.237885166
+2021,Dunder Mifflin,TV Show,The Office,Commercial,NBC,690,2542650,265961.19,5037779.814589828
+2022,Dunder Mifflin,TV Show,The Office,Commercial,NBC,742,3960796,414299.26159999997,5519655.006718113
+2023,Dunder Mifflin,TV Show,The Office,Commercial,NBC,722,24720558,2585770.3668,29617035.400533464
+2010,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,878,30589520,3199663.792,34752449.147899404
+2011,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,959,2267076,237136.1496,3480810.8962986968
+2012,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,849,2846697,297764.5062,4506571.948862069
+2013,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,510,15805920,1653299.232,17893090.058807336
+2014,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,716,13345524,65609265.088800006,15694885.32079463
+2015,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,621,21392208,123069372.62399998,25911697.196403183
+2016,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,686,952168,99596.77279999999,3793092.6096185227
+2017,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,984,4564776,22918827.3408,7327720.5003975
+2018,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,691,6301229,659108.5534,7940643.918589595
+2019,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,625,5726250,598965.75,7935873.37961882
+2020,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,696,9843528,1029633.0288,12297268.520231558
+2021,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,438,10829112,1132725.1152,12234779.85223951
+2022,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,636,5592984,18720836.0448,7736879.415432489
+2023,Florrick Agos and Associates,TV Show,The Good Wife,Legal,Paramount,564,14186292,1483886.1432,16311772.308271145
+2010,General Hospital,TV Show,General Hospital,Medical,Disney,432,8676720,907584.912,10025492.181257306
+2011,General Hospital,TV Show,General Hospital,Medical,Disney,482,7095040,742141.184,9792993.574082006
+2012,General Hospital,TV Show,General Hospital,Medical,Disney,795,24544830,2567389.218,27852487.047653504
+2013,General Hospital,TV Show,General Hospital,Medical,Disney,676,6587620,689065.052,8495121.72533407
+2014,General Hospital,TV Show,General Hospital,Medical,Disney,608,5784512,18151798.656,6904457.127773264
+2015,General Hospital,TV Show,General Hospital,Medical,Disney,475,13054425,1365492.855,15807947.303288387
+2016,General Hospital,TV Show,General Hospital,Medical,Disney,493,15119324,1581481.2904,18458900.603486095
+2017,General Hospital,TV Show,General Hospital,Medical,Disney,429,2590302,270945.5892,4627991.327810191
+2018,General Hospital,TV Show,General Hospital,Medical,Disney,616,12289816,1285514.7536,14004108.701098265
+2019,General Hospital,TV Show,General Hospital,Medical,Disney,574,15250606,1595213.3876,19253219.143794972
+2020,General Hospital,TV Show,General Hospital,Medical,Disney,773,8281922,866289.0412,11754829.292127267
+2021,General Hospital,TV Show,General Hospital,Medical,Disney,722,7238772,757175.5512,9652761.887944944
+2022,General Hospital,TV Show,General Hospital,Medical,Disney,514,16729158,1749869.9268,19953158.42820314
+2023,General Hospital,TV Show,General Hospital,Medical,Disney,776,22947872,2400347.4112,26754394.614456564
+2010,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,864,520992,54495.7632,2134473.8503513066
+2011,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,757,16433713,1718966.3798,19812472.852914363
+2012,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,823,6217765,650378.219,8324757.64124856
+2013,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,495,13629825,1425679.695,16950531.018408183
+2014,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,937,6588984,689207.7264,8334051.395318838
+2015,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,796,22882612,88560284.9624,27574398.568494532
+2016,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,803,23107931,2417089.5826,26833654.806867745
+2017,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,547,1915594,6411876.2368,1967738.2131139713
+2018,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,791,6193530,647843.238,8097400.059663886
+2019,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,992,11294912,1181447.7952,14196018.901107026
+2020,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,846,18145008,1897967.8368,22426622.825022556
+2021,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,737,6355888,664825.8848,8412360.876136074
+2022,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,642,22118184,2313562.0464,24127170.296376783
+2023,Goliath National Bank Legal,TV Show,How I Met Your Mother,Legal,Paramount,505,5199985,543918.431,7088589.7113358695
+2010,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,410,12584950,1316385.77,14225001.663992321
+2011,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,763,20047825,100656119.75999999,22657685.85726652
+2012,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,785,8106695,847960.297,9425519.91273378
+2013,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,802,5168088,540582.0048,6371520.299441233
+2014,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,860,17713420,1852823.732,21871109.998723328
+2015,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,540,18616500,1947285.9,21199244.35217095
+2016,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,430,12076120,68210756.208,14307549.055564303
+2017,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,514,5876048,614634.6208,7987449.368848581
+2018,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,493,6907423,722516.4458,9725563.94115347
+2019,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,415,14293845,1495136.187,16564209.111820782
+2020,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,819,14692860,1536873.156,16869690.240261916
+2021,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,577,16610676,1737476.7096,19248959.28528348
+2022,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,816,9002928,33901425.6768,10291614.217905158
+2023,Grey Sloan Memorial,TV Show,Greys Anatomy,Medical,Disney,863,8022448,839148.0608,10982366.700706009
+2010,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,811,25269949,2643236.6654,27403489.840645913
+2011,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,576,13543488,1416648.8448,15853246.736612368
+2012,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,923,9457981,989304.8126,10565798.417934906
+2013,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,836,15557124,1627275.1704,16865648.726640258
+2014,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,977,21117855,2208927.633,24691673.555564858
+2015,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,961,23482996,2456321.3816,28584319.135072358
+2016,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,603,18248589,1908802.4094,22884143.649477642
+2017,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,574,8890686,929965.7556,10684010.556695173
+2018,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,772,2486612,260099.6152,3496287.165341794
+2019,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,863,8869051,927702.7346,10680930.67844076
+2020,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,783,9756180,43881346.404,12719433.774138186
+2021,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,521,11240054,38798418.3972,11584052.028311824
+2022,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,798,2301432,240729.7872,4092798.9853254603
+2023,Hooten and Briggs,TV Show,Franklin and Bash,Legal,Sony,802,658442,2754921.328,1724008.6848469935
+2010,InGen,Movie,Jurassic Park,Research and Development,Universal,714,12532842,1310935.2732,14553511.75679456
+2011,InGen,Movie,Jurassic Park,Research and Development,Universal,658,17554124,1836161.3704,19029698.991954584
+2012,InGen,Movie,Jurassic Park,Research and Development,Universal,893,10434705,1091470.143,12692224.798868604
+2013,InGen,Movie,Jurassic Park,Research and Development,Universal,688,3807392,20709166.5664,4147845.8998255003
+2014,InGen,Movie,Jurassic Park,Research and Development,Universal,447,11596521,1212996.0966,14137125.10783356
+2015,InGen,Movie,Jurassic Park,Research and Development,Universal,730,7940940,830622.324,9353281.116309108
+2016,InGen,Movie,Jurassic Park,Research and Development,Universal,499,3179628,332589.08879999997,4892084.859305492
+2017,InGen,Movie,Jurassic Park,Research and Development,Universal,507,8965281,937768.3926,11634566.51338624
+2018,InGen,Movie,Jurassic Park,Research and Development,Universal,700,8424500,881202.7,10219124.826523272
+2019,InGen,Movie,Jurassic Park,Research and Development,Universal,409,12754256,1334095.1776,14561953.618685765
+2020,InGen,Movie,Jurassic Park,Research and Development,Universal,569,12262519,1282659.4874,14367014.455185536
+2021,InGen,Movie,Jurassic Park,Research and Development,Universal,679,1168559,122231.2714,2065434.358990984
+2022,InGen,Movie,Jurassic Park,Research and Development,Universal,747,12917124,1351131.1704,14342556.986457465
+2023,InGen,Movie,Jurassic Park,Research and Development,Universal,801,4157190,20002735.404,5270662.421378288
+2010,LexCorp,Comic/Movie,Superman,Research and Development,DC,608,17061696,1784653.4016,20022932.216040265
+2011,LexCorp,Comic/Movie,Superman,Research and Development,DC,867,17256768,1805057.9328,20215149.85218701
+2012,LexCorp,Comic/Movie,Superman,Research and Development,DC,708,22450680,2348341.128,26419059.13053494
+2013,LexCorp,Comic/Movie,Superman,Research and Development,DC,794,17297290,1809296.534,21542676.832008503
+2014,LexCorp,Comic/Movie,Superman,Research and Development,DC,507,2066532,216159.24719999998,3906230.859458441
+2015,LexCorp,Comic/Movie,Superman,Research and Development,DC,407,12416349,1298750.1054,16307144.82186104
+2016,LexCorp,Comic/Movie,Superman,Research and Development,DC,660,7213140,754494.444,8758786.864199147
+2017,LexCorp,Comic/Movie,Superman,Research and Development,DC,940,9669780,1011458.988,13167185.061569411
+2018,LexCorp,Comic/Movie,Superman,Research and Development,DC,705,11450610,56293488.88200001,14492139.268876836
+2019,LexCorp,Comic/Movie,Superman,Research and Development,DC,725,10693025,1118490.415,12141543.830171045
+2020,LexCorp,Comic/Movie,Superman,Research and Development,DC,473,13684836,64414523.05199999,16797896.948857334
+2021,LexCorp,Comic/Movie,Superman,Research and Development,DC,681,16228911,1697544.0906,18217489.442420762
+2022,LexCorp,Comic/Movie,Superman,Research and Development,DC,984,24173928,2528592.8688,28846354.645704962
+2023,LexCorp,Comic/Movie,Superman,Research and Development,DC,666,23194116,2426104.5335999997,26503108.66273388
+2010,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,661,10025387,38800252.7674,12214411.717580277
+2011,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,603,7995780,836358.588,9596485.511040568
+2012,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,618,11965716,1251613.8936,13835277.80919549
+2013,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,751,23678279,2476747.9834,28939018.190466404
+2014,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,518,5868940,27625100.58,8664463.20270903
+2015,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,851,20853755,67620385.963,24948222.582928784
+2016,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,978,7800528,815935.2288,10019481.4020557
+2017,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,435,5855970,612534.4619999999,8433499.217692576
+2018,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,454,11107564,1161851.1944,14171131.846945291
+2019,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,889,27820366,2910010.2835999997,33430739.194086973
+2020,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,639,19177668,2005984.0728,23245068.66776115
+2021,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,703,12047311,1260148.7306,14473201.913880767
+2022,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,409,685484,71701.6264,1915546.933881959
+2023,Lockhart Gardner and Canning,TV Show,The Good Wife,Legal,Paramount,821,5517941,577176.6285999999,7038784.438594111
+2010,Monarch,Movie,Godzilla,Research and Development,Toho Co,504,5715864,597879.3744,7345884.668878549
+2011,Monarch,Movie,Godzilla,Research and Development,Toho Co,787,23930309,77596419.96339999,27573302.02082227
+2012,Monarch,Movie,Godzilla,Research and Development,Toho Co,862,16165948,1690958.1608,20234489.217557296
+2013,Monarch,Movie,Godzilla,Research and Development,Toho Co,579,18964566,1983693.6036,20314416.3611367
+2014,Monarch,Movie,Godzilla,Research and Development,Toho Co,677,1839409,192402.1814,2777239.9450491597
+2015,Monarch,Movie,Godzilla,Research and Development,Toho Co,772,11241864,1175898.9744,13645670.057808839
+2016,Monarch,Movie,Godzilla,Research and Development,Toho Co,640,10225920,1069631.232,11547946.314005543
+2017,Monarch,Movie,Godzilla,Research and Development,Toho Co,423,13484817,1410511.8582,17608903.506558184
+2018,Monarch,Movie,Godzilla,Research and Development,Toho Co,958,20324928,2125987.4688,23593117.969978284
+2019,Monarch,Movie,Godzilla,Research and Development,Toho Co,436,5977560,625252.776,6996263.212591644
+2020,Monarch,Movie,Godzilla,Research and Development,Toho Co,965,24235010,2534982.046,27354498.94597441
+2021,Monarch,Movie,Godzilla,Research and Development,Toho Co,702,816426,85398.1596,2982197.9596404876
+2022,Monarch,Movie,Godzilla,Research and Development,Toho Co,418,10364728,39029419.756799996,14374374.002879702
+2023,Monarch,Movie,Godzilla,Research and Development,Toho Co,777,10067589,1053069.8094,12355868.989649147
+2010,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,948,16200372,86422504.4712,19326279.547557212
+2011,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,643,9009073,942349.0358,10487660.105512192
+2012,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,447,6684438,699192.2148,9840724.43612852
+2013,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,587,8888941,929783.2286,11772121.081475327
+2014,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,863,9347153,977712.2038,9690263.999791043
+2015,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,792,16403904,87508266.2784,18913188.778454263
+2016,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,538,11932302,1248118.7892,14322479.815651774
+2017,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,698,5172180,541010.028,6114066.7258394845
+2018,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,770,22691130,2373492.198,26173519.04004697
+2019,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,588,719124,75220.3704,1173783.4022990009
+2020,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,710,3359010,351352.446,5355641.983758168
+2021,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,588,4872168,25991067.4128,7007010.095767565
+2022,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,817,3203457,335081.6022,5566836.4776347075
+2023,Nelson and Murdock,Comic/TV Show,Daredevil,Legal,Disney,968,10415680,1089480.128,13198900.91318504
+2010,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,781,973126,101788.97959999999,3767301.1952714697
+2011,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,437,7609044,795906.0024,9418096.837633992
+2012,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,483,11137014,1164931.6644,11816548.875654774
+2013,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,718,6524466,682459.1436,8569272.949305832
+2014,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,801,10539558,1102437.7668,13533651.890442438
+2015,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,519,14917098,1560328.4508,17477770.526189163
+2016,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,730,1808940,189215.124,4526677.277762562
+2017,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,932,25838768,2702735.1328,30810448.07496615
+2018,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,840,1669920,174673.63199999998,3640973.0607477557
+2019,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,598,14966744,67317421.1632,17932022.892672732
+2020,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,898,20023604,2094468.9784,22990993.386121932
+2021,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,998,15546844,74805194.5904,18363586.156906404
+2022,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,471,6799827,711261.9042,9249537.321696913
+2023,Oscorp,Comic/Movie,Spider-Man,Research and Development,Disney,714,12207258,1276879.1868,15645410.879215203
+2010,Pearson Hardman,TV Show,Suits,Legal,Universal,480,5093280,532757.088,6715522.966636044
+2011,Pearson Hardman,TV Show,Suits,Legal,Universal,454,4116418,430577.32279999997,5270030.775753183
+2012,Pearson Hardman,TV Show,Suits,Legal,Universal,533,15934568,1666755.8128,21041208.753593095
+2013,Pearson Hardman,TV Show,Suits,Legal,Universal,823,28764673,3008784.7958,33553779.523731455
+2014,Pearson Hardman,TV Show,Suits,Legal,Universal,405,10622340,1111096.764,12307776.72330661
+2015,Pearson Hardman,TV Show,Suits,Legal,Universal,527,13162879,1376837.1434,16669768.66399946
+2016,Pearson Hardman,TV Show,Suits,Legal,Universal,448,15653120,1637316.352,18683335.03607813
+2017,Pearson Hardman,TV Show,Suits,Legal,Universal,875,28715750,3003667.45,33761117.76303026
+2018,Pearson Hardman,TV Show,Suits,Legal,Universal,638,16456572,1721357.4312,19562441.85197033
+2019,Pearson Hardman,TV Show,Suits,Legal,Universal,739,22297108,2332277.4968,25920427.05922622
+2020,Pearson Hardman,TV Show,Suits,Legal,Universal,592,20302640,2123656.144,23843723.124159057
+2021,Pearson Hardman,TV Show,Suits,Legal,Universal,858,25881570,2707212.222,30279406.34625157
+2022,Pearson Hardman,TV Show,Suits,Legal,Universal,702,21887658,93867410.0988,25000347.69253838
+2023,Pearson Hardman,TV Show,Suits,Legal,Universal,547,11395651,1191985.0946,13372481.767108468
+2010,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,589,17323668,1812055.6728,20319621.212744474
+2011,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,590,18420390,1926772.794,21833014.15340117
+2012,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,845,783315,81934.749,1936705.7754876222
+2013,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,518,3054128,319461.7888,4982979.395201759
+2014,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,921,28665204,2998380.3384,32069909.611161154
+2015,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,458,11982196,1253337.7016,13362680.204400383
+2016,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,460,3578800,374342.48,6898142.864245002
+2017,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,821,1453991,152087.45859999998,3284064.3660321073
+2018,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,507,12139101,1269749.9646,14412762.940992055
+2019,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,691,22120292,2313782.5432,25537261.279074777
+2020,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,772,9906304,1036199.3984,12948867.242756827
+2021,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,934,29576044,3093654.2024,33831936.64241138
+2022,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,514,7764998,24366563.724,10080717.875823366
+2023,Pied Piper,TV Show,Silicon Valley,Research and Development,HBO,999,24727248,139669387.60320002,28429821.691693906
+2010,Princeton-Plainsboro,TV Show,House,Medical,Fox,812,6882512,719910.7552,8517835.722289095
+2011,Princeton-Plainsboro,TV Show,House,Medical,Fox,602,4540284,474913.70639999997,6866439.314149413
+2012,Princeton-Plainsboro,TV Show,House,Medical,Fox,645,7455555,779851.053,9695981.398262195
+2013,Princeton-Plainsboro,TV Show,House,Medical,Fox,839,27692873,2896674.5158,33034064.270711645
+2014,Princeton-Plainsboro,TV Show,House,Medical,Fox,650,13252850,1386248.1099999999,15025358.647542203
+2015,Princeton-Plainsboro,TV Show,House,Medical,Fox,959,14488572,1515504.6312,17229925.901757646
+2016,Princeton-Plainsboro,TV Show,House,Medical,Fox,944,19793792,2070430.6432,23027590.49549825
+2017,Princeton-Plainsboro,TV Show,House,Medical,Fox,561,9277257,970401.0822,10676771.53238403
+2018,Princeton-Plainsboro,TV Show,House,Medical,Fox,721,2272592,237713.1232,4697071.12280508
+2019,Princeton-Plainsboro,TV Show,House,Medical,Fox,975,18117450,1895085.27,21262050.03292585
+2020,Princeton-Plainsboro,TV Show,House,Medical,Fox,567,999054,104501.0484,1269200.8167690707
+2021,Princeton-Plainsboro,TV Show,House,Medical,Fox,841,13514870,1413655.402,15766983.386973683
+2022,Princeton-Plainsboro,TV Show,House,Medical,Fox,477,11458017,1198508.5781999999,13059799.647302147
+2023,Princeton-Plainsboro,TV Show,House,Medical,Fox,892,2682244,280562.72239999997,5184535.2842588555
+2010,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,598,9190064,961280.6944,13648298.359653959
+2011,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,823,21004606,2197081.7876,23970970.59676721
+2012,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,844,23175396,2424146.4216,26861921.01575063
+2013,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,494,14860014,1554357.4644,17992173.738861177
+2014,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,863,1978859,206988.6514,5823614.73007749
+2015,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,778,3989584,417310.4864,3772505.279898896
+2016,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,741,20454564,2139547.3944,23498869.605129883
+2017,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,620,13582960,1420777.616,15324365.29146385
+2018,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,560,15314880,1601936.448,18064381.227260944
+2019,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,847,15768599,1649395.4553999999,18524622.88108692
+2020,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,641,9266937,969321.6102,10957974.96997673
+2021,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,935,4172905,436485.863,7505330.695503093
+2022,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,806,11304956,1182498.3976,14046032.931882644
+2023,Sacred Heart Hospital,TV Show,Scrubs,Medical,Disney,628,5168440,540618.824,9079390.981236063
+2010,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,623,8079064,845070.0944,10963144.046538554
+2011,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,873,25494219,80000859.22199999,28428527.683279213
+2012,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,840,4384800,458650.08,5545083.927261586
+2013,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,570,8158410,853369.686,10583903.279003322
+2014,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,422,13893928,1453304.8688,16197767.701319827
+2015,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,617,2877071,300941.6266,4819036.712030098
+2016,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,883,13016303,1361505.2937999999,16339613.602188274
+2017,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,700,5743500,600770.1,8041967.738948753
+2018,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,478,13654070,1428215.722,16308723.984514419
+2019,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,910,18808790,1967399.434,21571062.024809483
+2020,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,906,5778468,604427.7528,6630150.06038459
+2021,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,563,3009798,314824.8708,4954288.2702557575
+2022,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,636,7406856,774757.1376,10304336.132225186
+2023,Soylent Corporation,Movie,Soylent Green,Commercial,MGM,978,6874362,719058.2652,8866450.156405497
+2010,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,821,15836269,1656473.7374,19472394.063536
+2011,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,892,7146704,747545.2384,11123767.364433441
+2012,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,608,1127840,117972.064,4226267.578223748
+2013,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,998,29082718,3042052.3028,33045682.996060885
+2014,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,757,6018907,629577.6722,8452681.358654283
+2015,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,757,15502603,58376601.856800005,17869294.681756575
+2016,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,440,4189680,438240.528,6553466.327054098
+2017,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,528,3964752,414713.0592,5670562.51382296
+2018,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,849,16105530,1684638.438,19366149.68503041
+2019,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,631,5893540,616464.284,7122155.047676799
+2020,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,733,12332725,1290003.035,15985468.81462634
+2021,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,795,17548035,1835524.461,20652764.432542592
+2022,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,440,1390400,145435.84,2498287.900855975
+2023,Spacely Sprockets,TV Show,The Jetsons,Research and Development,WB,663,17088162,1787421.7452,20151198.349966433
+2010,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,600,20830800,2178901.68,24415075.93427098
+2011,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,451,3693690,12749879.141999999,6808687.85912845
+2012,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,624,18708768,1956937.1328,21064408.157997724
+2013,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,466,13562930,1418682.478,18407408.308004417
+2014,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,976,17909600,1873344.16,20467769.796497453
+2015,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,856,28173528,2946951.0288,32609164.332099613
+2016,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,940,28579760,2989442.896,31164502.80100924
+2017,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,419,10810619,1130790.7474,12727020.902967138
+2018,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,605,2392170,250220.982,4603518.508538278
+2019,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,523,251040,26258.784,2046321.76099361
+2020,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,991,1225867,128225.6882,3042843.9564840095
+2021,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,444,9565980,30018045.240000002,11511356.865751972
+2022,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,731,11850241,52060478.7612,12867028.996251423
+2023,St. Eligius Hospital,TV Show,St. Elsewhere,Medical,NBC,680,22330520,2335772.392,25097133.802938703
+2010,Stark Industries,Movie,Iron Man,Research and Development,Disney,490,8555400,894894.84,10595990.677808693
+2011,Stark Industries,Movie,Iron Man,Research and Development,Disney,537,4325535,14930881.713,6645718.791386581
+2012,Stark Industries,Movie,Iron Man,Research and Development,Disney,526,1539076,160987.3496,3750800.0714494158
+2013,Stark Industries,Movie,Iron Man,Research and Development,Disney,824,1456008,152298.4368,2692048.5274548004
+2014,Stark Industries,Movie,Iron Man,Research and Development,Disney,407,13068363,1366950.7698,15647387.288361127
+2015,Stark Industries,Movie,Iron Man,Research and Development,Disney,670,13703510,64502421.57,16339389.203919169
+2016,Stark Industries,Movie,Iron Man,Research and Development,Disney,994,12796756,1338540.6776,15524938.251036238
+2017,Stark Industries,Movie,Iron Man,Research and Development,Disney,566,15721216,1644439.1935999999,20009731.97709392
+2018,Stark Industries,Movie,Iron Man,Research and Development,Disney,898,27846980,2912794.108,31484116.089192912
+2019,Stark Industries,Movie,Iron Man,Research and Development,Disney,654,8874126,928233.5795999999,10969311.243916705
+2020,Stark Industries,Movie,Iron Man,Research and Development,Disney,998,25484928,2665723.4688,29557999.77608088
+2021,Stark Industries,Movie,Iron Man,Research and Development,Disney,470,2999070,313702.722,3518521.8486500555
+2022,Stark Industries,Movie,Iron Man,Research and Development,Disney,480,5365920,561275.232,6486758.043330492
+2023,Stark Industries,Movie,Iron Man,Research and Development,Disney,836,24453000,2557783.8,28521193.46947315
+2010,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,978,2556492,267409.0632,4526641.589094199
+2011,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,836,2709476,283411.1896,5300264.463785686
+2012,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,669,12535053,1311166.5437999999,14791893.220267687
+2013,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,811,1905039,199267.0794,4677792.325520562
+2014,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,536,16119128,1686060.7888,18412640.313070983
+2015,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,445,6533045,683356.507,7203353.915635688
+2016,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,463,8568278,896241.8788,9154903.452724146
+2017,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,930,30724410,3213773.286,36214998.95502512
+2018,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,628,5665816,592644.3536,7857578.688552398
+2019,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,528,7601088,795073.8048,9626153.957868434
+2020,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,619,5717703,598071.7338,7407381.671236248
+2021,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,621,17866791,82230118.8984,22421379.5320371
+2022,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,906,12447534,46872434.03039999,16108697.781287305
+2023,Stratton Oakmont,Movie,The Wolf of Wall Street,finance,Paramount,521,13081789,1368355.1294,14939569.052042918
+2010,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,730,8961480,937370.808,10059867.390094703
+2011,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,901,11494057,1202278.3622,14957247.440009113
+2012,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,883,23705901,99185489.784,28001522.001068026
+2013,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,690,2869020,300099.49199999997,4076400.26984615
+2014,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,568,14434016,1509798.0736,17620591.466212697
+2015,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,846,21907170,2291489.982,23823563.537081473
+2016,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,960,28759680,3008262.528,32544496.321069892
+2017,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,740,17893940,1871706.124,21475118.082756985
+2018,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,468,12030408,1258380.6768,14567549.10896674
+2019,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,719,13243980,1385320.308,14882857.784318233
+2020,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,903,22478379,2351238.4433999998,27031144.796736293
+2021,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,475,15581900,1629866.74,19538621.67105175
+2022,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,401,2392366,250241.4836,3186049.440119114
+2023,Tyrell Corporation,Movie,Blade Runner,Research and Development,WB,505,14055665,63219570.03699999,16709202.16919914
+2010,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,510,16655580,1742173.668,20357898.01075944
+2011,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,773,19403073,2029561.4357999999,23505655.867022313
+2012,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,471,13299627,1391140.9842,15582982.787991704
+2013,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,848,26311744,2752208.4224,29659545.935591917
+2014,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,628,19719200,2062628.32,23415038.760377828
+2015,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,922,3918500,409875.1,4044194.411099845
+2016,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,734,22082390,2309817.994,24927138.00996731
+2017,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,455,14763840,1544297.6639999999,18304722.960724894
+2018,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,670,10008460,1046884.916,10951125.101562303
+2019,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,606,6113328,639454.1088,7075120.720367973
+2020,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,835,5517680,577149.328,7231234.303669912
+2021,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,1000,8963000,45938960.199999996,10984962.621513711
+2022,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,691,6811878,712522.4388,7377572.0791542875
+2023,Umbrella Corporation,Video Game,Resident Evil,Research and Development,Capcom,786,12885684,1347842.5463999999,16006065.117820436
+2010,Wags Capital Management,TV Show,Billions,finance,Paramount,662,22523888,77747956.5984,25354288.036133002
+2011,Wags Capital Management,TV Show,Billions,finance,Paramount,467,9306376,35044089.4656,11486379.065227099
+2012,Wags Capital Management,TV Show,Billions,finance,Paramount,519,4375170,457642.782,6006709.942043869
+2013,Wags Capital Management,TV Show,Billions,finance,Paramount,964,25860264,2704983.6144,30496572.753186088
+2014,Wags Capital Management,TV Show,Billions,finance,Paramount,756,26328456,2753956.4976,30367049.671971392
+2015,Wags Capital Management,TV Show,Billions,finance,Paramount,922,14884768,1556946.7327999999,17668377.585041255
+2016,Wags Capital Management,TV Show,Billions,finance,Paramount,985,14886305,1557107.503,19187209.813333392
+2017,Wags Capital Management,TV Show,Billions,finance,Paramount,655,11657035,1219325.861,14532314.023406923
+2018,Wags Capital Management,TV Show,Billions,finance,Paramount,748,2955348,9892140.8256,5133824.205397006
+2019,Wags Capital Management,TV Show,Billions,finance,Paramount,870,27739950,2901598.77,32384848.367074244
+2020,Wags Capital Management,TV Show,Billions,finance,Paramount,487,9854932,1030825.8872,12711088.91627056
+2021,Wags Capital Management,TV Show,Billions,finance,Paramount,815,11159795,1167314.557,14800393.450346578
+2022,Wags Capital Management,TV Show,Billions,finance,Paramount,410,2168900,226866.94,3687931.9998522177
+2023,Wags Capital Management,TV Show,Billions,finance,Paramount,985,14059890,1470664.494,17077073.39131581
+2010,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,862,13176532,1378265.2471999999,17565621.801339254
+2011,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,686,13674724,1430376.1304,15996220.430898193
+2012,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,679,880663,3684693.9919999996,3408135.655481174
+2013,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,911,19673045,2057800.507,22556636.541184347
+2014,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,641,5530548,578495.3208,8899818.441593315
+2015,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,463,11381003,1190452.9138,13347071.905835485
+2016,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,727,765531,80074.5426,1495612.6875176835
+2017,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,571,14597615,1526910.5289999999,18343976.477015298
+2018,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,697,15015471,1570618.2666,18744933.242847417
+2019,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,559,10261563,1073359.4898,13143358.288958378
+2020,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,928,2883296,301592.76159999997,4757139.646953918
+2021,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,867,23912727,2501271.2442,27959682.595262706
+2022,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,783,14568498,1523864.8908,19175374.166703306
+2023,Wayne Enterprises,Comic/Movie,Batman,Research and Development,DC,764,15063024,1575592.3104,16764426.34062385
+2010,Weyland Industries,Movie,Prometheus,Research and Development,Fox,990,3796650,397129.58999999997,4697962.465691712
+2011,Weyland Industries,Movie,Prometheus,Research and Development,Fox,870,28592550,2990780.73,31839218.084540058
+2012,Weyland Industries,Movie,Prometheus,Research and Development,Fox,626,12134384,1269256.5664,15558943.28887013
+2013,Weyland Industries,Movie,Prometheus,Research and Development,Fox,714,17388756,1818863.8776,20339906.260988478
+2014,Weyland Industries,Movie,Prometheus,Research and Development,Fox,642,20560050,64517436.9,23940973.972170364
+2015,Weyland Industries,Movie,Prometheus,Research and Development,Fox,664,16602656,1736637.8176,21192114.149363656
+2016,Weyland Industries,Movie,Prometheus,Research and Development,Fox,934,1340290,5607773.36,2330063.044709132
+2017,Weyland Industries,Movie,Prometheus,Research and Development,Fox,511,10374833,1085207.5318,14515944.780770417
+2018,Weyland Industries,Movie,Prometheus,Research and Development,Fox,855,5714820,597770.172,6457983.478080317
+2019,Weyland Industries,Movie,Prometheus,Research and Development,Fox,492,14138604,1478897.9784,18075606.076328833
+2020,Weyland Industries,Movie,Prometheus,Research and Development,Fox,888,20481720,109261783.512,24238701.175479952
+2021,Weyland Industries,Movie,Prometheus,Research and Development,Fox,447,5519109,30019537.6728,7107466.333335813
+2022,Weyland Industries,Movie,Prometheus,Research and Development,Fox,881,6550235,685154.581,8429414.107774422
+2023,Weyland Industries,Movie,Prometheus,Research and Development,Fox,647,13610292,1423636.5432,17509958.407481685
+2010,Weyland-Yutani,Movie,Alien,Research and Development,Fox,504,9507456,994479.8976,13287339.999058
+2011,Weyland-Yutani,Movie,Alien,Research and Development,Fox,570,1261410,131943.486,1310613.8249776186
+2012,Weyland-Yutani,Movie,Alien,Research and Development,Fox,858,6953232,727308.0671999999,11922192.663878676
+2013,Weyland-Yutani,Movie,Alien,Research and Development,Fox,915,23356290,2443067.934,29326023.738708664
+2014,Weyland-Yutani,Movie,Alien,Research and Development,Fox,711,889461,93037.6206,1877618.4611716059
+2015,Weyland-Yutani,Movie,Alien,Research and Development,Fox,961,27227052,2847949.6392,31360995.22428706
+2016,Weyland-Yutani,Movie,Alien,Research and Development,Fox,538,7388354,772821.8284,8939081.421555467
+2017,Weyland-Yutani,Movie,Alien,Research and Development,Fox,880,3740880,391296.048,5393900.771443053
+2018,Weyland-Yutani,Movie,Alien,Research and Development,Fox,649,8849115,925617.429,11742716.888224412
+2019,Weyland-Yutani,Movie,Alien,Research and Development,Fox,996,33784320,3533839.872,38746399.77313362
+2020,Weyland-Yutani,Movie,Alien,Research and Development,Fox,729,1433214,149914.1844,3086537.7153098397
+2021,Weyland-Yutani,Movie,Alien,Research and Development,Fox,594,19697040,2060310.384,24351957.57123818
+2022,Weyland-Yutani,Movie,Alien,Research and Development,Fox,498,1728060,180755.076,1380539.436731888
+2023,Weyland-Yutani,Movie,Alien,Research and Development,Fox,497,8348109,873212.2014,10145170.009864176
+2010,Wolfram and Hart,TV Show,Angel,Legal,Fox,457,9907303,1036303.8938,12406660.678588388
+2011,Wolfram and Hart,TV Show,Angel,Legal,Fox,823,16555468,1731701.9528,18963695.22298204
+2012,Wolfram and Hart,TV Show,Angel,Legal,Fox,924,29640072,170519334.216,34980704.24875323
+2013,Wolfram and Hart,TV Show,Angel,Legal,Fox,407,6830681,714489.2326,8507973.630302113
+2014,Wolfram and Hart,TV Show,Angel,Legal,Fox,657,13306221,1391830.7166,15674699.010988936
+2015,Wolfram and Hart,TV Show,Angel,Legal,Fox,661,13994692,1463844.7832,17807399.214775164
+2016,Wolfram and Hart,TV Show,Angel,Legal,Fox,998,24280342,2539723.7732,28868130.123455983
+2017,Wolfram and Hart,TV Show,Angel,Legal,Fox,928,12962304,1355856.9984,15531290.315958086
+2018,Wolfram and Hart,TV Show,Angel,Legal,Fox,605,8355050,873938.23,10291641.51662398
+2019,Wolfram and Hart,TV Show,Angel,Legal,Fox,598,419796,43910.6616,576261.890129009
+2020,Wolfram and Hart,TV Show,Angel,Legal,Fox,988,6050512,632883.5552,7432692.220831178
+2021,Wolfram and Hart,TV Show,Angel,Legal,Fox,858,2459886,9777554.8728,6261280.078438543
+2022,Wolfram and Hart,TV Show,Angel,Legal,Fox,633,4529748,473811.6408,6312420.955961218
+2023,Wolfram and Hart,TV Show,Angel,Legal,Fox,928,20433632,2137357.9072,24686213.43690591
+2010,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,454,9013262,942787.2052,11140161.039604371
+2011,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,930,23552250,2463565.35,27873530.94411239
+2012,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,887,29540648,3089951.7808,33926476.80364269
+2013,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,670,18769380,1963277.148,23229842.132970918
+2014,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,797,16874084,1765029.1864,19552624.649019364
+2015,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,617,200525,20974.915,112818.16324554046
+2016,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,554,5055250,528779.15,7686581.795385324
+2017,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,608,17414944,1821603.1424,20375539.375600837
+2018,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,944,9015200,942989.92,12539737.99921753
+2019,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,746,6469312,22330771.1616,8592062.88807752
+2020,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,473,10756966,1125178.6436,14455495.399633624
+2021,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,964,22491084,2352567.3864,26481230.306378815
+2022,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,728,7850752,821188.6592,9716558.54066399
+2023,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Legal,Paramount,738,17294292,1808982.9431999999,21059166.320804905

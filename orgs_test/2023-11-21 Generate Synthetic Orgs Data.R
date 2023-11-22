@@ -19,7 +19,7 @@ org_time_series <- replicate(n = length(years), orgs_list,
                             simplify = FALSE) %>% 
     data.table::rbindlist() %>% 
     arrange(organisation) %>% 
-    mutate(time = rep(years, 45) , .before = 1)
+    mutate(time = rep(years, 44) , .before = 1)
 
 # clean content and add numeric columns
 output_org_time_series <- org_time_series %>% 
