@@ -1,0 +1,121 @@
+---
+title: "Quarto Test Slides <br> with Palmer Penguins"
+author: "Martin Ingram"
+format:
+  revealjs:
+    transition: slide
+    background-transition: fade
+    incremental: true  
+    slide-number: c/t
+    # theme: [default, scss_style.scss] 
+    footer: "[palmer penguins](https://allisonhorst.github.io/palmerpenguins/)"
+date: today
+date-format: "DD/MM/YYYY"
+editor: visual
+---
+
+```{r Setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(reactable)
+library(downloadthis)
+
+# load penguins data and remove NA values
+penguin_data <- palmerpenguins::penguins %>% 
+    drop_na() 
+
+# make up table data
+table_data <- penguin_data %>% 
+    select(1:5)
+
+# tidy column names for table
+names(table_data) <- str_replace_all(names(table_data),
+                                     pattern = "_",
+                                     replacement = " ")
+
+```
+
+## Organisations Directory  {#image background-image="Images/London.png" background-image-opacity=0.5}
+
+## Palmer Penguins
+
+\
+\
+
+-   [https://allisonhorst.github.io/palmerpenguins/](https://allisonhorst.github.io/palmerpenguins/https://allisonhorst.github.io/palmerpenguins/)
+
+-   Artwork by @allison_horst
+
+```{r Download Button, echo=FALSE}
+# option to download data
+palmerpenguins::penguins %>% 
+  download_this(output_name =
+                paste0(Sys.Date(), 
+                       " - penguins_table_data"),
+                button_label = "Download Penguins Data",
+                output_extension = ".xlsx",
+                button_type = "primary",
+                has_icon = TRUE,
+                self_contained = TRUE,
+                icon = "fa fa-save")
+```
+
+## Plot
+
+```{r Build Plot, fig.width=10, fig.height=5.5}
+
+peng_plot <- ggplot(penguin_data, 
+                    aes(
+               x = flipper_length_mm,
+               y = body_mass_g, 
+               fill = species))+
+  geom_point(shape = 21, size = 4, alpha = 0.7) +
+  theme_minimal() +
+  scale_fill_brewer(palette = "RdYlBu") +
+    xlab("Flipper Length (mm)") +
+    ylab("Body Mass (g)")
+
+ggplotly(peng_plot) 
+```
+
+## Table
+
+```{r Build Table}
+# make interactive table
+reactable(table_data,
+          defaultPageSize = 6)
+```
+
+```{r Build Data, include=FALSE}
+avg_dimensions <- penguin_data %>% 
+    group_by(species) %>% 
+    summarise(across(c(bill_length_mm, bill_depth_mm,
+                       flipper_length_mm, body_mass_g), 
+                     \(x) mean(x, na.rm = TRUE))) %>% 
+  mutate(across(where(is.numeric), 
+                \(x) janitor::round_half_up(x, digits = 1)))
+```
+
+# Automated Slides
+
+```{r Function for building slides, include=FALSE}
+# Function to build automated slides
+render_child <- function(row) {
+    
+    species <- row$species
+    data <- row
+    
+  res <- knitr::knit_child(
+    text = xfun::read_utf8("_template_slides.qmd"),
+    envir = rlang::env(data = data, species = species),
+    quiet = TRUE
+  )
+  cat(res, sep = '\n')
+  cat("\n")
+}
+```
+
+```{r Render Slides, results='asis'}
+# render each slide
+purrr::walk(1:nrow(avg_dimensions), ~ render_child(avg_dimensions[.x, ]))
+```
