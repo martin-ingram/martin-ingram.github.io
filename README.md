@@ -2,8 +2,11 @@
 test repo for publishing quarto prototypes
 
 
-Slide deck:
+Penguins Slide deck:
 https://martin-ingram.github.io/test_slides/#/title-slide
 
-Report:
+Penguins Report:
 https://martin-ingram.github.io/test_report/
+
+Organisation Report: 
+https://martin-ingram.github.io/orgs_test/report/

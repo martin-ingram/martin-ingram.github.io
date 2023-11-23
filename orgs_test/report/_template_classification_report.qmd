@@ -35,7 +35,7 @@ plot_color_hightlight <- case_when(.default = "green1",
                                    classification ==
                                        "Legal" ~ "darkviolet")
 
-ggplot2::ggplot(latest_orgs_data,
+clas_plot <- ggplot2::ggplot(latest_orgs_data,
                 aes(x = fte, y = running_costs, fill = parent_company))+
   geom_jitter(size = 4.5, shape = 21, fill = plot_color_hightlight)+ 
   scale_x_continuous(labels =
@@ -44,8 +44,11 @@ ggplot2::ggplot(latest_orgs_data,
                          label_number(scale_cut = cut_short_scale()))+
     gghighlight::gghighlight(classification == clas_highlight,
                              label_key = organisation,
-                             use_group_by = FALSE, use_direct_label = TRUE)+
+                             use_group_by = FALSE, use_direct_label = FALSE)+
     theme_minimal()+
     xlab("Staff Employed (FTE)") +
     ylab("Running Costs (£)")
+
+# plotly::ggplotly(clas_plot)
+clas_plot
 ```
