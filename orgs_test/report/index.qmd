@@ -90,6 +90,16 @@ latest_orgs_data %>%
                             icon = "fa fa-save")
 ```
 
+# **Table Of Organisations**
+
+```{r Build Table, echo=FALSE}
+# make interactive table
+# replace with DT table if sharing offline .html file as reactable flags 
+# up as virus in Gmail/Google Drive… 
+reactable(table_data,
+          defaultPageSize = 6, filterable = TRUE, sortable = TRUE)
+```
+
 # **FTE By Running Costs in 2023 (All Orgs)**
 
 ```{r Build Plot, echo=FALSE, warning=FALSE}
@@ -115,16 +125,6 @@ org_fte_running_cost_plot <- ggplot(latest_orgs_data,
     ylab("Running Costs (£)")
 
 ggplotly(org_fte_running_cost_plot, tooltip = "text") 
-```
-
-# **Table Of Organisations**
-
-```{r Build Table, echo=FALSE}
-# make interactive table
-# replace with DT table if sharing offline .html file as reactable flags 
-# up as virus in Gmail/Google Drive... 
-reactable(table_data,
-          defaultPageSize = 6, filterable = TRUE, sortable = TRUE)
 ```
 
 ```{r Build Summary Data, include=FALSE}
