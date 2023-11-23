@@ -1,0 +1,234 @@
+---
+title-block-banner-color: "#FFFFFF"
+title-block-banner: "#0354D6"
+author: "Martin Ingram"
+date: today
+date-format: "DD/MM/YYYY"
+title: "Prototype Organisations Directory"
+toc: true
+toc-depth: 2
+format:
+  html:
+    code-fold: true
+    code-summary: "Reveal code"
+---
+
+```{r Setup, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(reactable)
+library(downloadthis)
+library(scales)
+
+options(scipen = 999)
+
+# load penguins data and remove NA values
+orgs_data <- read_csv("2023-11-21 - fictional_orgs_time_series.csv")
+
+# make up table data
+table_data <- orgs_data %>% 
+  select(2:6) %>% 
+  distinct()
+
+# tidy column names for table
+names(table_data) <- str_to_title(str_replace_all(names(table_data),
+                                     pattern = "_",
+                                     replacement = " "))
+
+# Large Number Label Formatter
+format_bignum = function(n, input_digits = 2){
+    case_when(
+        n >= 1e12 | n <= -1e12 ~ paste(janitor::round_half_up(n/1e12, 
+                                 digits = input_digits), 'Tn'),
+        n >= 1e9  | n <= -1e9 ~ paste(janitor::round_half_up(n/1e9,
+                                 digits = input_digits), 'Bn'),
+        n >= 1e6  | n <= -1e6 ~ paste(janitor::round_half_up(n/1e6,
+                                 digits = input_digits), 'M'),
+        n >= 1e3  | n <= -1e3 ~ paste(janitor::round_half_up(n/1e3, 
+                                 digits = input_digits), 'K'),
+        TRUE ~ as.character(n))
+}
+
+# build tooltip_labels 
+orgs_data <- orgs_data %>% 
+    mutate(across(c("fte", 
+                    "running_costs",
+                    "investment_costs",
+                    "funding"), \(x) format_bignum(n = x),
+                  .names = "label_{.col}"))
+
+# get latest data 
+latest_orgs_data <- orgs_data %>% 
+  filter(time == max(time))
+```
+
+![](Images/London.png){fig-align="center"}
+
+```{r Download Button, echo=FALSE}
+# option to download data
+orgs_data %>% 
+  download_this(output_name =
+                            paste0(Sys.Date(), 
+                                   " - Organisations Test Data"),
+                            button_label = "Download Organisations Time Series Data",
+                            output_extension = ".xlsx",
+                            button_type = "primary",
+                            has_icon = TRUE,
+                            self_contained = TRUE,
+                            icon = "fa fa-save")
+
+# option to download data
+latest_orgs_data %>% 
+  download_this(output_name =
+                            paste0(Sys.Date(), " - ", unique(latest_orgs_data$time),
+                                   " Organisations Directory Data"),
+                            button_label = "Download Latest Organisations Directory",
+                            output_extension = ".xlsx",
+                            button_type = "success",
+                            has_icon = TRUE,
+                            self_contained = TRUE,
+                            icon = "fa fa-save")
+```
+
+# **FTE By Running Costs in 2023 (All Orgs)**
+
+```{r Build Plot, echo=FALSE, warning=FALSE}
+# plot orgs fte and running costs data
+org_fte_running_cost_plot <- ggplot(latest_orgs_data, 
+               aes(
+               x = fte,
+               y = running_costs, 
+               fill = classification))+
+  geom_point(shape = 21, size = 4, alpha = 0.7, 
+             aes(text = paste0("Organisation: ", organisation, "\n",
+                               "Running Costs: £", label_running_costs, "\n",
+                               "Staff (FTE): ", label_fte, "\n",
+                               "Classification: ", classification, "\n", 
+                               "Parent Company: ", parent_company))) +
+  theme_minimal() +
+  scale_x_continuous(labels =
+                         label_number(scale_cut = cut_short_scale()))+
+  scale_y_continuous(labels =
+                         label_number(scale_cut = cut_short_scale()))+
+  scale_fill_brewer(palette = "RdYlBu")+
+    xlab("Staff Employed (FTE)") +
+    ylab("Running Costs (£)")
+
+ggplotly(org_fte_running_cost_plot, tooltip = "text") 
+```
+
+# **Table Of Organisations**
+
+```{r Build Table, echo=FALSE}
+# make interactive table
+# replace with DT table if sharing offline .html file as reactable flags 
+# up as virus in Gmail/Google Drive... 
+reactable(table_data,
+          defaultPageSize = 6, filterable = TRUE, sortable = TRUE)
+```
+
+```{r Build Summary Data, include=FALSE}
+# summaries by parent company
+parent_summaries <- latest_orgs_data %>% 
+    group_by(time, parent_company) %>%
+    mutate(parent_count = n()) %>% 
+    group_by(time, parent_company, parent_count) %>%
+    summarise(across(c(fte, running_costs,
+                       investment_costs, funding), 
+                     \(x) sum(x, na.rm = TRUE))) %>% 
+  mutate(across(where(is.numeric), 
+                \(x) janitor::round_half_up(x, digits = 1))) %>% 
+    mutate(across(c("fte", 
+                    "running_costs",
+                    "investment_costs",
+                    "funding"), \(x) format_bignum(n = x),
+                  .names = "label_{.col}"))
+
+# summaries by classification type
+classification_summaries <- latest_orgs_data %>% 
+    group_by(time, classification) %>%
+    mutate(classification_count = n()) %>% 
+    group_by(time, classification, classification_count) %>%
+    summarise(across(c(fte, running_costs,
+                       investment_costs, funding), 
+                     \(x) sum(x, na.rm = TRUE))) %>% 
+  mutate(across(where(is.numeric), 
+                \(x) janitor::round_half_up(x, digits = 1))) %>% 
+    mutate(across(c("fte", 
+                    "running_costs",
+                    "investment_costs",
+                    "funding"), \(x) format_bignum(n = x),
+                  .names = "label_{.col}"))
+```
+
+```{r Functions for building summaries, include=FALSE}
+
+# Function to render each individual organisation summary
+render_family <- function(row) {
+    
+    classification <- row$classification
+    data <- row
+    
+  res <- knitr::knit_child(
+    text = xfun::read_utf8("_template_classification_report.qmd"),
+    envir = rlang::env(data = data,
+                       classification = classification),
+    quiet = TRUE
+  )
+  cat(res, sep = '\n')
+  cat("\n")
+}
+
+# Function to render each individual organisation summary
+render_parent <- function(row) {
+    
+    parent_company <- row$parent_company
+    data <- row
+    
+  res <- knitr::knit_child(
+    text = xfun::read_utf8("_template_parents_report.qmd"),
+    envir = rlang::env(data = data,
+                       parent_company = parent_company),
+    quiet = TRUE
+  )
+  cat(res, sep = '\n')
+  cat("\n")
+}
+
+# Function to render each individual organisation summary
+render_child <- function(row) {
+    
+    organisation <- row$organisation
+    classification <- row$classification
+    data <- row
+    
+  res <- knitr::knit_child(
+    text = xfun::read_utf8("_template_orgs_report.qmd"),
+    envir = rlang::env(data = data,
+                       organisation = organisation,
+                       classification = classification),
+    quiet = TRUE
+  )
+  cat(res, sep = '\n')
+  cat("\n")
+}
+```
+
+# **Summaries By Classification**
+
+```{r Render Families, results='asis', echo=FALSE}
+purrr::walk(1:nrow(classification_summaries), 
+            ~ render_family(classification_summaries[.x, ]))
+```
+
+# **Summaries By Parent Company**
+
+```{r Render Parents, results='asis', echo=FALSE}
+purrr::walk(1:nrow(parent_summaries), ~ render_parent(parent_summaries[.x, ]))
+```
+
+# **Summaries By Organisation**
+
+```{r Render Orgs, results='asis', echo=FALSE}
+purrr::walk(1:nrow(latest_orgs_data), ~ render_child(latest_orgs_data[.x, ]))
+```

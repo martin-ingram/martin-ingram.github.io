@@ -1,0 +1,51 @@
+## *`r parent_company`*
+
+\
+
+Stats for **`r parent_company`**:
+
+Organisations in Scope: `r data$parent_count`
+
+Total Staff in `r data$time`: `r data$label_fte`
+
+Total Running Costs in `r data$time`: £`r data$label_running_costs`
+
+Total Investment Costs in `r data$time`: £`r data$label_investment_costs`
+
+Total Funding in `r data$time`: £`r data$label_funding`
+
+### `r parent_company` Organisations: FTE By Running Costs
+
+```{r}
+#|: warning: FALSE
+# cant give chunks names as they are duplicated by the code
+# scatter plot
+# org_highlight <- organisation
+# clas_highlight <- classification
+parent_highlight <- parent_company
+
+# plot_color_hightlight <- case_when(.default = "green1", 
+#                                    classification ==
+#                                        "Research and Development" ~ "dodgerblue", 
+#                                    classification ==
+#                                        "Medical" ~ "firebrick", 
+#                                    classification ==
+#                                        "Finance" ~ "seagreen", 
+#                                    classification ==
+#                                        "Commercial" ~ "darkorange",  
+#                                    classification ==
+#                                        "Legal" ~ "darkviolet")
+
+ggplot2::ggplot(latest_orgs_data,
+                aes(x = fte, y = running_costs, fill = parent_company))+
+    geom_jitter(size = 4.5, shape = 21, fill = "dodgerblue")+ 
+  scale_x_continuous(labels =
+                         label_number(scale_cut = cut_short_scale()))+
+  scale_y_continuous(labels =
+                         label_number(scale_cut = cut_short_scale()))+
+    gghighlight::gghighlight(parent_company == parent_highlight, label_key = organisation,
+                             use_group_by = FALSE, use_direct_label = TRUE)+
+    theme_minimal()+
+    xlab("Staff Employed (FTE)") +
+    ylab("Running Costs (£)")
+```
