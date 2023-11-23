@@ -48,4 +48,20 @@ ggplot2::ggplot(latest_orgs_data,
     theme_minimal()+
     xlab("Staff Employed (FTE)") +
     ylab("Running Costs (£)")
+
+# option to download data
+latest_orgs_data %>% 
+    filter( parent_company == parent_highlight) %>% 
+  download_this(output_name =
+                            paste0(Sys.Date(), " - ", unique(latest_orgs_data$time), 
+                                   " - ", parent_highlight, 
+                                   " Directory Data"),
+                            button_label = paste0("Download ",
+                                                  parent_highlight,
+                                                  " Directory"),
+                            output_extension = ".xlsx",
+                            button_type = "success",
+                            has_icon = TRUE,
+                            self_contained = TRUE,
+                            icon = "fa fa-save")
 ```
