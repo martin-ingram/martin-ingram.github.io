@@ -22,7 +22,7 @@ format:
     toc: true
     toc-location: left
     toc-depth: 2
-    toc-title: Summary
+    toc-title: Contents
     # grid:
     #     sidebar-width: 200px
     #     body-width: 1500px
@@ -93,7 +93,7 @@ latest_orgs_data <- orgs_data %>%
   filter(time == max(time))
 ```
 
-```{r Download Button, echo=FALSE}
+```{r Download Button, echo=FALSE, results='asis'}
 # option to download data
 orgs_data %>% 
   download_this(output_name =
@@ -119,6 +119,8 @@ latest_orgs_data %>%
                             has_icon = TRUE,
                             self_contained = TRUE,
                             icon = "fa fa-save")
+
+cat("<br>")
 ```
 
 ![](Images/London.png){fig-align="center"}
@@ -129,7 +131,7 @@ latest_orgs_data %>%
 
 -   Methodological issues and irregularities in the data can go here too
 
--   possibly link to other data sources etc. where relevant
+-   Possibly link to other data sources etc. where relevant
 
 
 # **Table Of Organisations**
