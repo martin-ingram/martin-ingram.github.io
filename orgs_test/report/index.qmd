@@ -1,26 +1,48 @@
 ---
-title-block-banner-color: "#FFFFFF"
+# title-block-banner-color: "#FFFFFF"
 title-block-banner: "#0354D6"
 author: "Martin Ingram"
 date: today
 date-format: "DD/MM/YYYY"
 title: "Prototype Organisations Directory"
-toc: true
-toc-depth: 2
-toc-location: left
+logo: "Images/testlogo.png"
+css: scss_style.scss
+# toc-expand: 2
+# toc-location: left
+# theme: quartz
+theme:
+  - default
+  - scss_style.scss
 format:
   html:
     code-fold: true
     code-summary: "Reveal code"
+    embed-resources: true
+    smooth-scroll: true
+    toc: true
+    toc-location: left
+    toc-depth: 2
+    toc-title: Summary
+    # grid:
+    #     sidebar-width: 200px
+    #     body-width: 1500px
+    #     margin-width: 01px
+    #     gutter-width: 1.5rem
 ---
 
-# About
+<!-- ::: {.column-margin} -->
+
+<!-- ![Image](Images/testlogo.png) -->
+
+<!-- ::: -->
+
+# **About**
 
 -   Technical Demo built using [Quarto](https://quarto.org/)
 
 -   All data used in this report is synthetic, and is only used demonstratively for future prototypes using live data
 
--   Everything in the [Automated Outputs](#automation_output) section is built using templates, and so is automatically generated, meaning some elements need to be tweaked.
+-   Everything in the [Automated Outputs](#automation_output) section is built using templates, and so is automatically generated, meaning some elements may need to be tweaked.
 
 ```{r Setup, include=FALSE}
 library(tidyverse)
@@ -71,20 +93,20 @@ latest_orgs_data <- orgs_data %>%
   filter(time == max(time))
 ```
 
-![](Images/London.png){fig-align="center"}
-
 ```{r Download Button, echo=FALSE}
 # option to download data
 orgs_data %>% 
   download_this(output_name =
                             paste0(Sys.Date(), 
                                    " - Organisations Test Data"),
-                            button_label = "Download Organisations Time Series Data",
+                            button_label = "Download All Organisations Time Series Data",
                             output_extension = ".xlsx",
                             button_type = "primary",
                             has_icon = TRUE,
                             self_contained = TRUE,
                             icon = "fa fa-save")
+
+cat("<br>")
 
 # option to download data
 latest_orgs_data %>% 
@@ -98,6 +120,17 @@ latest_orgs_data %>%
                             self_contained = TRUE,
                             icon = "fa fa-save")
 ```
+
+![](Images/London.png){fig-align="center"}
+
+# **Methods and Data Quality**
+
+-   Space for notes on data quality
+
+-   Methodological issues and irregularities in the data can go here too
+
+-   possibly link to other data sources etc. where relevant
+
 
 # **Table Of Organisations**
 

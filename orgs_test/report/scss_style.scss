@@ -1,0 +1,51 @@
+/*-- scss:defaults --*/
+
+// https://quarto.org/docs/output-formats/html-themes.html
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url(Images/testlogo.png);
+  background-size: 300px;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 10px;
+  background-origin: content-box;
+}
+
+.sidebar nav[role="doc-toc"] ul > li > a.active {
+    color: #3170b4 important;
+    background-color: #ffe3d1;
+    font-weight: bold;
+}
+
+
+
+$headingFont: 'Arial', serif;
+$mainFont: 'Arial', serif;
+
+$theme-COblue: #3170b4; // Define a color you want to keep using
+$theme-COorange: #FFA500;
+
+$body-color: #000000; // Set the color of the text
+$body-bg: #FFFFFF; // Set the slide background
+
+$link-color:  $theme-COblue; // Set the colour of hyperlinks
+$selection-bg: $theme-COorange; // Set the color when highlighting text
+
+/*-- scss:defaults --*/
+$h2-font-size: 1.6rem !default;
+$headings-font-weight: 500 !default;
+$body-color: $gray-700 !default;
+/*-- scss:rules --*/
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
+}
+
+::selection {
+  color: white; /* Text color */
+  background: #FFA500; /* Background color */
+}
+
+::-moz-selection { /* For Firefox */
+  color: white;
+  background: #FFA500;
+}

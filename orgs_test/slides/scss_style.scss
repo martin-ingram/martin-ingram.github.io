@@ -1,0 +1,70 @@
+/*-- scss:defaults --*/
+
+// https://quarto.org/docs/presentations/revealjs/themes.html#sass-variables
+
+$headingFont: 'Arial', serif;
+$mainFont: 'Arial', serif;
+
+$theme-EHBlue: #3170b4; // Define a color you want to keep using
+
+$presentation-heading-color: #000000; // Set the heading colours
+$presentation-font-size-root: 40px; // Set the font size
+$code-block-font-size: 25px; // Set the size of the font
+
+$body-color: #000000; // Set the color of the text
+$body-bg: #FFFFFF; // Set the slide backgrounds
+$link-color:  $theme-EHBlue; // Set the colour of hyperlinks (and progress bar)
+$selection-bg: $theme-EHBlue; // Set the color when highlighting text
+
+$presentation-h1-font-size:	2.0em; // Set the font size for the h1 Heading
+$presentation-h2-font-size: 1.5em; // Set the font size for the h2 Heading
+
+$presentation-slide-text-align: left; // Set the default alignment of all text
+
+// $code-block-bg: lighten(#8B4000, 75%);
+// $code-block-border-color: lighten(#8B4000, 75%);
+
+/*-- scss:rules --*/
+
+.center-h {
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 5px solid $theme-EHBlue; // Put a border below the header
+}
+
+.reveal .slides {
+  border-bottom: 5px solid $theme-EHBlue;
+  padding: 30px;// Put a border at the bottom of the slide, above the footer
+// border-top: 5px solid $theme-EHBlue; // Put a border above the Header
+}
+
+.reveal .footer { // For putting a border or different colour around the footer text
+  padding: 0px;
+//  border-top: 3px solid #ff8c00;
+//  background-color: #000000;
+}
+
+// Setting Slide numbers to the bottom-right
+.slide-number, .reveal.has-logo .slide-number {
+  bottom: 14px !important;
+  right: 50px !important;
+  top: unset !important;
+  color: $theme-EHBlue !important;
+}
+
+// For placing the logo on the top right hand side of slides
+.reveal .slide-logo {
+  height: 100px !important;
+  width: 200px!important;
+  max-width: unset !important;
+  max-height: unset !important;
+  display: block;
+  position: fixed;
+  bottom: unset !important;
+  left: unset !important;
+  top: 0px;
+  right: 20px;
+ // border-bottom: 3px solid #ff8c00;
+}

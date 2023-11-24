@@ -27,15 +27,11 @@ clas_highlight <- classification
 
 plot_color_hightlight <- case_when(.default = "green1",
                                    classification ==
-                                       "Research and Development" ~ "dodgerblue",
+                                       "Agency" ~ "dodgerblue",
                                    classification ==
-                                       "Medical" ~ "firebrick",
+                                       "Department" ~ "firebrick",
                                    classification ==
-                                       "Finance" ~ "seagreen",
-                                   classification ==
-                                       "Commercial" ~ "darkorange",
-                                   classification ==
-                                       "Legal" ~ "darkviolet")
+                                       "External Body" ~ "seagreen")
 
 clas_plot <- ggplot2::ggplot(latest_orgs_data,
                 aes(x = fte, y = running_costs, fill = parent_company))+
