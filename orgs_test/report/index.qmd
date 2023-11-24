@@ -7,11 +7,20 @@ date-format: "DD/MM/YYYY"
 title: "Prototype Organisations Directory"
 toc: true
 toc-depth: 2
+toc-location: left
 format:
   html:
     code-fold: true
     code-summary: "Reveal code"
 ---
+
+# About
+
+-   Technical Demo built using [Quarto](https://quarto.org/)
+
+-   All data used in this report is synthetic, and is only used demonstratively for future prototypes using live data
+
+-   Everything in the [Automated Outputs](#automation_output) section is built using templates, and so is automatically generated, meaning some elements need to be tweaked.
 
 ```{r Setup, include=FALSE}
 library(tidyverse)
@@ -126,6 +135,8 @@ org_fte_running_cost_plot <- ggplot(latest_orgs_data,
 
 ggplotly(org_fte_running_cost_plot, tooltip = "text") 
 ```
+
+# [**Automated Outputs**]{.underline} {#automation_output}
 
 ```{r Build Summary Data, include=FALSE}
 # summaries by parent company

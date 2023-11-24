@@ -16,6 +16,8 @@ Total Funding in `r data$time`: £`r data$label_funding`
 
 ### `r classification` Organisations: FTE By Running Costs
 
+#### Comparing `r classification` organisations against all other organisations
+
 ```{r}
 #|: warning: FALSE
 # cant give chunks names as they are duplicated by the code
@@ -51,4 +53,20 @@ clas_plot <- ggplot2::ggplot(latest_orgs_data,
 
 # plotly::ggplotly(clas_plot)
 clas_plot
+
+# option to download data
+latest_orgs_data %>% 
+    filter(classification == clas_highlight) %>% 
+  download_this(output_name =
+                            paste0(Sys.Date(), " - ", unique(latest_orgs_data$time), 
+                                   " - ", clas_highlight, 
+                                   " Directory Data"),
+                            button_label = paste0("Download ",
+                                                  clas_highlight,
+                                                  " Directory"),
+                            output_extension = ".xlsx",
+                            button_type = "success",
+                            has_icon = TRUE,
+                            self_contained = TRUE,
+                            icon = "fa fa-save")
 ```

@@ -16,6 +16,8 @@ Total Funding in `r data$time`: £`r data$label_funding`
 
 ### `r parent_company` Organisations: FTE By Running Costs
 
+#### All Organisations Under `r parent_company`
+
 ```{r}
 #|: warning: FALSE
 # cant give chunks names as they are duplicated by the code
