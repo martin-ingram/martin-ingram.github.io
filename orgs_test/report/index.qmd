@@ -1,6 +1,6 @@
 ---
 # title-block-banner-color: "#FFFFFF"
-title-block-banner: "#0354D6"
+title-block-banner: "#3170b4"
 author: "Martin Ingram"
 date: today
 date-format: "DD/MM/YYYY"
@@ -273,8 +273,30 @@ purrr::walk(1:nrow(classification_summaries),
 purrr::walk(1:nrow(parent_summaries), ~ render_parent(parent_summaries[.x, ]))
 ```
 
-# **Summaries By Organisation**
+# **Departments: Organisation Summaries**
 
-```{r Render Orgs, results='asis', echo=FALSE}
-purrr::walk(1:nrow(latest_orgs_data), ~ render_child(latest_orgs_data[.x, ]))
+```{r Render Dept Orgs, results='asis', echo=FALSE}
+Dept_Orgs <- latest_orgs_data %>% 
+  filter(classification == "Department")
+
+purrr::walk(1:nrow(Dept_Orgs), ~ render_child(Dept_Orgs[.x, ]))
 ```
+
+# **Agencies: Organisation Summaries**
+
+```{r Render Agency Orgs, results='asis', echo=FALSE}
+Agency_Orgs <- latest_orgs_data %>% 
+  filter(classification == "Agency")
+
+purrr::walk(1:nrow(Agency_Orgs), ~ render_child(Agency_Orgs[.x, ]))
+```
+
+# **External Bodies: Organisation Summaries**
+
+```{r Render EB Orgs, results='asis', echo=FALSE}
+EB_Orgs <- latest_orgs_data %>% 
+  filter(classification == "External Body")
+
+purrr::walk(1:nrow(EB_Orgs), ~ render_child(EB_Orgs[.x, ]))
+```
+
