@@ -4,15 +4,15 @@
 
 Stats for **`r parent_company`**:
 
-Organisations in Scope: `r data$parent_count`
+-   Organisations in Scope: `r data$parent_count`
 
-Total Staff in `r data$time`: `r data$label_fte`
+-   Total Staff in `r data$time`: `r data$label_fte`
 
-Total Running Costs in `r data$time`: £`r data$label_running_costs`
+-   Total Running Costs in `r data$time`: £`r data$label_running_costs`
 
-Total Investment Costs in `r data$time`: £`r data$label_investment_costs`
+-   Total Investment Costs in `r data$time`: £`r data$label_investment_costs`
 
-Total Funding in `r data$time`: £`r data$label_funding`
+-   Total Funding in `r data$time`: £`r data$label_funding`
 
 ### `r parent_company` Organisations: FTE By Running Costs
 

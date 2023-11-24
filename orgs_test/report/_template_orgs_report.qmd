@@ -4,19 +4,19 @@
 
 Stats for **`r organisation`**:
 
-Classification: `r classification`
+-   Classification: `r classification`
 
-CEO: `r data$fake_org_ceo_name`
+-   CEO: `r data$fake_org_ceo_name`
 
-Contact Number: `r data$fake_contact_number`
+-   Contact Number: `r data$fake_contact_number`
 
-Staff in `r data$time`: `r data$label_fte`
+-   Staff in `r data$time`: `r data$label_fte`
 
-Running Costs in `r data$time`: £`r data$label_running_costs`
+-   Running Costs in `r data$time`: £`r data$label_running_costs`
 
-Investment Costs in `r data$time`: £`r data$label_investment_costs`
+-   Investment Costs in `r data$time`: £`r data$label_investment_costs`
 
-Funding in `r data$time`: £`r data$label_funding`
+-   Funding in `r data$time`: £`r data$label_funding`
 
 ### `r organisation`: FTE By Running Costs
 
