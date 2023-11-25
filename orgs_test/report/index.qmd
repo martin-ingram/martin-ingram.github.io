@@ -92,14 +92,19 @@ format_bignum = function(n, input_digits = 2){
         TRUE ~ as.character(n))
 }
 
+readable_format <- function(x){
+  
+}
+
 # build tooltip_labels 
 orgs_data <- orgs_data %>% 
     mutate(across(c("fte", 
                     "running_costs",
                     "investment_costs",
-                    "funding"), \(x) format_bignum(n = x),
-                  .names = "label_{.col}"))
-
+                    "funding"), \(x)
+            format_bignum(n = x),
+          .names = "label_{.col}"))   
+              
 # get latest data 
 latest_orgs_data <- orgs_data %>% 
   filter(time == max(time))
@@ -167,10 +172,13 @@ org_fte_running_cost_plot <- ggplot(latest_orgs_data,
                y = running_costs, 
                fill = classification))+
   geom_point(shape = 21, size = 4, alpha = 0.7, 
-             aes(text = paste0("Organisation: ", organisation, "\n",
-                               "Running Costs: £", label_running_costs, "\n",
+             aes(text = paste0("Organisation: ",
+                               organisation, "\n",
+                               "Running Costs: £",
+                               label_running_costs, "\n",
                                "Staff (FTE): ", label_fte, "\n",
-                               "Classification: ", classification, "\n", 
+                               "Classification: ",
+                               classification, "\n", 
                                "Parent Company: ", parent_company))) +
   theme_minimal() +
   scale_x_continuous(labels =
