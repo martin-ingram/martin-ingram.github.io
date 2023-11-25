@@ -92,10 +92,6 @@ format_bignum = function(n, input_digits = 2){
         TRUE ~ as.character(n))
 }
 
-readable_format <- function(x){
-  
-}
-
 # build tooltip_labels 
 orgs_data <- orgs_data %>% 
     mutate(across(c("fte", 
