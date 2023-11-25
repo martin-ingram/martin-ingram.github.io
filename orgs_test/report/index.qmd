@@ -59,7 +59,19 @@ orgs_data <- read_csv("2023-11-21 - fictional_orgs_time_series.csv")
 # make up table data
 table_data <- orgs_data %>% 
   select(2:6) %>% 
-  distinct()
+  distinct() %>% 
+  # mutate(organisation = paste0("[",
+  #                              organisation,
+  #                              "](", 
+  #  "https://martin-ingram.github.io/orgs_test/report/#", 
+  #  snakecase::to_parsed_case(tolower(organisation),
+  #        sep_out = "-"), ")"))
+  mutate(organisation =
+    paste0('<a href=\"', 'https://martin-ingram.github.io/orgs_test/report/#', 
+   snakecase::to_parsed_case(tolower(organisation), sep_out = "-"), '\">', organisation, '</a>'))
+  
+  # <a href="url">link text</a>
+
 
 # tidy column names for table
 names(table_data) <- str_to_title(str_replace_all(names(table_data),
@@ -109,9 +121,10 @@ orgs_data %>%
 # option to download data
 latest_orgs_data %>% 
   download_this(output_name =
-                            paste0(Sys.Date(), " - ", unique(latest_orgs_data$time),
-                                   " Organisations Directory Data"),
-                            button_label = "Download Latest Organisations Directory",
+                  paste0(Sys.Date(), " - ",
+                         unique(latest_orgs_data$time),
+                  " Organisations Directory Data"),
+      button_label = "Download Latest Organisations Directory",
                             output_extension = ".xlsx",
                             button_type = "success",
                             has_icon = TRUE,
@@ -132,12 +145,16 @@ latest_orgs_data %>%
 
 # **Table Of Organisations**
 
-```{r Build Table, echo=FALSE}
+```{r Build Table, echo=FALSE, results='asis'}
 # make interactive table
 # replace with DT table if sharing offline .html file as reactable flags 
 # up as virus in Gmail/Google Drive… 
 reactable(table_data,
-          defaultPageSize = 6, filterable = TRUE, sortable = TRUE)
+          defaultPageSize = 6,
+          filterable = TRUE, 
+          sortable = TRUE, 
+          resizable = TRUE, columns = list(
+            Organisation = colDef(html = TRUE)))
 ```
 
 # **FTE By Running Costs in 2023 (All Orgs)**
