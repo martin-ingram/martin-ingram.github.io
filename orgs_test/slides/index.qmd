@@ -13,7 +13,7 @@ format:
     incremental: false  
     slide-number: c/t
     toc-depth: 1
-    self-contained: false # logo wont show when self-contained
+    self-contained: true # logo wont show when self-contained
     logo: "/Images/testlogo.png"
     theme:
       - default

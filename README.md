@@ -10,3 +10,6 @@ https://martin-ingram.github.io/test_report/
 
 Organisation Report: 
 https://martin-ingram.github.io/orgs_test/report/
+
+Organisation Slides:
+https://martin-ingram.github.io/orgs_test/slides/#/title-slide
