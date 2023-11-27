@@ -5,7 +5,6 @@ author: "Martin Ingram"
 date: today
 date-format: "DD/MM/YYYY"
 title: "Prototype Organisations Directory"
-logo: "Images/testlogo.png"
 css: scss_style.scss
 # toc-expand: 2
 # toc-location: left
@@ -15,6 +14,7 @@ theme:
   - scss_style.scss
 format:
   html:
+    # linkcolor: red
     code-fold: true
     code-summary: "Reveal code"
     embed-resources: true
@@ -23,18 +23,18 @@ format:
     toc-location: left
     toc-depth: 2
     toc-title: Contents
-    # grid:
-    #     sidebar-width: 200px
-    #     body-width: 1500px
-    #     margin-width: 01px
-    #     gutter-width: 1.5rem
+    grid:
+        sidebar-width: 400px
+        body-width: 1500px
+        margin-width: 01px
+        gutter-width: 1.5rem
 ---
 
-<!-- ::: {.column-margin} -->
+::: {.column-margin}
 
-<!-- ![Image](Images/testlogo.png) -->
+![Image](Images/testlogo.png)
 
-<!-- ::: -->
+:::
 
 # **About**
 
@@ -60,19 +60,10 @@ orgs_data <- read_csv("2023-11-21 - fictional_orgs_time_series.csv")
 table_data <- orgs_data %>% 
   select(2:6) %>% 
   distinct() %>% 
-  # mutate(organisation = paste0("[",
-  #                              organisation,
-  #                              "](", 
-  #  "https://martin-ingram.github.io/orgs_test/report/#", 
-  #  snakecase::to_parsed_case(tolower(organisation),
-  #        sep_out = "-"), ")"))
   mutate(organisation =
     paste0('<a href=\"', 'https://martin-ingram.github.io/orgs_test/report/#', 
    snakecase::to_parsed_case(tolower(organisation), sep_out = "-"), '\">', organisation, '</a>'))
   
-  # <a href="url">link text</a>
-
-
 # tidy column names for table
 names(table_data) <- str_to_title(str_replace_all(names(table_data),
                                      pattern = "_",
