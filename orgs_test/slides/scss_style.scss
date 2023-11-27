@@ -57,14 +57,18 @@ h2 {
 // For placing the logo on the top right hand side of slides
 .reveal .slide-logo {
   height: 100px !important;
-  width: 200px!important;
+  width: 150px!important;
   max-width: unset !important;
   max-height: unset !important;
   display: block;
   position: fixed;
   bottom: unset !important;
-  left: unset !important;
+  left: 20px;
   top: 0px;
-  right: 20px;
+  right: unset !important;
  // border-bottom: 3px solid #ff8c00;
+}
+
+.reactable {
+  font-size: 20px;
 }

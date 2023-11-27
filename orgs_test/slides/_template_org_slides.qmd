@@ -1,36 +1,83 @@
-## `r species`
+# *`r organisation`*
 
 \
-\
 
+Stats for **`r organisation`**:
 
-Average Dimensions for **`r species`**:
+-   Classification: `r classification`
 
-Bill Length: `r data$bill_length_mm` mm
+-   CEO: `r data$fake_org_ceo_name`
 
-Bill Depth: `r data$bill_depth_mm` mm
+-   Contact Number: `r data$fake_contact_number`
 
-Flipper Length: `r data$flipper_length_mm` mm
+-   Staff in `r data$time`: `r data$label_fte`
 
-Body Mass: `r data$body_mass_g` g
+-   Running Costs in `r data$time`: £`r data$label_running_costs`
 
-## `r species` plot
+-   Investment Costs in `r data$time`: £`r data$label_investment_costs`
+
+-   Funding in `r data$time`: £`r data$label_funding`
+
+## FTE and Running Costs: `r organisation`
+
+#### `r organisation`: FTE By Running Costs
 
 ```{r}
+#|: warning: FALSE
 # cant give chunks names as they are duplicated by the code
-test <- species
-plot_color_hightlight <- case_when(.default = "green1", 
-                                   test == "Adelie" ~ "darkred", 
-                                   test == "Chinstrap" ~ "seagreen", 
-                                   test == "Gentoo" ~ "dodgerblue")
+# scatter plot
+org_highlight <- organisation
+clas_highlight <- classification
 
-ggplot2::ggplot(penguin_data,
-                aes(x = body_mass_g, y = flipper_length_mm, fill = species))+
-    geom_jitter(size = 3, shape = 21, fill = plot_color_hightlight)+ 
-    gghighlight::gghighlight(species == test, 
-                             use_group_by = FALSE, use_direct_label = FALSE)+
-    theme_minimal() +
-    xlab("Flipper Length (mm)") +
-    ylab("Body Mass (g)")
+plot_color_hightlight <- case_when(.default = "green1",
+                                   classification ==
+                                       "Agency" ~ "dodgerblue",
+                                   classification ==
+                                       "Department" ~ "firebrick",
+                                   classification ==
+                                       "External Body" ~ "seagreen")
+
+ggplot2::ggplot(latest_orgs_data,
+                aes(x = fte, y = running_costs, fill = classification))+
+    geom_jitter(size = 4.5, shape = 21, fill = plot_color_hightlight)+ 
+  scale_x_continuous(labels =
+                         label_number(scale_cut = cut_short_scale()))+
+  scale_y_continuous(labels =
+                         label_number(scale_cut = cut_short_scale()))+
+    gghighlight::gghighlight(organisation == org_highlight, label_key = organisation,
+                             use_group_by = FALSE, use_direct_label = TRUE)+
+    theme_minimal()+
+    xlab("Staff Employed (FTE)") +
+    ylab("Running Costs (£)")
 ```
 
+## Over Time: `r organisation`
+
+#### `r organisation`: FTE Over Time Compared Against Other `r clas_highlight` Organisations
+
+```{r}
+#|: warning: FALSE
+# time series
+
+orgs_data %>% 
+    filter(classification == clas_highlight) %>% 
+    ggplot2::ggplot(aes(x = time, y = fte))+
+    geom_line(aes(group = organisation), color = plot_color_hightlight, linewidth = 1.4)+
+    gghighlight::gghighlight(organisation == org_highlight, label_key = organisation, 
+                             use_group_by = FALSE, use_direct_label = FALSE)+
+    theme_minimal()+
+    xlab("Year (March 31st)") +
+    ylab("Staff Employed (FTE)") +
+    geom_point(data = latest_orgs_data %>% 
+                 filter(classification == clas_highlight, 
+                        organisation == org_highlight),
+               aes(x = time, y = fte, fill = classification), 
+               size = 4.5, shape = 21, fill = plot_color_hightlight)
+    # geom_label(data = filter(latest_orgs_data,
+    #                          organisation == org_highlight), 
+    #            aes(label = organisation), 
+    #            fill = plot_color_hightlight, 
+    #            color = "white",
+    #            nudge_x = -1.4,
+    #            nudge_y = -10)
+```

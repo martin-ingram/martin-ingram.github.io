@@ -1,14 +1,25 @@
 ---
-title: "Quarto Test Slides <br> with Palmer Penguins"
+title: "Organisations Directory Prototype"
+title-slide-attributes:
+  data-background-image: /Images/London.png
+  data-background-size: stretch
+  data-background-color: black
+  data-background-opacity: "0.2"
 author: "Martin Ingram"
 format:
   revealjs:
     transition: slide
     background-transition: fade
-    incremental: true  
+    incremental: false  
     slide-number: c/t
-    # theme: [default, scss_style.scss] 
-    footer: "[palmer penguins](https://allisonhorst.github.io/palmerpenguins/)"
+    toc-depth: 1
+    self-contained: false # logo wont show when self-contained
+    logo: "/Images/testlogo.png"
+    theme:
+      - default
+      - scss_style.scss
+    # footer: "[palmer penguins](https://allisonhorst.github.io/palmerpenguins/)"
+css: scss_style.scss
 date: today
 date-format: "DD/MM/YYYY"
 editor: visual
@@ -19,34 +30,67 @@ library(tidyverse)
 library(plotly)
 library(reactable)
 library(downloadthis)
+library(scales)
+
+options(scipen = 999)
 
 # load penguins data and remove NA values
-penguin_data <- palmerpenguins::penguins %>% 
-    drop_na() 
+orgs_data <- read_csv("2023-11-21 - fictional_orgs_time_series.csv")
 
 # make up table data
-table_data <- penguin_data %>% 
-    select(1:5)
-
+table_data <- orgs_data %>% 
+  select(2:6) %>% 
+  distinct() %>% 
+  mutate(organisation =
+    paste0('<a href=\"', 'https://martin-ingram.github.io/orgs_test/report/#', 
+   snakecase::to_parsed_case(tolower(organisation), sep_out = "-"), '\">', organisation, '</a>'))
+  
 # tidy column names for table
-names(table_data) <- str_replace_all(names(table_data),
+names(table_data) <- str_to_title(str_replace_all(names(table_data),
                                      pattern = "_",
-                                     replacement = " ")
+                                     replacement = " "))
 
+# Large Number Label Formatter
+format_bignum = function(n, input_digits = 2){
+    case_when(
+        n >= 1e12 | n <= -1e12 ~ paste(janitor::round_half_up(n/1e12, 
+                                 digits = input_digits), 'Tn'),
+        n >= 1e9  | n <= -1e9 ~ paste(janitor::round_half_up(n/1e9,
+                                 digits = input_digits), 'Bn'),
+        n >= 1e6  | n <= -1e6 ~ paste(janitor::round_half_up(n/1e6,
+                                 digits = input_digits), 'M'),
+        n >= 1e3  | n <= -1e3 ~ paste(janitor::round_half_up(n/1e3, 
+                                 digits = input_digits), 'K'),
+        TRUE ~ as.character(n))
+}
+
+# build tooltip_labels 
+orgs_data <- orgs_data %>% 
+    mutate(across(c("fte", 
+                    "running_costs",
+                    "investment_costs",
+                    "funding"), \(x)
+            format_bignum(n = x),
+          .names = "label_{.col}"))   
+              
+# get latest data 
+latest_orgs_data <- orgs_data %>% 
+  filter(time == max(time))
 ```
 
-## Organisations Directory  {#image background-image="Images/London.png" background-image-opacity=0.5}
+# Organisations Directory {#image background-image="/Images/London.png" background-opacity="0.2"}
 
-## Palmer Penguins
+##  **About**
 
-\
-\
+-   **You can navigate this document using the 3 lines in the bottom left-hand corner**
 
--   [https://allisonhorst.github.io/palmerpenguins/](https://allisonhorst.github.io/palmerpenguins/https://allisonhorst.github.io/palmerpenguins/)
+-   This is a Technical Demo built using [Quarto](https://quarto.org/)
 
--   Artwork by @allison_horst
+-   All data used in this report is synthetic, and is only used demonstratively for future prototypes using live data
 
-```{r Download Button, echo=FALSE}
+-   Everything in the [Automated Outputs](#automation_output) section is built using templates, and so is automatically generated, meaning some elements may need to be tweaked.
+
+```{r Download Button, echo=FALSE, eval=FALSE}
 # option to download data
 palmerpenguins::penguins %>% 
   download_this(output_name =
@@ -54,60 +98,126 @@ palmerpenguins::penguins %>%
                        " - penguins_table_data"),
                 button_label = "Download Penguins Data",
                 output_extension = ".xlsx",
-                button_type = "primary",
+                button_type = "info",
                 has_icon = TRUE,
                 self_contained = TRUE,
-                icon = "fa fa-save")
+                icon = "fa fa-save", 
+                id = 'peng-btn')
 ```
 
-## Plot
+## **Methods and Data Quality**
 
-```{r Build Plot, fig.width=10, fig.height=5.5}
+-   Space for notes on data quality
 
-peng_plot <- ggplot(penguin_data, 
-                    aes(
-               x = flipper_length_mm,
-               y = body_mass_g, 
-               fill = species))+
-  geom_point(shape = 21, size = 4, alpha = 0.7) +
+-   Methodological issues and irregularities in the data can go here too
+
+-   Possibly link to other data sources etc. where relevant
+
+-   [Download organisations data](https://martin-ingram.github.io/orgs_test/report/#about) (seems to be bug in download buttons for slides so temporary link used in meantime)
+
+## **FTE By Running Costs in 2023 (All Orgs)**
+
+```{r Build Plot, echo=FALSE, warning=FALSE, results='asis'}
+#| fig.height: 5
+#| fig-width: 9
+#| fig-align: center
+
+# plot orgs fte and running costs data
+org_fte_running_cost_plot <- ggplot(latest_orgs_data, 
+               aes(
+               x = fte,
+               y = running_costs, 
+               fill = classification))+
+  geom_point(shape = 21, size = 4, alpha = 0.7, 
+             aes(text = paste0("Organisation: ",
+                               organisation, "\n",
+                               "Running Costs: £",
+                               label_running_costs, "\n",
+                               "Staff (FTE): ", label_fte, "\n",
+                               "Classification: ",
+                               classification, "\n", 
+                               "Parent Company: ", parent_company))) +
   theme_minimal() +
-  scale_fill_brewer(palette = "RdYlBu") +
-    xlab("Flipper Length (mm)") +
-    ylab("Body Mass (g)")
+  scale_x_continuous(labels =
+                         label_number(scale_cut = cut_short_scale()))+
+  scale_y_continuous(labels =
+                         label_number(scale_cut = cut_short_scale()))+
+  scale_fill_brewer(palette = "RdYlBu")+
+    xlab("Staff Employed (FTE)") +
+    ylab("Running Costs (£)")
 
-ggplotly(peng_plot) 
+ggplotly(org_fte_running_cost_plot, tooltip = "text") 
 ```
 
-## Table
+## **Table Of Organisations**
 
-```{r Build Table}
+```{r Build Table, echo=FALSE, results='asis'}
 # make interactive table
+# replace with DT table if sharing offline .html file as reactable flags 
+# up as virus in Gmail/Google Drive… 
 reactable(table_data,
-          defaultPageSize = 6)
+          defaultPageSize = 10,
+          filterable = TRUE, 
+          sortable = TRUE, 
+          resizable = TRUE,
+          defaultColDef = colDef(align = "right"),
+          columns = list(
+            Organisation = colDef(html = TRUE, 
+                                  align = "left",
+                                  style = list(fontWeight = "bold",
+                                          background = "#e3f4ff"))))
 ```
 
-```{r Build Data, include=FALSE}
-avg_dimensions <- penguin_data %>% 
-    group_by(species) %>% 
-    summarise(across(c(bill_length_mm, bill_depth_mm,
-                       flipper_length_mm, body_mass_g), 
-                     \(x) mean(x, na.rm = TRUE))) %>% 
+```{r Build Summary Data, include=FALSE}
+# summaries by parent company
+parent_summaries <- latest_orgs_data %>% 
+    group_by(time, parent_company) %>%
+    mutate(parent_count = n()) %>% 
+    group_by(time, parent_company, parent_count) %>%
+    summarise(across(c(fte, running_costs,
+                       investment_costs, funding), 
+                     \(x) sum(x, na.rm = TRUE))) %>% 
   mutate(across(where(is.numeric), 
-                \(x) janitor::round_half_up(x, digits = 1)))
+                \(x) janitor::round_half_up(x, digits = 1))) %>% 
+    mutate(across(c("fte", 
+                    "running_costs",
+                    "investment_costs",
+                    "funding"), \(x) format_bignum(n = x),
+                  .names = "label_{.col}"))
+
+# summaries by classification type
+classification_summaries <- latest_orgs_data %>% 
+    group_by(time, classification) %>%
+    mutate(classification_count = n()) %>% 
+    group_by(time, classification, classification_count) %>%
+    summarise(across(c(fte, running_costs,
+                       investment_costs, funding), 
+                     \(x) sum(x, na.rm = TRUE))) %>% 
+  mutate(across(where(is.numeric), 
+                \(x) janitor::round_half_up(x, digits = 1))) %>% 
+    mutate(across(c("fte", 
+                    "running_costs",
+                    "investment_costs",
+                    "funding"), \(x) format_bignum(n = x),
+                  .names = "label_{.col}"))
 ```
 
 # Automated Slides
 
 ```{r Function for building slides, include=FALSE}
 # Function to build automated slides
+# Function to render each individual organisation summary
 render_child <- function(row) {
     
-    species <- row$species
+    organisation <- row$organisation
+    classification <- row$classification
     data <- row
     
   res <- knitr::knit_child(
-    text = xfun::read_utf8("_template_slides.qmd"),
-    envir = rlang::env(data = data, species = species),
+    text = xfun::read_utf8("_template_org_slides.qmd"),
+    envir = rlang::env(data = data,
+                       organisation = organisation,
+                       classification = classification),
     quiet = TRUE
   )
   cat(res, sep = '\n')
@@ -115,7 +225,41 @@ render_child <- function(row) {
 }
 ```
 
-```{r Render Slides, results='asis'}
-# render each slide
-purrr::walk(1:nrow(avg_dimensions), ~ render_child(avg_dimensions[.x, ]))
+# **Departments**
+
+```{r Render Dept Orgs, results='asis', echo=FALSE}
+Dept_Orgs <- latest_orgs_data %>% 
+  filter(classification == "Department")
+
+purrr::walk(1:nrow(Dept_Orgs), ~ render_child(Dept_Orgs[.x, ]))
 ```
+
+# **Agencies**
+
+```{r Render Agency Orgs, results='asis', echo=FALSE}
+Agency_Orgs <- latest_orgs_data %>% 
+  filter(classification == "Agency")
+
+purrr::walk(1:nrow(Agency_Orgs), ~ render_child(Agency_Orgs[.x, ]))
+```
+
+# **External Bodies**
+
+```{r Render EB Orgs, results='asis', echo=FALSE}
+EB_Orgs <- latest_orgs_data %>% 
+  filter(classification == "External Body")
+
+purrr::walk(1:nrow(EB_Orgs), ~ render_child(EB_Orgs[.x, ]))
+```
+
+# Other Resources
+
+## Other Resources
+
+-   Space for other resources
+
+-   Links
+
+-   Publications
+
+-   GitHub link etc.
