@@ -42,7 +42,7 @@ table_data <- orgs_data %>%
   select(2:6) %>% 
   distinct() %>% 
   mutate(organisation =
-    paste0('<a href=\"', 'https://martin-ingram.github.io/orgs_test/report/#', 
+    paste0('<a href=\"', 'https://martin-ingram.github.io/orgs_test/slides/#/', 
    snakecase::to_parsed_case(tolower(organisation), sep_out = "-"), '\">', organisation, '</a>'))
   
 # tidy column names for table
