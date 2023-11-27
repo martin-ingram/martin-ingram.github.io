@@ -14,7 +14,6 @@ theme:
   - scss_style.scss
 format:
   html:
-    # linkcolor: red
     code-fold: true
     code-summary: "Reveal code"
     embed-resources: true
