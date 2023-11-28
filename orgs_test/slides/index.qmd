@@ -5,7 +5,7 @@ title-slide-attributes:
   data-background-size: stretch
   data-background-color: black
   data-background-opacity: "0.2"
-author: "Organisations Team"
+author: "<br>Organisations Team"
 format:
   revealjs:
     transition: slide

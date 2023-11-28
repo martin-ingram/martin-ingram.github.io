@@ -49,8 +49,9 @@ ggplot2::ggplot(latest_orgs_data,
     gghighlight::gghighlight(organisation == org_highlight, label_key = organisation,
                              use_group_by = FALSE, use_direct_label = TRUE)+
     theme_minimal()+
-    xlab("Staff Employed (FTE)") +
-    ylab("Running Costs (£)")
+    theme(axis.title = element_text(face = "bold"))+
+    xlab("\nStaff Employed (FTE)") +
+    ylab("Running Costs (£)\n")
 ```
 
 ## Over Time: `r organisation`
@@ -58,7 +59,9 @@ ggplot2::ggplot(latest_orgs_data,
 #### `r organisation`: FTE Over Time Compared Against Other `r clas_highlight` Organisations
 
 ```{r}
-#|: warning: FALSE
+#| warning: FALSE
+#| fig-align: center
+#| 
 # time series
 
 orgs_data %>% 
@@ -68,8 +71,9 @@ orgs_data %>%
     gghighlight::gghighlight(organisation == org_highlight, label_key = organisation, 
                              use_group_by = FALSE, use_direct_label = FALSE)+
     theme_minimal()+
-    xlab("Year (March 31st)") +
-    ylab("Staff Employed (FTE)") +
+    xlab("\nYear (March 31st)") +
+    ylab("Staff Employed (FTE)\n") +
+    theme(axis.title = element_text(face = "bold"))+
     geom_point(data = latest_orgs_data %>% 
                  filter(classification == clas_highlight, 
                         organisation == org_highlight),
