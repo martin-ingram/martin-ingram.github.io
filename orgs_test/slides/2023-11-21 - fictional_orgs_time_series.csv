@@ -1,617 +1,617 @@
-time,organisation,content_type,source_content,parent_company,classification,fake_org_ceo_name,fake_contact_number,fte,running_costs,investment_costs,funding
-2010,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1002,18487863,1230497,14675340
-2011,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1101,23799570,1317415,16713401
-2012,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1178,3129720,670045,6256811
-2013,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1255,47891149,3545159,40937346
-2014,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1310,5950666,2315816,20408285
-2015,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1308,3885413,1038081,9452655
-2016,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1409,48588158,2098522,29292322
-2017,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1435,39621554,1005120,18117388
-2018,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1478,50016334,2808981,35453942
-2019,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1443,60526717,2226379,33321580
-2020,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1630,20637121,67675040,17725569
-2021,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1727,36924916,652514,14562382
-2022,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1740,28861417,3049265,32128374
-2023,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1824,48907445,113728095,35456314
-2010,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1308,9260321,1618658,15539794
-2011,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1462,37119457,2026810,25839253
-2012,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1632,-4447749,34721252,4561635
-2013,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1806,35546124,4324362,44217314
-2014,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1862,20017973,73395568,22641388
-2015,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1957,36503779,3396839,36878702
-2016,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2125,32230562,1903746,23611573
-2017,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2190,28217684,1913223,22685779
-2018,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2238,55779999,3085558,39154543
-2019,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2363,59150793,3265088,41464026
-2020,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2477,39749862,1940073,25788196
-2021,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2572,29786700,2324665,26439592
-2022,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2615,27540324,1618526,20108719
-2023,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2748,54422001,4603132,51213885
-2010,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2349,71679060,250983119,59768240
-2011,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2487,52791017,152390393,48770775
-2012,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2509,78997889,7856645,83939613
-2013,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2651,68254086,5268408,60107321
-2014,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2786,61406403,7617666,77589244
-2015,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2857,93292054,319316233,91977450
-2016,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,1152,49808785,4730150,51098332
-2017,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3031,35453067,2850199,32149886
-2018,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3222,58163095,4158775,48518683
-2019,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3237,78369034,287454203,74209707
-2020,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,422,80458622,6462808,72916907
-2021,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3444,79189197,7000572,76993177
-2022,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3566,12603474,1008802,11392954
-2023,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3610,63120783,6493947,68836858
-2010,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1301,28878227,1822933,22113234
-2011,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1367,54633641,2192452,31571117
-2012,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1449,25272665,3298418,33266807
-2013,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1528,40896541,2837290,33405286
-2014,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1653,45493874,4093678,44819521
-2015,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1646,4888026,81622,1888873
-2016,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1761,30916587,1357614,18821083
-2017,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1768,45709953,3799986,42474031
-2018,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1857,37509495,1138640,18680256
-2019,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1928,21277649,1848702,20423626
-2020,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1996,24127375,3229742,32419391
-2021,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,2071,16700080,1855977,19338668
-2022,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,2147,6935947,844578,8634338
-2023,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,2224,28111730,867881,14118673
-2010,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,2864,15645029,252593,5974982
-2011,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,2867,106943112,9254735,102348557
-2012,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,2985,16898862,229577,6100396
-2013,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,2979,112603158,9472075,105539276
-2014,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3095,110252623,8944748,100643290
-2015,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3144,32974906,1128655,17465029
-2016,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,2137,51459627,4612218,50547520
-2017,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3303,57297343,5722227,61075913
-2018,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3418,24610865,716699,12008267
-2019,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3427,28955014,738549,13272828
-2020,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,1791,54520192,5538682,58882032
-2021,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3513,111447198,9477320,105293132
-2022,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3640,26999159,2352578,25970755
-2023,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3705,50971908,4370114,48447557
-2010,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,1569,41668487,3679257,40477285
-2011,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,1627,44448156,3857276,42626647
-2012,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,1705,-849163,1641496,13199016
-2013,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,1849,54422625,4158377,47580312
-2014,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,1971,20454505,1934192,20916305
-2015,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2022,34569074,3068349,33711208
-2016,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2074,2163120,212242,2274832
-2017,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2179,56420598,4790299,53242716
-2018,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2387,41454041,3409677,38221158
-2019,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2431,65261627,4514265,53197726
-2020,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2491,39588691,2092097,26989966
-2021,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2547,44228100,2813629,34044858
-2022,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2556,9940153,2108008,19707824
-2023,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2509,43551534,2952171,35007632
-2010,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,3828,51411367,6302897,64348598
-2011,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,3850,63440911,2715240,38044207
-2012,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,3921,47859359,3647715,41767298
-2013,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,3977,111072570,11746021,123735158
-2014,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4002,33323877,2234779,26589494
-2015,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4083,138125904,532697161,140683366
-2016,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4144,71813096,5070924,59383598
-2017,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4215,105066107,8429414,95136290
-2018,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4216,-21229030,823423,1420247
-2019,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4314,103053708,8434946,94678384
-2020,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4392,88883315,10150936,105155725
-2021,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4455,140950317,12710105,139081328
-2022,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4502,36146850,222143942,43939678
-2023,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4577,51549838,4384607,48710454
-2010,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2024,33733803,2052189,25200190
-2011,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2069,82035199,4809125,59800176
-2012,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2173,13603377,843164,10289636
-2013,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2199,54190156,1748376,27832076
-2014,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2371,53890449,5983287,62357094
-2015,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2360,29466240,2299764,26156024
-2016,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2472,40452038,3734366,40623423
-2017,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2514,60172690,6097424,64860175
-2018,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2604,17890616,58106,4947392
-2019,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2715,32834431,1626353,21496194
-2020,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2852,-2984681,1010427,7509190
-2021,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2986,8566812,725498,8069150
-2022,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,3042,42006458,5035532,51642775
-2023,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,3072,35964775,1139506,18301151
-2010,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,991,32104384,1142172,17357838
-2011,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1122,47772117,3189570,38002366
-2012,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1229,53047788,2167980,30974715
-2013,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1284,17640685,542330,8841104
-2014,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1373,39424122,2509405,30358297
-2015,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1445,10727116,1102777,11691656
-2016,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1563,56843707,106477542,33122663
-2017,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1697,12197345,258704,5162996
-2018,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1769,7420441,184227,3360281
-2019,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1886,25184570,1926625,22036997
-2020,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1975,52610863,1748532,27438520
-2021,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,2094,6371869,599650,6492210
-2022,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,2143,33814805,1763005,22857758
-2023,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,2234,33247345,2443458,28275312
-2010,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1135,37382203,1574744,22211481
-2011,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1198,59770263,201315143,47838153
-2012,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1285,1858875,150683,1695823
-2013,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1299,1018163,1545736,12883467
-2014,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1327,62597051,103148499,41984918
-2015,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1399,36573132,167259,10509818
-2016,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1491,40609038,3725743,40592222
-2017,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1571,56244280,2804150,36971454
-2018,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1647,29875412,1170468,17031775
-2019,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1723,14150647,487273,7518764
-2020,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1772,28721357,935753,14825598
-2021,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1889,36538444,2574845,30171535
-2022,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1972,21868747,269940,7672640
-2023,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,2060,38072283,2431414,29383142
-2010,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2453,76714102,6275619,70451412
-2011,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2446,26186923,1667519,20170652
-2012,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2480,22826167,43794553,12212161
-2013,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2540,87751966,6319701,73571036
-2014,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2601,78575212,6113731,69594039
-2015,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2677,65814208,5118590,58273317
-2016,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,1846,50145751,3715564,42893232
-2017,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2764,78756907,6999680,76877818
-2018,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2799,57815471,6458534,67221204
-2019,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2837,16671211,1480804,16266225
-2020,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,1546,32238964,999448,16225400
-2021,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2996,70452912,5883440,65681947
-2022,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,3064,19007984,1307769,15436693
-2023,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,3104,44530704,2672794,32969863
-2010,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2456,28775958,2892631,30827285
-2011,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2573,96040690,8566132,93996942
-2012,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2606,47733346,4678590,50158225
-2013,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2772,37346060,3357105,36764642
-2014,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2853,87938276,7372588,82219884
-2015,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2969,32743481,93937214,31442937
-2016,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,1742,51134400,4202667,47120109
-2017,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3151,37762631,2347509,28620213
-2018,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3211,15475985,1633126,17211915
-2019,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3268,93579259,240492141,71318283
-2020,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,1524,64358040,4305717,51267959
-2021,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3426,74462396,6202941,69294692
-2022,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3491,60264374,7059454,72743049
-2023,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3539,104567721,8558415,96065656
-2010,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,833,44014355,86035106,26979080
-2011,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,887,17817594,37731,4762670
-2012,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1014,22438330,562512,10205401
-2013,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1085,7698398,134250,3021443
-2014,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1152,9534724,1609691,15535130
-2015,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1231,14609529,1083834,3858315
-2016,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1296,38691308,766307,15933688
-2017,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1381,39602098,2677925,31779633
-2018,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1482,2981436,366324,3738291
-2019,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1580,56550794,1275257,24556770
-2020,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1635,11455058,379926,5967825
-2021,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1660,41772195,111871842,30754431
-2022,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1739,31470344,1045258,16407521
-2023,Crane  Poole and Schmidt,TV Show,Boston External Body,Disney,External Body,Harper Allen,789-012-3458,1786,19699093,44747815,14805783
-2010,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,222,20095747,570890,9688206
-2011,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,291,9661965,173785,3835344
-2012,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,303,17082769,488702,8263471
-2013,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,343,27891446,299021,9415911
-2014,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,399,26873880,482806,10663076
-2015,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,512,12505791,546355,7590266
-2016,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,543,27674024,26506,7135064
-2017,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,688,26268179,579313,11300132
-2018,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,799,-2288959,483236,3375880
-2019,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,922,14641147,334003,6389152
-2020,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,1034,30960758,308949,10264357
-2021,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,1160,-17653864,434167,-866249
-2022,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,1288,6810847,59661,2190150
-2023,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,1282,27592640,565675,11519821
-2010,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,836,24300314,763471,12312766
-2011,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,940,8979940,693413,7910286
-2012,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1062,33789232,1682128,22190587
-2013,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1174,7968409,425318,5467024
-2014,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1257,3642210,306138,3411751
-2015,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1313,-6502417,539448,2781776
-2016,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1479,27412909,660583,12250305
-2017,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1597,28157905,1423076,18666255
-2018,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1699,15516433,69325,4445505
-2019,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1749,36235426,714593,14897204
-2020,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1818,21772271,2348251,24628683
-2021,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1889,12440860,661968,8518607
-2022,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1969,5627157,246507,3420793
-2023,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,2021,34803995,2522174,29307598
-2010,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1114,54625316,1942937,29530460
-2011,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1284,31814648,835232,14777651
-2012,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1379,13961876,1227965,13523152
-2013,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1334,54441929,3758166,44315344
-2014,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1429,10641005,1078234,11469609
-2015,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1565,22060774,2133258,22944280
-2016,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1645,34203021,57734963,21653660
-2017,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1711,49359091,2721710,34576609
-2018,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1774,43453663,3644383,40638656
-2019,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1928,-3148970,532316,3561871
-2020,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,2036,21674591,14658931,8655566
-2021,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,2098,37910821,2287739,28168925
-2022,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,2232,23073449,323535,8411699
-2023,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,2288,9367699,1470859,14359095
-2010,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,61,24418680,0,6104670
-2011,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,287,14955838,0,3738959
-2012,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,469,-5850855,0,-1462714
-2013,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,665,12014805,0,3003701
-2014,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1050,13232152,0,3308038
-2015,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1154,22542871,0,5635718
-2016,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1280,-5523640,0,-1380910
-2017,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1530,22054193,0,5513548
-2018,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1782,12100392,0,3025098
-2019,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1716,15351632,0,3837908
-2020,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1855,3755227,0,938807
-2021,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1971,8022000,0,2005500
-2022,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,2252,9263185,0,2315796
-2023,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,2424,4650890,0,1162722
-2010,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2107,75912307,6880482,75192800
-2011,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2189,16293399,711128,9883391
-2012,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2258,43011429,3898577,42604902
-2013,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2269,14852213,154158,4972548
-2014,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2318,86166638,6033922,70839837
-2015,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2316,31686823,2241165,26232406
-2016,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2458,52354221,6235764,64035816
-2017,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2474,38001312,3247544,36033321
-2018,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2509,76471617,5764581,66215524
-2019,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2608,51457258,5640907,58951492
-2020,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2719,17270244,1607115,17447968
-2021,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2808,58488477,6873515,70779916
-2022,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2904,62676147,4269600,50552407
-2023,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,3036,69139703,6340495,69087860
-2010,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,1734,64501186,3925420,48196654
-2011,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,1830,83046802,284998043,68281763
-2012,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,1928,44973800,132134613,37574243
-2013,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2092,52621447,4538219,50233389
-2014,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2190,45196228,3670710,41289389
-2015,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2230,67531748,5229724,59610679
-2016,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2316,37849548,1526871,21937184
-2017,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2404,60165923,5141461,57048103
-2018,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2481,85886396,5978738,70318919
-2019,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2526,31016001,907122,15165347
-2020,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2626,13268449,192683,4891367
-2021,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2653,25591691,3191000,32468943
-2022,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2730,35415920,2815190,31854565
-2023,Goliath National Bank External Body,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2803,15748664,2013704,20389476
-2010,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2053,66387718,4989965,57365802
-2011,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2105,36213419,1865023,24290912
-2012,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2252,19297615,450670,8506453
-2013,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2331,61113807,4796617,54467639
-2014,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2404,34599372,2346661,27822466
-2015,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2528,61360070,5572657,60869586
-2016,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2660,37732329,3681148,39508698
-2017,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2752,-8479106,442520,1495689
-2018,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2886,73989937,6461569,71289612
-2019,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2966,23100945,56390149,14808907
-2020,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,3129,70319943,1778841,32113426
-2021,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,3284,55886871,2720114,36195514
-2022,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,3357,86808691,270546478,79870891
-2023,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,3456,53630325,5274588,56501871
-2010,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,2935,43859127,229934475,50102370
-2011,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3080,55769671,3796005,44956429
-2012,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3090,59854453,6126637,65019289
-2013,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3149,32529341,1194040,17887848
-2014,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3277,69410146,5634349,63386139
-2015,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3466,53305932,5086676,54885499
-2016,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3602,83045014,7899873,85304576
-2017,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3677,89477949,7905176,86956136
-2018,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3954,32573415,2755455,30655891
-2019,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,4063,81923609,7255274,79757740
-2020,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,4333,46077350,4128026,45246022
-2021,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,4475,66729461,4077059,49992641
-2022,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,4565,59660581,4736389,53612255
-2023,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,4610,23010349,1472738,17785109
-2010,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,1737,39437180,3260475,36497940
-2011,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,1861,45497514,4548343,48535120
-2012,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,1942,70926848,4497013,54473079
-2013,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2119,31749721,2403266,27572527
-2014,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2285,28946993,1556494,19953570
-2015,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2394,37441081,2231140,27589066
-2016,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2472,18234455,1273837,14966082
-2017,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2576,52090956,4362015,48661152
-2018,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2628,55222547,1810577,28598360
-2019,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2717,61645580,5737656,62289035
-2020,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2876,63841125,5896608,64136583
-2021,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2924,30429208,495505,11655660
-2022,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2994,22186314,2577617,26606149
-2023,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,3060,42958501,3155078,36517155
-2010,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,3251,33255836,1085957,17186413
-2011,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,3142,86717608,7289860,81238813
-2012,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,3078,93067790,7534598,84825906
-2013,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,3053,103368445,10277212,109808704
-2014,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,2850,84273702,6552116,74600338
-2015,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,2617,32489295,1063002,16807230
-2016,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,2414,103649991,11908443,123206525
-2017,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,2223,20236464,114776,5996855
-2018,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,2176,63206851,316177635,62769453
-2019,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,1914,41346841,177336209,38745874
-2020,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,1722,28353881,1605450,20205275
-2021,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,1447,96959338,9165122,99120458
-2022,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,1316,79353491,6473715,72729738
-2023,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,1282,144198846,444244957,134145867
-2010,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,999,59872295,4618891,52705208
-2011,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,949,22487828,109724822,27487095
-2012,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,817,62481322,4269074,50499398
-2013,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,540,25595063,1222566,16387336
-2014,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,400,48361257,901202,19453287
-2015,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,289,32610179,3222148,34478050
-2016,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,57,33062988,2097175,25400029
-2017,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,26834570,33980540,14640838
-2018,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,39893456,2256062,28405780
-2019,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,9741097,328544,5119533
-2020,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,31581126,2976173,32211123
-2021,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,55718839,144665331,39624072
-2022,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,32875545,3382498,35854474
-2023,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,54319673,4309626,48790308
-2010,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,1986,57583005,4172711,48487522
-2011,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,1979,41023046,2242115,28574231
-2012,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2045,91658868,5925549,71327471
-2013,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2117,22580212,126939092,32237726
-2014,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2103,9374107,111369,3253432
-2015,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2126,-6696772,368481,1336359
-2016,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2199,60175370,6170679,65459351
-2017,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2248,78647554,6341170,71470339
-2018,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2333,11128941,89958231,19874659
-2019,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2332,74630646,5669026,64974584
-2020,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2363,37073946,3895958,41099134
-2021,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2514,40622815,2353878,29387288
-2022,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2603,25027648,2416339,25998814
-2023,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2617,51685003,244607828,50628572
-2010,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,869,18049870,460410,8274099
-2011,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,927,16380707,1110651,13169383
-2012,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,964,30916936,1380613,19009082
-2013,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,976,39141041,2204269,27794514
-2014,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1105,35449421,103256532,31062977
-2015,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1196,4149636,1393939,12426133
-2016,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1305,27276666,1356079,17898568
-2017,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1345,21391847,104300022,29018771
-2018,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1415,33174465,953033,16080057
-2019,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1406,32441521,60366443,23055963
-2020,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1489,39685341,1967047,25992451
-2021,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1587,23307343,596583,10701022
-2022,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1715,36185561,2540244,29800619
-2023,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1779,26591719,1759214,21021012
-2010,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,212,10687470,453573,6377640
-2011,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,285,11416625,612145,7855490
-2012,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,414,9511247,23640339,7206453
-2013,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,498,32114310,525245,12319920
-2014,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,579,8190253,322532,4682701
-2015,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,658,15034412,141583,4915364
-2016,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,736,18090180,144349,5701901
-2017,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,813,-9956059,227999,-626225
-2018,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,893,4731571,166456,2542865
-2019,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,903,6517806,549345,6117696
-2020,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,1034,15876155,81657,4636186
-2021,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,1123,13915088,470454,7322464
-2022,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,1235,10617829,136429,3769109
-2023,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,1401,15960891,61346,4491427
-2010,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,510,19315164,67432878,14845849
-2011,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,556,8004996,44435,2364291
-2012,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,624,24577053,592732,10986985
-2013,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,683,7087145,1278888,12220521
-2014,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,673,22684337,679259,11220744
-2015,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,731,14408173,1267525,13957940
-2016,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,714,6091939,656533,6886970
-2017,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,829,23757575,1227998,15972347
-2018,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,830,34844721,1113439,17808172
-2019,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,942,24944310,565717,10858085
-2020,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,1009,1619313,50227,815192
-2021,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,1086,37018219,1264916,19589139
-2022,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,1203,11290567,51421,3242758
-2023,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,1354,29511968,56278410,17373738
-2010,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,1991,54909854,2944234,37782360
-2011,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2053,62831041,5504516,60680600
-2012,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2153,33124047,3342049,35586126
-2013,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2257,48543645,3103561,37492536
-2014,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2355,68296367,6322247,68727935
-2015,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2495,26051874,3701891,36758053
-2016,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2656,70251759,5656208,63775130
-2017,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2726,24858700,1215144,16142614
-2018,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2757,54303170,5260201,56552539
-2019,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2907,60688992,4243964,49846165
-2020,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,3004,32923601,3797728,39258992
-2021,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,3050,42712240,4163597,44695367
-2022,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,3067,43578925,2958901,35069459
-2023,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,3160,22274321,2248660,23940520
-2010,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2478,14915839,520121,7978441
-2011,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2545,52979920,6062553,62777079
-2012,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2543,94723183,7320236,83488382
-2013,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2648,111315084,8393146,96402215
-2014,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2825,37275446,1462873,21270787
-2015,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2904,44776441,1810982,25990144
-2016,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2957,68724620,6601560,71117034
-2017,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3043,83502019,5894879,69037678
-2018,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3196,29472562,1329653,18231632
-2019,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3255,28110919,3046461,31917844
-2020,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3271,56089436,4978924,54701026
-2021,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3324,50230182,114026014,30135133
-2022,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3344,23881689,830204,12753328
-2023,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3388,33913800,2204773,26491829
-2010,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1258,60349883,3862125,46641693
-2011,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1406,28828660,3239788,33676787
-2012,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1514,49675103,2849753,35701750
-2013,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1568,20894004,70318479,20750909
-2014,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1632,-5037853,225829,585599
-2015,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1714,29301195,1555780,20036291
-2016,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1766,65158959,4143851,50145713
-2017,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1830,24679349,2131931,23588077
-2018,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1864,3908833,844431,7876357
-2019,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1939,48841435,3153514,37975114
-2020,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,2065,43501326,4285398,45887774
-2021,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,2171,9278220,334386,5051549
-2022,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,2259,50016359,3295062,39425315
-2023,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,2405,50020710,3217130,38789683
-2010,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,152,8554553,0,2138638
-2011,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,92,25411033,0,6352758
-2012,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,201,7676133,0,1919033
-2013,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,279,20689097,0,5172274
-2014,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,284,12826821,0,3206705
-2015,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,482,25036689,0,6259172
-2016,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,562,22197506,0,5549377
-2017,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,611,13510209,0,3377552
-2018,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,717,8921938,0,2230484
-2019,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,852,23187606,0,5796902
-2020,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,922,9713424,0,2428356
-2021,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,994,18375802,0,4593950
-2022,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,1113,-5014991,0,-1253748
-2023,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,1198,16166685,0,4041671
-2010,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2130,3559422,5976470,1928766
-2011,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2202,21931176,133929,6577021
-2012,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2247,79581481,5165065,62094837
-2013,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2290,62141734,356216805,72601171
-2014,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2430,76608702,5613612,65016350
-2015,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2518,12192227,304674,5537293
-2016,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,1197,64278954,6928152,72673930
-2017,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2827,59753130,4847061,54539608
-2018,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2875,79837708,6401320,72259314
-2019,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2951,35385119,3587532,38157035
-2020,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,650,73285090,6597454,72223605
-2021,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,3172,58914171,3825558,45984013
-2022,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,3276,25478135,1023407,14730947
-2023,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,3350,63072436,5159140,57919173
-2010,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2346,4243530,593658,5911168
-2011,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2437,50343454,5120385,54420287
-2012,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2508,91598003,7834281,86906928
-2013,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2587,13121785,819913,9979273
-2014,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2654,63351760,7959152,80865580
-2015,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2733,86148508,7158539,80023626
-2016,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2151,98949298,6904613,81149201
-2017,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2763,26415549,128358,7652598
-2018,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2861,67407174,6252124,67932726
-2019,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2953,72226675,7688948,80876698
-2020,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2102,39409050,3228958,36233407
-2021,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,3177,63128491,4870411,55574220
-2022,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,3259,57406575,4853669,54006953
-2023,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,3329,84116542,7398049,81472467
-2010,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,931,22332541,119369,6558404
-2011,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1088,17238087,1491069,16491808
-2012,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1151,32930495,1870820,23517541
-2013,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1221,21999288,469564,9336241
-2014,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1329,49918546,2118711,29789872
-2015,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1406,-5890676,1418799,10119160
-2016,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1493,29967575,2333519,26557145
-2017,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1497,-8943783,882590,4974965
-2018,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1619,28068687,83449307,24959151
-2019,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1660,30758111,915006,15165287
-2020,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1687,23197867,1557809,18527031
-2021,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1801,32365751,2472243,28290088
-2022,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1923,36552857,1735623,23318555
-2023,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1986,9556263,537830,6783226
-2010,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1334,37601840,1315440,20147834
-2011,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1406,67307021,206753115,52018600
-2012,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1510,55697238,4418630,50025277
-2013,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1650,48739931,3356840,39610940
-2014,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1771,40132162,686142,15638937
-2015,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1931,55724654,3874328,45585093
-2016,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1956,14283258,364923,6552302
-2017,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1983,31197941,1447628,19626854
-2018,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2080,41871193,2572160,31482792
-2019,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2159,16365137,2297194,22859757
-2020,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2202,41920066,2387822,29988932
-2021,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2252,64429492,214150657,50414191
-2022,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2391,38074890,1397354,20935343
-2023,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2417,34127560,2181229,26352902
-2010,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2250,45847360,3318998,38578622
-2011,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2254,64390257,5571743,61619662
-2012,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2332,20547955,738985,11174620
-2013,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2465,66454667,4989257,57376757
-2014,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2604,25531613,2943540,30432133
-2015,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2743,100707489,7097668,83166038
-2016,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2809,46501496,3204138,37803734
-2017,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2890,35813798,2174379,26718497
-2018,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2995,87002516,6976258,78747858
-2019,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,3121,32081267,171994633,39957266
-2020,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,3140,34776710,2595686,29901382
-2021,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,3241,42529242,2458370,30717613
-2022,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,3353,77263719,312078887,75976779
-2023,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,3503,32447078,2273799,26689097
-2010,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3359,117104523,11726255,125081653
-2011,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3523,33073985,49796275,19264284
-2012,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3566,55409258,5105788,55567477
-2013,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3625,70077917,6135369,67646504
-2014,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3788,54621953,4412149,49703504
-2015,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3888,41769794,5570860,55957336
-2016,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3936,15708118,166073,5283872
-2017,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3998,105752584,499910044,108125168
-2018,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4079,52867876,4537480,50288964
-2019,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4157,54421857,5759721,60663372
-2020,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4201,54611400,5130301,55568295
-2021,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4338,28167235,4040988,40057380
-2022,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4455,54574011,4606188,51276853
-2023,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4471,102931237,10923513,114979787
-2010,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,698,7396573,530511,6183513
-2011,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,665,36959796,879753,16427679
-2012,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,625,27738936,25715617,12613140
-2013,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,537,-500262,74394,482747
-2014,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,491,23944129,1444600,17788661
-2015,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,449,41649064,2134539,27851814
-2016,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,392,33121056,2103991,25470233
-2017,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,233,-736001,278877,2094474
-2018,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,61,19190449,21925225,9639041
-2019,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,0,21274507,1685675,19090884
-2020,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,0,16378695,1611362,17259777
-2021,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,0,-3309743,162087,496845
-2022,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,0,39928775,2216509,28091455
-2023,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,0,21356878,376726,8417135
-2010,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1467,51084162,3854479,44262799
-2011,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1410,23533779,2238005,24168331
-2012,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1452,44175938,122949506,36156950
-2013,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1430,67066915,5372990,60664984
-2014,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1258,35728471,2413022,28646919
-2015,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1124,21892763,305579,7969825
-2016,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1045,23093169,2395899,25348196
-2017,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,967,2183860,306238,3047980
-2018,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,888,70562394,5694375,64164624
-2019,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,805,50006068,4128282,46230292
-2020,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,722,38500632,1656647,23160251
-2021,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,676,43353311,5602339,56610403
-2022,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,658,39913153,1992850,26260217
-2023,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,641,10148163,579547,7272037
-2010,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1588,17008630,1141975,13582291
-2011,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1520,59006871,208069063,50167552
-2012,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1432,5727889,1826822,16357424
-2013,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1319,43134385,3390593,38485323
-2014,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1205,47981527,4499602,48757905
-2015,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1111,23295970,1420749,17431756
-2016,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1009,59238098,4880993,54688077
-2017,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,959,60358172,5015224,56064783
-2018,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,889,51770423,4768063,51898504
-2019,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,820,367498,600319,4996583
-2020,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,723,80271462,5202707,62574878
-2021,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,680,9470294,354342,5262608
-2022,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,544,25199436,1948374,22218407
-2023,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,491,29089703,1464196,19235163
-2010,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,3063,3234101,475735,4695360
-2011,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,3058,52966229,6162898,63593492
-2012,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2983,53204293,2414764,33030111
-2013,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2860,48378551,2300916,30893515
-2014,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2769,71968330,6651428,72335394
-2015,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2688,40064215,55744630,19706335
-2016,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2596,15035785,556774,8307883
-2017,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2484,87457092,7149473,80276699
-2018,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2421,49868653,4046042,45524023
-2019,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2407,105904052,10104606,109032384
-2020,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2302,68549809,5359726,60927337
-2021,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2262,71174141,6305618,69311520
-2022,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2138,50507926,5161558,54797799
-2023,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2011,73702673,7402105,78902137
-2010,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,333,26373992,337134,9347944
-2011,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,330,-3978949,61690,-490721
-2012,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,195,26189161,681480,12115098
-2013,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,37,19865882,819678,11663378
-2014,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,25759419,89187,7168525
-2015,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,23334763,1186924,15531064
-2016,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,3992150,5465429,2142999
-2017,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,22031672,1316722,16265764
-2018,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,-14596699,451995,43706
-2019,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,4061115,296800,3440189
-2020,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,24985205,1105146,15275537
-2021,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,18852338,628388,9847121
-2022,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,24136926,503820,10150525
-2023,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,7942197,855218,8972824
-2010,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,175,16267331,18405,4217208
-2011,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,102,27887659,1112330,16059841
-2012,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,10290378,490470,6579820
-2013,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,-4461665,173496,302072
-2014,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,25983158,449257,10166299
-2015,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,11268638,160991,4132486
-2016,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,16570273,334806,6877989
-2017,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,8462096,161342,3433718
-2018,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,5436845,33961227,7665327
-2019,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,16965742,979473,12243898
-2020,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,22792923,146478,6894977
-2021,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,25729331,504633,10555271
-2022,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,28713790,890955,14457701
-2023,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,8709032,557425,6731515
+time,organisation,content_type,source_content,parent_company,classification,fake_org_ceo_name,fake_contact_number,fte,running_costs,investment_costs,funding,total_costs,costs_to_funding_proportion
+2010,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1002,18487863,1230497,19954571,19718360,99
+2011,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1101,23799570,1317415,25353197,25116985,99
+2012,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1178,3129720,670045,4035976,3799765,94
+2013,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1255,47891149,3545159,51672519,51436308,100
+2014,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1310,5950666,2315816,8502694,8266482,97
+2015,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1308,3885413,1038081,5159705,4923494,95
+2016,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1409,48588158,2098522,50922891,50686680,100
+2017,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1435,39621554,1005120,40862885,40626674,99
+2018,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1478,50016334,2808981,53061526,52825315,100
+2019,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1443,60526717,2226379,62989307,62753096,100
+2020,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1630,20637121,67675040,88548372,88312160,100
+2021,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1727,36924916,652514,37813641,37577430,99
+2022,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1740,28861417,3049265,32146894,31910682,99
+2023,Abstergo Industries,Video Game,Assassins Creed,Ubisoft,Agency,Emma Lewis,403-257-8913,1824,48907445,113728095,162871751,162635539,100
+2010,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1308,9260321,1618658,14930287,10878978,73
+2011,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1462,37119457,2026810,43197576,39146267,91
+2012,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1632,-4447749,34721252,34324812,30273504,88
+2013,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1806,35546124,4324362,43921794,39870486,91
+2014,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1862,20017973,73395568,97464849,93413541,96
+2015,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,1957,36503779,3396839,43951926,39900617,91
+2016,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2125,32230562,1903746,38185617,34134308,89
+2017,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2190,28217684,1913223,34182215,30130906,88
+2018,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2238,55779999,3085558,62916866,58865557,94
+2019,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2363,59150793,3265088,66467189,62415881,94
+2020,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2477,39749862,1940073,45741244,41689935,91
+2021,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2572,29786700,2324665,36162674,32111365,89
+2022,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2615,27540324,1618526,33210159,29158851,88
+2023,Acme Corporation,Various,Looney Tunes,WB,Agency,Olivia Martin,987-654-3210,2748,54422001,4603132,63076442,59025134,94
+2010,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2349,71679060,250983119,326432356,322662179,99
+2011,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2487,52791017,152390393,208951588,205181410,98
+2012,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2509,78997889,7856645,90624712,86854534,96
+2013,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2651,68254086,5268408,77292672,73522494,95
+2014,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2786,61406403,7617666,72794247,69024069,95
+2015,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,2857,93292054,319316233,416378465,412608287,99
+2016,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,1152,49808785,4730150,58309112,54538934,94
+2017,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3031,35453067,2850199,42073445,38303267,91
+2018,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3222,58163095,4158775,66092048,62321871,94
+2019,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3237,78369034,287454203,369593415,365823237,99
+2020,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,422,80458622,6462808,90691608,86921430,96
+2021,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3444,79189197,7000572,89959947,86189769,96
+2022,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3566,12603474,1008802,17382454,13612276,78
+2023,All Saints Hospital,TV Show,Nurse Jackie,Paramount,Department,Gabriel Parker,234-567-8904,3610,63120783,6493947,73384908,69614730,95
+2010,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1301,28878227,1822933,34469998,30701160,89
+2011,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1367,54633641,2192452,60594930,56826092,94
+2012,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1449,25272665,3298418,32339920,28571083,88
+2013,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1528,40896541,2837290,47502669,43733832,92
+2014,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1653,45493874,4093678,53356389,49587552,93
+2015,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1646,4888026,81622,8738485,4969648,57
+2016,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1761,30916587,1357614,36043038,32274201,90
+2017,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1768,45709953,3799986,53278777,49509940,93
+2018,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1857,37509495,1138640,42416972,38648135,91
+2019,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1928,21277649,1848702,26895188,23126351,86
+2020,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,1996,24127375,3229742,31125954,27357117,88
+2021,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,2071,16700080,1855977,22324894,18556057,83
+2022,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,2147,6935947,844578,11549362,7780525,67
+2023,Angel of Mercy Hospital,TV Show,Mercy,NBC,Department,Isaac Stewart,512-346-7893,2224,28111730,867881,32748448,28979611,88
+2010,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,2864,15645029,252593,20338240,15897621,78
+2011,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,2867,106943112,9254735,120638466,116197847,96
+2012,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,2985,16898862,229577,21569057,17128438,79
+2013,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,2979,112603158,9472075,126515853,122075234,96
+2014,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3095,110252623,8944748,123637991,119197372,96
+2015,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3144,32974906,1128655,38544179,34103560,88
+2016,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,2137,51459627,4612218,60512463,56071844,93
+2017,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3303,57297343,5722227,67460189,63019570,93
+2018,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3418,24610865,716699,29768183,25327564,85
+2019,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3427,28955014,738549,34134182,29693563,87
+2020,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,1791,54520192,5538682,64499493,60058874,93
+2021,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3513,111447198,9477320,125365137,120924518,96
+2022,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3640,26999159,2352578,33792356,29351737,87
+2023,Aperture Science,Video Game,Portal,Fox,Agency,William Moore,123-456-7891,3705,50971908,4370114,59782641,55342022,93
+2010,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,1569,41668487,3679257,48294976,45347744,94
+2011,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,1627,44448156,3857276,51252664,48305432,94
+2012,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,1705,-849163,1641496,3739565,792333,21
+2013,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,1849,54422625,4158377,61528234,58581002,95
+2014,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,1971,20454505,1934192,25335929,22388697,88
+2015,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2022,34569074,3068349,40584656,37637424,93
+2016,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2074,2163120,212242,5322594,2375362,45
+2017,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2179,56420598,4790299,64158130,61210897,95
+2018,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2387,41454041,3409677,47810951,44863718,94
+2019,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2431,65261627,4514265,72723124,69775892,96
+2020,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2491,39588691,2092097,44628020,41680788,93
+2021,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2547,44228100,2813629,49988962,47041729,94
+2022,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2556,9940153,2108008,14995393,12048161,80
+2023,Arkham Asylum,Comic,Batman,DC,Department,Zoey Collins,890-123-4570,2509,43551534,2952171,49450937,46503705,94
+2010,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,3828,51411367,6302897,63077892,57714265,91
+2011,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,3850,63440911,2715240,71519779,66156151,93
+2012,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,3921,47859359,3647715,56870701,51507074,91
+2013,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,3977,111072570,11746021,128182219,122818591,96
+2014,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4002,33323877,2234779,40922283,35558655,87
+2015,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4083,138125904,532697161,676186693,670823066,99
+2016,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4144,71813096,5070924,82247648,76884021,93
+2017,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4215,105066107,8429414,118859148,113495521,95
+2018,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4216,-21229030,823423,-15041980,-20405608,136
+2019,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4314,103053708,8434946,116852281,111488654,95
+2020,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4392,88883315,10150936,104397879,99034251,95
+2021,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4455,140950317,12710105,159024050,153660422,97
+2022,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4502,36146850,222143942,263654419,258290792,98
+2023,Blue Star Group,Movie,Wall Street,Fox,External Body,Ella Hall,789-012-3460,4577,51549838,4384607,61298073,55934445,91
+2010,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2024,33733803,2052189,41017507,35785993,87
+2011,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2069,82035199,4809125,92075838,86844324,94
+2012,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2173,13603377,843164,19678055,14446541,73
+2013,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2199,54190156,1748376,61170047,55938533,91
+2014,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2371,53890449,5983287,65105250,59873736,92
+2015,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2360,29466240,2299764,36997518,31766004,86
+2016,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2472,40452038,3734366,49417918,44186404,89
+2017,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2514,60172690,6097424,71501628,66270114,93
+2018,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2604,17890616,58106,23180237,17948723,77
+2019,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2715,32834431,1626353,39692298,34460784,87
+2020,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2852,-2984681,1010427,3257260,-1974255,-61
+2021,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,2986,8566812,725498,14523825,9292310,64
+2022,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,3042,42006458,5035532,52273504,47041990,90
+2023,Bluth Company,TV Show,Arrested Development,Fox,External Body,Liam Brown,345-678-9012,3072,35964775,1139506,42335795,37104281,88
+2010,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,991,32104384,1142172,43886044,33246556,76
+2011,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1122,47772117,3189570,61601176,50961687,83
+2012,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1229,53047788,2167980,65855256,55215768,84
+2013,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1284,17640685,542330,28822504,18183016,63
+2014,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1373,39424122,2509405,52573015,41933526,80
+2015,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1445,10727116,1102777,22469382,11829893,53
+2016,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1563,56843707,106477542,173960738,163321250,94
+2017,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1697,12197345,258704,23095538,12456050,54
+2018,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1769,7420441,184227,18244158,7604669,42
+2019,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1886,25184570,1926625,37750683,27111194,72
+2020,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,1975,52610863,1748532,64998883,54359394,84
+2021,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,2094,6371869,599650,17611008,6971519,40
+2022,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,2143,33814805,1763005,46217299,35577810,77
+2023,Buy ‘n Large,Movie,WALL-E,Disney,Agency,James Jackson,234-567-8902,2234,33247345,2443458,46330292,35690803,77
+2010,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1135,37382203,1574744,44278875,38956948,88
+2011,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1198,59770263,201315143,266407333,261085405,98
+2012,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1285,1858875,150683,7331485,2009558,27
+2013,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1299,1018163,1545736,7885826,2563898,33
+2014,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1327,62597051,103148499,171067477,165745550,97
+2015,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1399,36573132,167259,42062319,36740391,87
+2016,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1491,40609038,3725743,49656709,44334781,89
+2017,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1571,56244280,2804150,64370357,59048429,92
+2018,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1647,29875412,1170468,36367807,31045880,85
+2019,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1723,14150647,487273,19959848,14637920,73
+2020,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1772,28721357,935753,34979037,29657110,85
+2021,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1889,36538444,2574845,44435216,39113289,88
+2022,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,1972,21868747,269940,27460614,22138687,81
+2023,Chicago Hope Hospital,TV Show,Chicago Hope,Paramount,Department,Chloe Sanchez,403-257-8915,2060,38072283,2431414,45825624,40503697,88
+2010,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2453,76714102,6275619,85271722,82989721,97
+2011,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2446,26186923,1667519,30136444,27854443,92
+2012,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2480,22826167,43794553,68902721,66620720,97
+2013,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2540,87751966,6319701,96353668,94071667,98
+2014,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2601,78575212,6113731,86970944,84688943,97
+2015,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2677,65814208,5118590,73214799,70932798,97
+2016,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,1846,50145751,3715564,56143316,53861314,96
+2017,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2764,78756907,6999680,88038588,85756587,97
+2018,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2799,57815471,6458534,66556006,64274005,97
+2019,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2837,16671211,1480804,20434016,18152015,89
+2020,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,1546,32238964,999448,35520413,33238412,94
+2021,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,2996,70452912,5883440,78618353,76336352,97
+2022,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,3064,19007984,1307769,22597754,20315753,90
+2023,County General,TV Show,ER,NBC,Department,Samantha Campbell,789-012-3459,3104,44530704,2672794,49485499,47203498,95
+2010,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2456,28775958,2892631,38984440,31668589,81
+2011,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2573,96040690,8566132,111922672,104606822,93
+2012,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2606,47733346,4678590,59727787,52411937,88
+2013,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2772,37346060,3357105,48019016,40703165,85
+2014,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2853,87938276,7372588,102626714,95310864,93
+2015,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,2969,32743481,93937214,133996545,126680695,95
+2016,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,1742,51134400,4202667,62652917,55337066,88
+2017,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3151,37762631,2347509,47425991,40110140,85
+2018,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3211,15475985,1633126,24424961,17109111,70
+2019,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3268,93579259,240492141,341387251,334071400,98
+2020,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,1524,64358040,4305717,75979607,68663757,90
+2021,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3426,74462396,6202941,87981187,80665337,92
+2022,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3491,60264374,7059454,74639678,67323828,90
+2023,Cragen and Stark,TV Show,Law and Order: SVU,NBC,External Body,Henry Scott,345-678-9014,3539,104567721,8558415,120441987,113126137,94
+2010,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,833,44014355,86035106,138289345,130049461,94
+2011,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,887,17817594,37731,26095209,17855325,68
+2012,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1014,22438330,562512,31240726,23000842,74
+2013,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1085,7698398,134250,16072532,7832648,49
+2014,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1152,9534724,1609691,19384298,11144415,57
+2015,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1231,14609529,1083834,23933247,15693363,66
+2016,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1296,38691308,766307,47697499,39457615,83
+2017,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1381,39602098,2677925,50519906,42280023,84
+2018,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1482,2981436,366324,11587644,3347760,29
+2019,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1580,56550794,1275257,66065935,57826052,88
+2020,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1635,11455058,379926,20074868,11834984,59
+2021,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1660,41772195,111871842,161883921,153644037,95
+2022,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1739,31470344,1045258,40755486,32515602,80
+2023,Crane  Poole and Schmidt,TV Show,Boston Legal,Disney,External Body,Harper Allen,789-012-3458,1786,19699093,44747815,72686791,64446908,89
+2010,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,222,20095747,570890,23178368,20666637,89
+2011,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,291,9661965,173785,12347481,9835750,80
+2012,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,303,17082769,488702,20083202,17571471,87
+2013,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,343,27891446,299021,30702197,28190466,92
+2014,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,399,26873880,482806,29868416,27356685,92
+2015,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,512,12505791,546355,15563877,13052146,84
+2016,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,543,27674024,26506,30212260,27700529,92
+2017,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,688,26268179,579313,29359223,26847492,91
+2018,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,799,-2288959,483236,706007,-1805724,-256
+2019,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,922,14641147,334003,17486881,14975150,86
+2020,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,1034,30960758,308949,33781438,31269707,93
+2021,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,1160,-17653864,434167,-14707967,-17219698,117
+2022,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,1288,6810847,59661,9382239,6870508,73
+2023,Crichton Davies,Movie,Boiler Room,WB,External Body,Lucas White,456-789-0127,1282,27592640,565675,30670046,28158315,92
+2010,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,836,24300314,763471,26323745,25063784,95
+2011,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,940,8979940,693413,10933314,9673353,88
+2012,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1062,33789232,1682128,36731322,35471361,97
+2013,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1174,7968409,425318,9653688,8393727,87
+2014,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1257,3642210,306138,5208309,3948348,76
+2015,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1313,-6502417,539448,-4703008,-5962969,127
+2016,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1479,27412909,660583,29333453,28073492,96
+2017,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1597,28157905,1423076,30840942,29580982,96
+2018,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1699,15516433,69325,16845718,15585758,93
+2019,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1749,36235426,714593,38209980,36950019,97
+2020,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1818,21772271,2348251,25380483,24120522,95
+2021,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1889,12440860,661968,14362788,13102827,91
+2022,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,1969,5627157,246507,7133624,5873664,82
+2023,Cyberdyne Systems,Movie,Terminator,Skydance,Agency,Jacob Miller,512-346-7890,2021,34803995,2522174,38586130,37326170,97
+2010,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1114,54625316,1942937,59631802,56568253,95
+2011,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1284,31814648,835232,35713429,32649880,91
+2012,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1379,13961876,1227965,18253390,15189841,83
+2013,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1334,54441929,3758166,61263644,58200095,95
+2014,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1429,10641005,1078234,14782788,11719239,79
+2015,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1565,22060774,2133258,27257581,24194032,89
+2016,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1645,34203021,57734963,95001533,91937984,97
+2017,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1711,49359091,2721710,55144350,52080801,94
+2018,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1774,43453663,3644383,50161595,47098046,94
+2019,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,1928,-3148970,532316,446895,-2616654,-586
+2020,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,2036,21674591,14658931,39397071,36333521,92
+2021,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,2098,37910821,2287739,43262109,40198560,93
+2022,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,2232,23073449,323535,26460534,23396984,88
+2023,Dunder Mifflin,TV Show,The Office,NBC,External Body,Ava Lopez,403-257-8912,2288,9367699,1470859,13902107,10838558,78
+2010,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,61,24418680,0,24908973,24418680,98
+2011,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,287,14955838,0,15446131,14955838,97
+2012,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,469,-5850855,0,-5360561,-5850855,109
+2013,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,665,12014805,0,12505099,12014805,96
+2014,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1050,13232152,0,13722446,13232152,96
+2015,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1154,22542871,0,23033165,22542871,98
+2016,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1280,-5523640,0,-5033346,-5523640,110
+2017,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1530,22054193,0,22544486,22054193,98
+2018,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1782,12100392,0,12590686,12100392,96
+2019,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1716,15351632,0,15841926,15351632,97
+2020,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1855,3755227,0,4245521,3755227,88
+2021,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,1971,8022000,0,8512293,8022000,94
+2022,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,2252,9263185,0,9753478,9263185,95
+2023,Florrick Agos and Associates,TV Show,The Good Wife,Paramount,External Body,Aria Wright,678-901-2347,2424,4650890,0,5141183,4650890,90
+2010,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2107,75912307,6880482,84891713,82792789,98
+2011,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2189,16293399,711128,19103452,17004528,89
+2012,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2258,43011429,3898577,49008930,46910006,96
+2013,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2269,14852213,154158,17105296,15006371,88
+2014,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2318,86166638,6033922,94299484,92200559,98
+2015,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2316,31686823,2241165,36026912,33927988,94
+2016,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2458,52354221,6235764,60688910,58589985,97
+2017,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2474,38001312,3247544,43347781,41248856,95
+2018,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2509,76471617,5764581,84335122,82236198,98
+2019,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2608,51457258,5640907,59197089,57098164,96
+2020,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2719,17270244,1607115,20976284,18877359,90
+2021,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2808,58488477,6873515,67460916,65361991,97
+2022,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,2904,62676147,4269600,69044672,66945747,97
+2023,General Hospital,TV Show,General Hospital,Disney,Department,Christopher Edwards,345-678-9015,3036,69139703,6340495,77579122,75480198,97
+2010,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,1734,64501186,3925420,76440582,68426607,90
+2011,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,1830,83046802,284998043,376058821,368044845,98
+2012,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,1928,44973800,132134613,185122388,177108413,96
+2013,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2092,52621447,4538219,65173641,57159666,88
+2014,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2190,45196228,3670710,56880913,48866938,86
+2015,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2230,67531748,5229724,80775447,72761472,90
+2016,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2316,37849548,1526871,47390394,39376419,83
+2017,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2404,60165923,5141461,73321359,65307384,89
+2018,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2481,85886396,5978738,99879110,91865134,92
+2019,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2526,31016001,907122,39937099,31923124,80
+2020,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2626,13268449,192683,21475107,13461132,63
+2021,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2653,25591691,3191000,36796666,28782691,78
+2022,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2730,35415920,2815190,46245085,38231109,83
+2023,Goliath National Bank Legal,TV Show,How I Met Your Mother,Paramount,External Body,Zoey Adams,890-123-4569,2803,15748664,2013704,25776344,17762369,69
+2010,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2053,66387718,4989965,74868277,71377683,95
+2011,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2105,36213419,1865023,41569036,38078442,92
+2012,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2252,19297615,450670,23238879,19748285,85
+2013,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2331,61113807,4796617,69401019,65910425,95
+2014,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2404,34599372,2346661,40436627,36946033,91
+2015,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2528,61360070,5572657,70423322,66932728,95
+2016,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2660,37732329,3681148,44904072,41413477,92
+2017,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2752,-8479106,442520,-4545991,-8036586,177
+2018,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2886,73989937,6461569,83942100,80451505,96
+2019,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,2966,23100945,56390149,82981688,79491094,96
+2020,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,3129,70319943,1778841,75589379,72098784,95
+2021,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,3284,55886871,2720114,62097579,58606985,94
+2022,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,3357,86808691,270546478,360845764,357355169,99
+2023,Grey Sloan Memorial,TV Show,Greys Anatomy,Disney,Department,Sebastian Hill,123-456-7893,3456,53630325,5274588,62395507,58904913,94
+2010,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,2935,43859127,229934475,279232916,273793603,98
+2011,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3080,55769671,3796005,65004989,59565676,92
+2012,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3090,59854453,6126637,71420403,65981089,92
+2013,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3149,32529341,1194040,39162694,33723381,86
+2014,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3277,69410146,5634349,80483808,75044495,93
+2015,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3466,53305932,5086676,63831921,58392608,91
+2016,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3602,83045014,7899873,96384200,90944887,94
+2017,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3677,89477949,7905176,102822438,97383125,95
+2018,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,3954,32573415,2755455,40768182,35328869,87
+2019,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,4063,81923609,7255274,94618196,89178883,94
+2020,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,4333,46077350,4128026,55644689,50205376,90
+2021,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,4475,66729461,4077059,76245833,70806520,93
+2022,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,4565,59660581,4736389,69836283,64396970,92
+2023,Hooten and Briggs,TV Show,Franklin and Bash,Sony,External Body,Grace Nelson,403-257-8914,4610,23010349,1472738,29922400,24483087,82
+2010,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,1737,39437180,3260475,60529437,42697655,71
+2011,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,1861,45497514,4548343,67877639,50045856,74
+2012,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,1942,70926848,4497013,93255643,75423860,81
+2013,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2119,31749721,2403266,51984770,34152987,66
+2014,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2285,28946993,1556494,48335269,30503487,63
+2015,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2394,37441081,2231140,57504003,39672221,69
+2016,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2472,18234455,1273837,37340075,19508292,52
+2017,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2576,52090956,4362015,74284753,56452971,76
+2018,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2628,55222547,1810577,74864906,57033124,76
+2019,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2717,61645580,5737656,85215019,67383236,79
+2020,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2876,63841125,5896608,87569515,69737733,80
+2021,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2924,30429208,495505,48756495,30924712,63
+2022,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,2994,22186314,2577617,42595713,24763930,58
+2023,InGen,Movie,Jurassic Park,Universal,Agency,Michael Johnson,234-567-8901,3060,42958501,3155078,63945362,46113579,72
+2010,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,3251,33255836,1085957,39228298,34341793,88
+2011,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,3142,86717608,7289860,98893973,94007468,95
+2012,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,3078,93067790,7534598,105488892,100602387,95
+2013,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,3053,103368445,10277212,118532162,113645657,96
+2014,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,2850,84273702,6552116,95712323,90825818,95
+2015,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,2617,32489295,1063002,38438802,33552297,87
+2016,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,2414,103649991,11908443,120444939,115558433,96
+2017,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,2223,20236464,114776,25237745,20351240,81
+2018,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,2176,63206851,316177635,384270991,379384486,99
+2019,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,1914,41346841,177336209,223569555,218683050,98
+2020,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,1722,28353881,1605450,34845836,29959331,86
+2021,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,1447,96959338,9165122,111010965,106124460,96
+2022,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,1316,79353491,6473715,90713711,85827206,95
+2023,LexCorp,Comic/Movie,Superman,DC,Agency,Amelia Harris,678-901-2346,1282,144198846,444244957,593330308,588443803,99
+2010,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,999,59872295,4618891,65459307,64491186,99
+2011,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,949,22487828,109724822,133180771,132212649,99
+2012,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,817,62481322,4269074,67718517,66750396,99
+2013,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,540,25595063,1222566,27785750,26817629,97
+2014,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,400,48361257,901202,50230579,49262458,98
+2015,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,289,32610179,3222148,36800448,35832327,97
+2016,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,57,33062988,2097175,36128284,35160163,97
+2017,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,26834570,33980540,61783231,60815110,98
+2018,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,39893456,2256062,43117639,42149518,98
+2019,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,9741097,328544,11037762,10069640,91
+2020,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,31581126,2976173,35525419,34557298,97
+2021,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,55718839,144665331,201352292,200384171,100
+2022,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,32875545,3382498,37226164,36258042,97
+2023,Lockhart Gardner and Canning,TV Show,The Good Wife,Paramount,External Body,Sophia Young,987-654-3212,0,54319673,4309626,59597421,58629300,98
+2010,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,1986,57583005,4172711,63493138,61755717,97
+2011,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,1979,41023046,2242115,45002582,43265162,96
+2012,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2045,91658868,5925549,99321837,97584417,98
+2013,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2117,22580212,126939092,151256725,149519304,99
+2014,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2103,9374107,111369,11222897,9485476,85
+2015,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2126,-6696772,368481,-4590870,-6328291,138
+2016,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2199,60175370,6170679,68083470,66346049,97
+2017,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2248,78647554,6341170,86726145,84988724,98
+2018,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2333,11128941,89958231,102824593,101087172,98
+2019,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2332,74630646,5669026,82037093,80299673,98
+2020,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2363,37073946,3895958,42707324,40969904,96
+2021,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2514,40622815,2353878,44714113,42976692,96
+2022,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2603,25027648,2416339,29181407,27443986,94
+2023,Monarch,Movie,Godzilla,Toho Co,Agency,Mia Taylor,987-654-3211,2617,51685003,244607828,298030252,296292831,99
+2010,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,869,18049870,460410,23145826,18510280,80
+2011,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,927,16380707,1110651,22126903,17491357,79
+2012,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,964,30916936,1380613,36933095,32297550,87
+2013,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,976,39141041,2204269,45980855,41345310,90
+2014,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1105,35449421,103256532,143341498,138705953,97
+2015,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1196,4149636,1393939,10179121,5543576,54
+2016,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1305,27276666,1356079,33268291,28632746,86
+2017,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1345,21391847,104300022,130327415,125691870,96
+2018,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1415,33174465,953033,38763044,34127498,88
+2019,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1406,32441521,60366443,97443510,92807964,95
+2020,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1489,39685341,1967047,46287934,41652389,90
+2021,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1587,23307343,596583,28539472,23903926,84
+2022,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1715,36185561,2540244,43361350,38725805,89
+2023,Nelson and Murdock,Comic/TV Show,Daredevil,Disney,External Body,Daniel King,234-567-8903,1779,26591719,1759214,32986478,28350933,86
+2010,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,212,10687470,453573,15032799,11141043,74
+2011,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,285,11416625,612145,15920526,12028770,76
+2012,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,414,9511247,23640339,37043341,33151585,89
+2013,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,498,32114310,525245,36531310,32639555,89
+2014,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,579,8190253,322532,12404541,8512785,69
+2015,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,658,15034412,141583,19067751,15175995,80
+2016,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,736,18090180,144349,22126285,18234529,82
+2017,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,813,-9956059,227999,-5836304,-9728060,167
+2018,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,893,4731571,166456,8789783,4898027,56
+2019,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,903,6517806,549345,10958907,7067151,64
+2020,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,1034,15876155,81657,19849567,15957811,80
+2021,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,1123,13915088,470454,18277298,14385543,79
+2022,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,1235,10617829,136429,14646014,10754258,73
+2023,Oscorp,Comic/Movie,Spider-Man,Disney,Agency,Emily Wilson,890-123-4567,1401,15960891,61346,19913993,16022237,80
+2010,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,510,19315164,67432878,91301241,86748041,95
+2011,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,556,8004996,44435,12602631,8049431,64
+2012,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,624,24577053,592732,29722985,25169785,85
+2013,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,683,7087145,1278888,12919233,8366033,65
+2014,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,673,22684337,679259,27916796,23363596,84
+2015,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,731,14408173,1267525,20228898,15675698,77
+2016,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,714,6091939,656533,11301672,6748472,60
+2017,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,829,23757575,1227998,29538773,24985573,85
+2018,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,830,34844721,1113439,40511361,35958161,89
+2019,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,942,24944310,565717,30063227,25510027,85
+2020,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,1009,1619313,50227,6222740,1669540,27
+2021,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,1086,37018219,1264916,42836336,38283135,89
+2022,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,1203,11290567,51421,15895188,11341987,71
+2023,Pearson Hardman,TV Show,Suits,Universal,External Body,Alexander Walker,456-789-0125,1354,29511968,56278410,90343579,85790378,95
+2010,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,1991,54909854,2944234,63778727,57854087,91
+2011,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2053,62831041,5504516,74260196,68335557,92
+2012,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2153,33124047,3342049,42390735,36466096,86
+2013,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2257,48543645,3103561,57571845,51647206,90
+2014,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2355,68296367,6322247,80543253,74618614,93
+2015,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2495,26051874,3701891,35678405,29753765,83
+2016,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2656,70251759,5656208,81832606,75907967,93
+2017,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2726,24858700,1215144,31998484,26073845,81
+2018,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2757,54303170,5260201,65488010,59563371,91
+2019,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,2907,60688992,4243964,70857596,64932956,92
+2020,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,3004,32923601,3797728,42645969,36721329,86
+2021,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,3050,42712240,4163597,52800477,46875838,89
+2022,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,3067,43578925,2958901,52462465,46537825,89
+2023,Pied Piper,TV Show,Silicon Valley,HBO,Agency,Noah Anderson,456-789-0124,3160,22274321,2248660,30447621,24522981,81
+2010,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2478,14915839,520121,22220564,15435960,69
+2011,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2545,52979920,6062553,65827076,59042472,90
+2012,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2543,94723183,7320236,108828023,102043419,94
+2013,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2648,111315084,8393146,126492833,119708230,95
+2014,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2825,37275446,1462873,45522922,38738319,85
+2015,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2904,44776441,1810982,53372027,46587423,87
+2016,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,2957,68724620,6601560,82110783,75326180,92
+2017,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3043,83502019,5894879,96181502,89396898,93
+2018,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3196,29472562,1329653,37586818,30802215,82
+2019,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3255,28110919,3046461,37941984,31157380,82
+2020,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3271,56089436,4978924,67852963,61068360,90
+2021,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3324,50230182,114026014,171040799,164256196,96
+2022,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3344,23881689,830204,31496496,24711892,78
+2023,Princeton-Plainsboro,TV Show,House,Fox,Department,Aiden Phillips,456-789-0126,3388,33913800,2204773,42903177,36118574,84
+2010,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1258,60349883,3862125,69506771,64212008,92
+2011,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1406,28828660,3239788,37363210,32068447,86
+2012,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1514,49675103,2849753,57819619,52524856,91
+2013,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1568,20894004,70318479,96507246,91212483,95
+2014,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1632,-5037853,225829,482739,-4812024,-997
+2015,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1714,29301195,1555780,36151738,30856975,85
+2016,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1766,65158959,4143851,74597572,69302809,93
+2017,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1830,24679349,2131931,32106042,26811279,84
+2018,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1864,3908833,844431,10048027,4753265,47
+2019,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,1939,48841435,3153514,57289712,51994949,91
+2020,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,2065,43501326,4285398,53081488,47786725,90
+2021,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,2171,9278220,334386,14907369,9612606,64
+2022,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,2259,50016359,3295062,58606185,53311422,91
+2023,Sacred Heart Hospital,TV Show,Scrubs,Disney,Department,Natalie Turner,987-654-3213,2405,50020710,3217130,58532603,53237840,91
+2010,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,152,8554553,0,15000422,8554553,57
+2011,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,92,25411033,0,31856901,25411033,80
+2012,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,201,7676133,0,14122002,7676133,54
+2013,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,279,20689097,0,27134966,20689097,76
+2014,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,284,12826821,0,19272690,12826821,67
+2015,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,482,25036689,0,31482558,25036689,80
+2016,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,562,22197506,0,28643375,22197506,77
+2017,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,611,13510209,0,19956078,13510209,68
+2018,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,717,8921938,0,15367806,8921938,58
+2019,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,852,23187606,0,29633475,23187606,78
+2020,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,922,9713424,0,16159293,9713424,60
+2021,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,994,18375802,0,24821670,18375802,74
+2022,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,1113,-5014991,0,1430877,-5014991,-350
+2023,Soylent Corporation,Movie,Soylent Green,MGM,External Body,Charlotte Clark,890-123-4568,1198,16166685,0,22612554,16166685,71
+2010,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2130,3559422,5976470,18400090,9535891,52
+2011,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2202,21931176,133929,30929304,22065106,71
+2012,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2247,79581481,5165065,93610744,84746546,91
+2013,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2290,62141734,356216805,427222738,418358540,98
+2014,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2430,76608702,5613612,91086513,82222314,90
+2015,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2518,12192227,304674,21361099,12496900,59
+2016,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,1197,64278954,6928152,80071304,71207106,89
+2017,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2827,59753130,4847061,73464389,64600191,88
+2018,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2875,79837708,6401320,95103227,86239029,91
+2019,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,2951,35385119,3587532,47836849,38972651,81
+2020,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,650,73285090,6597454,88746742,79882544,90
+2021,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,3172,58914171,3825558,71603927,62739729,88
+2022,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,3276,25478135,1023407,35365740,26501542,75
+2023,Spacely Sprockets,TV Show,The Jetsons,WB,Agency,Logan Martinez,345-678-9013,3350,63072436,5159140,77095774,68231576,89
+2010,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2346,4243530,593658,14831081,4837188,33
+2011,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2437,50343454,5120385,65457732,55463838,85
+2012,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2508,91598003,7834281,109426177,99432284,91
+2013,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2587,13121785,819913,23935591,13941697,58
+2014,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2654,63351760,7959152,81304805,71310912,88
+2015,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2733,86148508,7158539,103300941,93307047,90
+2016,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2151,98949298,6904613,115847805,105853911,91
+2017,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2763,26415549,128358,36537801,26543907,73
+2018,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2861,67407174,6252124,83653192,73659299,88
+2019,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2953,72226675,7688948,89909517,79915624,89
+2020,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,2102,39409050,3228958,52631901,42638008,81
+2021,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,3177,63128491,4870411,77992795,67998902,87
+2022,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,3259,57406575,4853669,72254137,62260244,86
+2023,St. Eligius Hospital,TV Show,St. Elsewhere,NBC,Department,Lily Evans,678-901-2348,3329,84116542,7398049,101508484,91514591,90
+2010,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,931,22332541,119369,29104661,22451910,77
+2011,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1088,17238087,1491069,25381906,18729155,74
+2012,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1151,32930495,1870820,41454065,34801315,84
+2013,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1221,21999288,469564,29121603,22468852,77
+2014,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1329,49918546,2118711,58690008,52037257,89
+2015,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1406,-5890676,1418799,2180874,-4471877,-205
+2016,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1493,29967575,2333519,38953845,32301094,83
+2017,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1497,-8943783,882590,-1408443,-8061193,572
+2018,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1619,28068687,83449307,118170745,111517994,94
+2019,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1660,30758111,915006,38325868,31673118,83
+2020,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1687,23197867,1557809,31408426,24755675,79
+2021,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1801,32365751,2472243,41490745,34837994,84
+2022,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1923,36552857,1735623,44941231,38288480,85
+2023,Stark Industries,Movie,Iron Man,Disney,Agency,Ethan Lee,123-456-7890,1986,9556263,537830,16746843,10094093,60
+2010,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1334,37601840,1315440,47826489,38917281,81
+2011,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1406,67307021,206753115,282969344,274060137,97
+2012,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1510,55697238,4418630,69025075,60115868,87
+2013,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1650,48739931,3356840,61005978,52096771,85
+2014,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1771,40132162,686142,49727512,40818304,82
+2015,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1931,55724654,3874328,68508191,59598983,87
+2016,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1956,14283258,364923,23557389,14648181,62
+2017,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,1983,31197941,1447628,41554777,32645569,79
+2018,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2080,41871193,2572160,53352561,44443354,83
+2019,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2159,16365137,2297194,27571539,18662331,68
+2020,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2202,41920066,2387822,53217095,44307887,83
+2021,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2252,64429492,214150657,287489357,278580149,97
+2022,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2391,38074890,1397354,48381451,39472244,82
+2023,Stratton Oakmont,Movie,The Wolf of Wall Street,Paramount,External Body,Madison Roberts,987-654-3214,2417,34127560,2181229,45217997,36308789,80
+2010,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2250,45847360,3318998,51606253,49166357,95
+2011,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2254,64390257,5571743,72401895,69962000,97
+2012,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2332,20547955,738985,23726836,21286940,90
+2013,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2465,66454667,4989257,73883820,71443924,97
+2014,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2604,25531613,2943540,30915048,28475153,92
+2015,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2743,100707489,7097668,110245052,107805157,98
+2016,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2809,46501496,3204138,52145530,49705634,95
+2017,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2890,35813798,2174379,40428072,37988176,94
+2018,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,2995,87002516,6976258,96418669,93978774,97
+2019,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,3121,32081267,171994633,206515796,204075901,99
+2020,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,3140,34776710,2595686,39812292,37372396,94
+2021,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,3241,42529242,2458370,47427508,44987612,95
+2022,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,3353,77263719,312078887,391782501,389342606,99
+2023,Tyrell Corporation,Movie,Blade Runner,WB,Agency,Benjamin Rodriguez,512-346-7891,3503,32447078,2273799,37160773,34720877,93
+2010,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3359,117104523,11726255,138588775,128830778,93
+2011,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3523,33073985,49796275,92628256,82870259,89
+2012,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3566,55409258,5105788,70273042,60515045,86
+2013,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3625,70077917,6135369,85971283,76213286,89
+2014,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3788,54621953,4412149,68792098,59034101,86
+2015,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3888,41769794,5570860,57098651,47340655,83
+2016,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3936,15708118,166073,25632187,15874191,62
+2017,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,3998,105752584,499910044,615420624,605662628,98
+2018,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4079,52867876,4537480,67163353,57405357,85
+2019,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4157,54421857,5759721,69939574,60181577,86
+2020,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4201,54611400,5130301,69499697,59741701,86
+2021,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4338,28167235,4040988,41966219,32208223,77
+2022,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4455,54574011,4606188,68938195,59180199,86
+2023,Umbrella Corporation,Video Game,Resident Evil,Capcom,Agency,Sophia Davis,678-901-2345,4471,102931237,10923513,123612745,113854749,92
+2010,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,698,7396573,530511,12420784,7927084,64
+2011,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,665,36959796,879753,42333248,37839549,89
+2012,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,625,27738936,25715617,57948252,53454553,92
+2013,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,537,-500262,74394,4067832,-425867,-10
+2014,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,491,23944129,1444600,29882428,25388729,85
+2015,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,449,41649064,2134539,48277302,43783603,91
+2016,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,392,33121056,2103991,39718746,35225047,89
+2017,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,233,-736001,278877,4036576,-457124,-11
+2018,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,61,19190449,21925225,45609373,41115674,90
+2019,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,0,21274507,1685675,27453881,22960182,84
+2020,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,0,16378695,1611362,22483756,17990057,80
+2021,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,0,-3309743,162087,1346044,-3147655,-234
+2022,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,0,39928775,2216509,46638983,42145284,90
+2023,Wags Capital Management,TV Show,Billions,Paramount,External Body,Nathan Morris,123-456-7894,0,21356878,376726,26227303,21733604,83
+2010,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1467,51084162,3854479,59839382,54938641,92
+2011,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1410,23533779,2238005,30672525,25771784,84
+2012,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1452,44175938,122949506,172026185,167125444,97
+2013,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1430,67066915,5372990,77340646,72439906,94
+2014,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1258,35728471,2413022,43042233,38141493,89
+2015,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1124,21892763,305579,27099083,22198342,82
+2016,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,1045,23093169,2395899,30389808,25489067,84
+2017,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,967,2183860,306238,7390839,2490098,34
+2018,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,888,70562394,5694375,81157510,76256769,94
+2019,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,805,50006068,4128282,59035091,54134350,92
+2020,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,722,38500632,1656647,45058020,40157279,89
+2021,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,676,43353311,5602339,53856391,48955650,91
+2022,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,658,39913153,1992850,46806744,41906003,90
+2023,Wayne Enterprises,Comic/Movie,Batman,DC,Agency,Isabella Patel,789-012-3456,641,10148163,579547,15628450,10727709,69
+2010,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1588,17008630,1141975,33257689,18150605,55
+2011,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1520,59006871,208069063,282183017,267075934,95
+2012,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1432,5727889,1826822,22661795,7554711,33
+2013,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1319,43134385,3390593,61632062,46524978,75
+2014,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1205,47981527,4499602,67588213,52481129,78
+2015,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1111,23295970,1420749,39823803,24716719,62
+2016,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,1009,59238098,4880993,79226175,64119091,81
+2017,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,959,60358172,5015224,80480479,65373396,81
+2018,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,889,51770423,4768063,71645570,56538486,79
+2019,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,820,367498,600319,16074900,967816,6
+2020,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,723,80271462,5202707,100581253,85474170,85
+2021,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,680,9470294,354342,24931720,9824636,39
+2022,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,544,25199436,1948374,42254893,27147810,64
+2023,Weyland Industries,Movie,Prometheus,Fox,Agency,Lily Thomas,789-012-3457,491,29089703,1464196,45660984,30553900,67
+2010,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,3063,3234101,475735,6978625,3709835,53
+2011,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,3058,52966229,6162898,62397916,59129126,95
+2012,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2983,53204293,2414764,58887847,55619057,94
+2013,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2860,48378551,2300916,53948256,50679467,94
+2014,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2769,71968330,6651428,81888547,78619758,96
+2015,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2688,40064215,55744630,99077634,95808845,97
+2016,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2596,15035785,556774,18861348,15592559,83
+2017,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2484,87457092,7149473,97875355,94606565,97
+2018,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2421,49868653,4046042,57183484,53914695,94
+2019,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2407,105904052,10104606,119277447,116008658,97
+2020,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2302,68549809,5359726,77178324,73909535,96
+2021,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2262,71174141,6305618,80748549,77479759,96
+2022,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2138,50507926,5161558,58938273,55669484,94
+2023,Weyland-Yutani,Movie,Alien,Fox,Agency,Jayden Smith,456-789-0123,2011,73702673,7402105,84373567,81104778,96
+2010,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,333,26373992,337134,37918335,26711127,70
+2011,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,330,-3978949,61690,7289949,-3917259,-54
+2012,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,195,26189161,681480,38077849,26870640,71
+2013,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,37,19865882,819678,31892768,20685559,65
+2014,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,25759419,89187,37055814,25848605,70
+2015,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,23334763,1186924,35728896,24521687,69
+2016,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,3992150,5465429,20664787,9457579,46
+2017,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,22031672,1316722,34555603,23348394,68
+2018,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,-14596699,451995,-2937495,-14144703,482
+2019,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,4061115,296800,15565124,4357915,28
+2020,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,24985205,1105146,37297560,26090351,70
+2021,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,18852338,628388,30687934,19480726,63
+2022,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,24136926,503820,35847953,24640745,69
+2023,Wolfram and Hart,TV Show,Angel,Fox,External Body,Mason Lee,123-456-7892,0,7942197,855218,20004623,8797415,44
+2010,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,175,16267331,18405,23329515,16285737,70
+2011,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,102,27887659,1112330,36043767,28999989,80
+2012,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,10290378,490470,17824626,10780848,60
+2013,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,-4461665,173496,2755608,-4288170,-156
+2014,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,25983158,449257,33476193,26432415,79
+2015,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,11268638,160991,18473408,11429630,62
+2016,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,16570273,334806,23948856,16905079,71
+2017,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,8462096,161342,15667217,8623439,55
+2018,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,5436845,33961227,46441851,39398073,85
+2019,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,16965742,979473,24988993,17945215,72
+2020,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,22792923,146478,29983178,22939400,77
+2021,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,25729331,504633,33277742,26233964,79
+2022,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,28713790,890955,36648523,29604745,81
+2023,Wolowitz and Koothrappali,TV Show,The Big Bang Theory,Paramount,External Body,Jackson Baker,512-346-7892,0,8709032,557425,16310234,9266457,57

@@ -54,7 +54,6 @@ output_org_time_series <- org_time_series %>%
                          mean = mean(funding),
                          sd = sd(funding)) / 10) %>% 
     mutate(running_costs = running_costs + noise * 4) %>% 
-    mutate(funding = funding + noise) %>% 
     mutate(noise_fte = rnorm(n = nrow(org_time_series),
                          mean = mean(fte),
                          sd = sd(fte)) / 20) %>% 
@@ -75,9 +74,15 @@ output_org_time_series <- org_time_series %>%
             fte < 0 ~ 0)) %>% 
     # mutate(fte = ) %>% 
     select(-starts_with('noise')) %>%
+    mutate(funding = running_costs + investment_costs +
+               abs(rnorm(n = 1, mean = 5000000, sd = 6000000))) %>% 
+    mutate(total_costs = running_costs + investment_costs) %>%
+    mutate(costs_to_funding_proportion = total_costs / funding * 100) %>% 
     mutate(across(c("fte", 
                     "running_costs",
                     "investment_costs",
+                    "total_costs", 
+                    "costs_to_funding_proportion",
                     "funding"), \(x) round(x)))
 
 write_csv(output_org_time_series,
