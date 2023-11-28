@@ -80,7 +80,7 @@ latest_orgs_data <- orgs_data %>%
 
 # Organisations Directory {#image background-image="Images/London.png" background-opacity="0.2"}
 
-##  **About**
+## **About**
 
 -   **You can navigate this document using the 3 lines in the bottom left-hand corner**
 
@@ -115,41 +115,7 @@ palmerpenguins::penguins %>%
 
 -   [Download organisations data](https://martin-ingram.github.io/orgs_test/report/#about) (seems to be bug in download buttons for slides so temporary link used in meantime)
 
-## **FTE By Running Costs in 2023 (All Orgs)**
-
-```{r Build Plot, echo=FALSE, warning=FALSE, results='asis'}
-#| fig.height: 5
-#| fig-width: 9
-#| fig-align: center
-
-# plot orgs fte and running costs data
-org_fte_running_cost_plot <- ggplot(latest_orgs_data, 
-               aes(
-               x = fte,
-               y = running_costs, 
-               fill = classification))+
-  geom_point(shape = 21, size = 4, alpha = 0.7, 
-             aes(text = paste0("Organisation: ",
-                               organisation, "\n",
-                               "Running Costs: £",
-                               label_running_costs, "\n",
-                               "Staff (FTE): ", label_fte, "\n",
-                               "Classification: ",
-                               classification, "\n", 
-                               "Parent Company: ", parent_company))) +
-  theme_minimal() +
-  scale_x_continuous(labels =
-                         label_number(scale_cut = cut_short_scale()))+
-  scale_y_continuous(labels =
-                         label_number(scale_cut = cut_short_scale()))+
-  scale_fill_brewer(palette = "RdYlBu")+
-    xlab("Staff Employed (FTE)") +
-    ylab("Running Costs (£)")
-
-ggplotly(org_fte_running_cost_plot, tooltip = "text") 
-```
-
-## **Table Of Organisations**
+# Find An Organisation
 
 ```{r Build Table, echo=FALSE, results='asis'}
 # make interactive table
@@ -202,7 +168,7 @@ classification_summaries <- latest_orgs_data %>%
                   .names = "label_{.col}"))
 ```
 
-# Automated Slides
+# Automated Slides {#automation_output}
 
 ```{r Function for building slides, include=FALSE}
 # Function to build automated slides
@@ -254,7 +220,7 @@ purrr::walk(1:nrow(EB_Orgs), ~ render_child(EB_Orgs[.x, ]))
 
 # Other Resources
 
-## Other Resources
+## **Other Resources**
 
 -   Space for other resources
 

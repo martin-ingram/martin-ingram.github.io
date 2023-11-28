@@ -23,7 +23,9 @@ Stats for **`r organisation`**:
 #### `r organisation`: FTE By Running Costs
 
 ```{r}
-#|: warning: FALSE
+#| warning: FALSE
+#| fig-align: center
+#| 
 # cant give chunks names as they are duplicated by the code
 # scatter plot
 org_highlight <- organisation
