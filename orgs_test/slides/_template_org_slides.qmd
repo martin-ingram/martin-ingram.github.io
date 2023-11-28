@@ -102,7 +102,7 @@ test <- latest_orgs_data %>%
     pull(costs_to_funding_proportion) %>% 
     append(100- .)
 
-names(test) <- c("Funded", "Non-Funded")
+names(test) <- c("(%) Funded", "(%) Non-Funded")
 
 waffle::waffle(test, rows = 10, flip = TRUE, 
                colors = c(plot_color_hightlight,
