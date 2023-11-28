@@ -1,9 +1,9 @@
 ---
 title: "2023 Organisations Directory"
 subtitle: "Prototype Organisations Directory"
-author: "Organisations Team"
+author: "**Organisations Team**"
 date: last-modified
-date-format: "DD-MM-YYYY"
+date-format: "**DD-MM-YYYY**"
 description: "This is a technical demo built using **[Quarto](https://quarto.org/)**"
 title-block-banner: "#dbe9ff"
 title-block-banner-color: "#000000"
@@ -147,13 +147,22 @@ reactable(table_data,
           defaultPageSize = 10,
           filterable = TRUE, 
           sortable = TRUE, 
-          resizable = TRUE, columns = list(
-            Organisation = colDef(html = TRUE)))
+          resizable = TRUE,
+          defaultColDef = colDef(align = "right"),
+          columns = list(
+            Organisation = colDef(html = TRUE, 
+                                  align = "left",
+                                  style = list(fontWeight = "bold",
+                                          background = "#e3f4ff"))))
 ```
 
 # **FTE By Running Costs in 2023 (All Orgs)**
 
 #### Interactive Plot Example
+
+You can zoom in this plot by dragging with your mouse, and can filter by classifications using the legend.
+
+To reset the zoom, double click the chart area.
 
 ```{r Build Plot, echo=FALSE, warning=FALSE}
 # plot orgs fte and running costs data
@@ -178,9 +187,11 @@ org_fte_running_cost_plot <- ggplot(latest_orgs_data,
                          label_number(scale_cut = cut_short_scale()))+
   scale_fill_brewer(palette = "RdYlBu")+
     xlab("Staff Employed (FTE)") +
-    ylab("Running Costs (£)")
+    ylab("Running Costs (£)")+
+    labs(fill = "Classification")
 
-ggplotly(org_fte_running_cost_plot, tooltip = "text") 
+ggplotly(org_fte_running_cost_plot, tooltip = "text") %>% 
+  config(displayModeBar = F)
 ```
 
 # [**Automated Outputs**]{.underline} {#automation_output}
