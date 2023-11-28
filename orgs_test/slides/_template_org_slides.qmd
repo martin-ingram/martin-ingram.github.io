@@ -87,3 +87,27 @@ orgs_data %>%
     #            nudge_x = -1.4,
     #            nudge_y = -10)
 ```
+
+
+## Government Funded Spending: `r organisation`
+
+```{r}
+# waffle plot of funding to costs 
+#| fig.align: center
+#| fig-height: 5.5
+#| fig-width: 6.3
+
+test <- latest_orgs_data %>% 
+    filter(organisation == org_highlight) %>% 
+    pull(costs_to_funding_proportion) %>% 
+    append(100- .)
+
+names(test) <- c("Funded", "Non-Funded")
+
+waffle::waffle(test, rows = 10, flip = TRUE, 
+               colors = c(plot_color_hightlight,
+                          "grey80"), 
+               legend_pos = "bottom") +
+  theme(legend.text = element_text(size = 20))
+```
+

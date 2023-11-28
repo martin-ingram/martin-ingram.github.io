@@ -69,7 +69,8 @@ orgs_data <- orgs_data %>%
     mutate(across(c("fte", 
                     "running_costs",
                     "investment_costs",
-                    "funding"), \(x)
+                    "funding", 
+                    "total_costs"), \(x)
             format_bignum(n = x),
           .names = "label_{.col}"))   
               
@@ -89,21 +90,6 @@ latest_orgs_data <- orgs_data %>%
 -   All data used in this report is synthetic, and is only used demonstratively for future prototypes using live data
 
 -   Everything in the [Automated Outputs](#automation_output) section is built using templates, and so is automatically generated, meaning some elements may need to be tweaked.
-
-```{r Download Button, echo=FALSE, eval=FALSE}
-# option to download data
-palmerpenguins::penguins %>% 
-  download_this(output_name =
-                paste0(Sys.Date(), 
-                       " - penguins_table_data"),
-                button_label = "Download Penguins Data",
-                output_extension = ".xlsx",
-                button_type = "info",
-                has_icon = TRUE,
-                self_contained = TRUE,
-                icon = "fa fa-save", 
-                id = 'peng-btn')
-```
 
 ## **Methods and Data Quality**
 
