@@ -2,22 +2,11 @@
 
 // https://quarto.org/docs/output-formats/html-themes.html
 
-.quarto-title-block .quarto-title-banner {
-  background-image: url(Images/testlogo.png);
-  background-size: 300px;
-  background-position: left;
-  background-repeat: no-repeat;
-  padding-left: 10px;
-  background-origin: content-box;
-}
-
 .sidebar nav[role="doc-toc"] ul > li > a.active {
     color: #3170b4 important;
     background-color: #dbe9ff;
     font-weight: bold;
 }
-
-
 
 $headingFont: 'Arial', serif;
 $mainFont: 'Arial', serif;
@@ -36,7 +25,7 @@ $h2-font-size: 1.6rem !default;
 $headings-font-weight: 500 !default;
 $body-color: $gray-700 !default;
 /*-- scss:rules --*/
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
   text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
 }
 
