@@ -1,6 +1,7 @@
 ---
 # title-block-banner-color: "#FFFFFF"
-title-block-banner: "#3170b4"
+titlegraphic: "Images/testlogo.png"
+# title-block-banner: "#3170b4"
 author: "Martin Ingram"
 date: today
 date-format: "DD/MM/YYYY"
@@ -123,7 +124,7 @@ latest_orgs_data %>%
                             icon = "fa fa-save")
 ```
 
-![](Images/London.png){fig-align="center"}
+![](Images/London.png){fig-align="center" background-opacity=0.2}
 
 # **Methods and Data Quality**
 
@@ -134,7 +135,7 @@ latest_orgs_data %>%
 -   Possibly link to other data sources etc. where relevant
 
 
-# **Table Of Organisations**
+# **Find An Organisation**
 
 ```{r Build Table, echo=FALSE, results='asis'}
 # make interactive table
