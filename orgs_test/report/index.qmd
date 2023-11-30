@@ -356,3 +356,23 @@ purrr::walk(1:nrow(EB_Orgs), ~ render_child(EB_Orgs[.x, ]))
 -   Publications
 
 -   GitHub link etc.
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Select all h1 elements in the TOC
+  var h1Elements = document.querySelectorAll('nav#TOC ul > li > a');
+  h1Elements.forEach(function(h1) {
+    h1.addEventListener('click', function() {
+      // Find the next ul element (which contains the h2 elements)
+      var nextUl = this.nextElementSibling;
+      if (nextUl && nextUl.tagName === 'UL') {
+        // Toggle the display of the h2 elements
+        nextUl.style.display = nextUl.style.display === 'none' ? 'block' : 'none';
+      }
+    });
+  });
+});
+</script>
+

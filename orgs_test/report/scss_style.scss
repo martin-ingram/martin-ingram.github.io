@@ -29,6 +29,7 @@ h1, h2, h3 {
   text-shadow: -1px -1px 0 rgba(0, 0, 0, .3);
 }
 
+
 ::selection {
   color: white; /* Text color */
   background: #FFA500; /* Background color */
@@ -37,4 +38,22 @@ h1, h2, h3 {
 ::-moz-selection { /* For Firefox */
   color: white;
   background: #FFA500;
+}
+
+
+nav#TOC ul > li > ul {
+  display: none;
+}
+
+// Align h1 elements in TOC to the left
+nav#TOC ul > li > a {
+  text-align: left;
+}
+// Align h2 elements in TOC to the right
+nav#TOC ul > li > ul > li > a {
+  text-align: right;
+  // Adding an arrow before h2 elements
+  &:before {
+    content: '→ ';
+  }
 }

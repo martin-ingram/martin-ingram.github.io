@@ -47,7 +47,7 @@ ggplot2::ggplot(latest_orgs_data,
     ylab("Running Costs (£)")
 ```
 
-\<br\>
+\
 
 ### `r organisation`: FTE Over Time
 
@@ -80,7 +80,7 @@ orgs_data %>%
     #            nudge_y = -10)
 ```
 
-\<br\>
+\
 
 ```{r}
 # waffle plot of funding to costs 
@@ -102,4 +102,4 @@ waffle::waffle(test, rows = 10, flip = TRUE,
   theme(legend.text = element_text(size = 20))
 ```
 
-\<br\>
+\
