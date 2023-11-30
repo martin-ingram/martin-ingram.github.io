@@ -162,7 +162,7 @@ reactable(table_data,
 
 \
 
-# [Tailored Analysis]{.underline}
+# [**Tailored Analysis**]{.underline}
 
 # FTE By Running Costs in 2023 (All Orgs)
 

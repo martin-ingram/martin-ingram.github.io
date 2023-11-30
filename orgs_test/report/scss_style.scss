@@ -48,7 +48,9 @@ nav#TOC ul > li > ul {
 // Align h1 elements in TOC to the left
 nav#TOC ul > li > a {
   text-align: left;
+  font-weight: bold;
 }
+
 // Align h2 elements in TOC to the right
 nav#TOC ul > li > ul > li > a {
   text-align: right;
