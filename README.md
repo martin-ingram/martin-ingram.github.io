@@ -15,3 +15,6 @@ https://martin-ingram.github.io/orgs_test/report/
 
 ## Organisation Slides:
 https://martin-ingram.github.io/orgs_test/slides/#/title-slide
+
+## Time Series Validation Doc: 
+https://martin-ingram.github.io/ts_validation_doc/
