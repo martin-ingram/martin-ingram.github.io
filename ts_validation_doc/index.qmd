@@ -1,0 +1,309 @@
+---
+title: "Time Series Validation"
+subtitle: "Prototype Document for validating time series data"
+author: "Martin Ingram"
+date: last-modified
+date-format: "**DD-MM-YYYY**"
+description: "This is a technical demo built using **[Quarto](https://quarto.org/)**"
+title-block-banner: "#28445e"
+title-block-banner-color: "#FFFFFF"
+linkcolor: 'red'
+format: 
+  html:
+    embed-resources: true
+    smooth-scroll: true
+    code-fold: true
+    code-summary: "Reveal code"
+    theme: 
+      - yeti
+    fontcolor: black
+    toc: true
+    toc-location: left
+    toc-expand: 2 
+    toc-title: Summary
+    toc-depth: 2
+---
+
+# Organisations Time Series Validation Document
+
+## Notes
+
+-   Useful way of exploring trends at a glance for lots of orgs over time
+
+-   might be susceptible to cases where orgs are missing rows of data for year(s), where sparklines smooth over missing data - this can still be picked up by looking at the datapoints for orgs, but sparklines might be misleading at first glance
+
+    -   Solution, still to test, might be to use complete() on organisation and time to generate NA values for rows/years when data is missing for an org, which forces sparkline to show troughs (for example see Stark Industries trendline which appears smooth but is missing years in the middle)
+
+### Setup Packages
+
+```{r setup packages}
+suppressPackageStartupMessages({
+  library(tidyverse)
+  library(formattable)
+ # https://cran.r-project.org/web/packages/sparkline/readme/README.html
+  library(sparkline)
+  library(DT)
+})
+
+
+options(scipen = 999)
+```
+
+### Load Data
+
+```{r load data}
+# load data
+orgs_data <- 
+  read_csv("2023-11-21 - fictional_orgs_time_series.csv", 
+           show_col_types = FALSE)
+
+# introduce noise/missing rows
+orgs_data <- orgs_data %>% 
+  filter(!(organisation %in% c("Abstergo Industries", "LexCorp")
+           & time %in% c(2010:2015))) %>% # newly established org
+    filter(!(organisation %in% c("Bluth Company", 
+                                 "InGen", 
+                                 "Pied Piper") & time %in%
+               c(2021:2023))) %>% # defunct/closed org
+    filter(!(organisation %in%
+               c("Florrick Agos and Associates", 
+                 "Stark Industries") & time %in%
+               c(2016:2018))) %>% # org with missing data 
+  mutate(fte = case_when(.default = fte, 
+         organisation %in% c("General Hospital", 
+                             "Monarch",  # org with incomplete data 
+                             "Crichton Davies") &
+           time %in% c(2018:2020) ~ NA_integer_)) 
+  
+
+
+# count data availability and calculate volitility
+orgs_data <- orgs_data %>% 
+    group_by(organisation) %>% 
+    arrange(time) %>% 
+    mutate(datapoints = n()) %>% 
+    mutate(time_range = paste0(min(time), "-", max(time))) %>% 
+    mutate(mean_fte = mean(fte,
+              na.rm = TRUE), 
+           sd_fte = sd(fte, na.rm = TRUE),
+    CoV_fte = (sd_fte / mean_fte) * 100) %>%
+    mutate(CoV_fte = round(CoV_fte, 1)) %>% 
+    group_by(time_range,datapoints, organisation, CoV_fte)
+
+```
+
+## Classifications Breakdown
+
+```{r Show orgs and classifications, results='asis'}
+
+# make up simple table with organisation classifications
+orgs_data %>% 
+    ungroup() %>% 
+    select(organisation, classification) %>% 
+    distinct() %>% 
+    datatable(escape = F, 
+              rownames = F,
+              options = list(dom = 'Bfrlipt', 
+                             colReorder = TRUE))
+
+```
+
+## Departments
+
+```{r Depts, results='asis'}
+
+# table with sparklines for depts. 
+orgs_data %>% 
+    filter(classification == "Department") %>%
+    summarize(FTE = spk_chr(fte, xvalues = time,
+                           tooltipFormat = '{{x}}: {{y}}',
+                           lineColor = 'black', 
+                           fillColor = 
+                               tinter::lighten('black', 
+                                               amount = 0.3),
+                           chartRangeMin = 0,
+                           chartRangeMax = 10,
+                           width = 80,
+                           height = 60,
+                           highlightLineColor = 'orange', 
+                           highlightSpotColor = 'orange'),
+              .groups = c("keep")) %>% 
+    datatable(escape = F, 
+              rownames = F,
+              options = list(dom = 'flipt', 
+                             colReorder = TRUE,
+                             filter = 'top',
+fnDrawCallback = htmlwidgets::JS('function(){
+                         HTMLWidgets.staticRender(); }'))) %>% 
+    spk_add_deps()
+```
+
+## Agencies
+
+```{r Agencies, results='asis'}
+
+# table with sparklines for Agencies 
+orgs_data %>% 
+    filter(classification == "Agency") %>% 
+    summarize(FTE = spk_chr(fte, xvalues = time,
+                           tooltipFormat = '{{x}}: {{y}}',
+                           lineColor = 'darkblue', 
+                           fillColor = 
+                               tinter::lighten('darkblue', 
+                                               amount = 0.3),
+                           chartRangeMin = 0,
+                           chartRangeMax = 10,
+                           width = 80,
+                           height = 60,
+                           highlightLineColor = 'orange', 
+                           highlightSpotColor = 'orange'),
+              .groups = c("keep")) %>% 
+    datatable(escape = F, 
+              rownames = F,
+              options = list(dom = 'flipt', 
+                             colReorder = TRUE,
+                             filter = 'top',
+fnDrawCallback = htmlwidgets::JS('function(){
+                         HTMLWidgets.staticRender(); }'))) %>% 
+    spk_add_deps()
+```
+
+## External Bodies
+
+```{r External Bodies, results='asis'}
+
+# table with sparklines for external bodies 
+orgs_data %>% 
+    filter(grepl(classification,
+                 pattern = "External Body")) %>% 
+    summarize(FTE = spk_chr(fte, xvalues = time,
+                           tooltipFormat = '{{x}}: {{y}}',
+                           lineColor = 'darkred', 
+                           fillColor = 
+                               tinter::lighten('darkred', 
+                                               amount = 0.3),
+                           chartRangeMin = 0,
+                           chartRangeMax = 10,
+                           width = 80,
+                           height = 60,
+                           highlightLineColor = 'dodgerblue', 
+                           highlightSpotColor = 'dodgerblue'),
+              .groups = c("keep")) %>% 
+    select(time_range, datapoints, CoV_fte, FTE, organisation) %>% 
+    datatable(escape = F, 
+              rownames = F,
+              options = list(dom = 'flipt', 
+                             colReorder = TRUE,
+                             filter = 'top',
+fnDrawCallback = htmlwidgets::JS('function(){
+                         HTMLWidgets.staticRender(); }'))) %>% 
+    spk_add_deps()
+```
+
+## Organisations in Scope Per Year
+
+```{r Org Counts Per Year}
+
+# table with number of orgs in scope for each year
+orgs_data %>% 
+    group_by(time) %>% 
+    summarise(org_count = n()) %>% 
+    select(time, org_count) %>% 
+    datatable(escape = F, 
+              rownames = F,
+              options = list(dom = 'Bfrlipt', 
+                             colReorder = TRUE))
+```
+
+## Classifications In Scope Per Year
+
+```{r Classifications Per Year}
+
+# table with number of orgs per classification in scope for each year
+
+crosstab_classifications <- orgs_data %>% 
+    janitor::tabyl( classification, time)
+
+crosstab_classifications %>% 
+    datatable(escape = F, 
+              rownames = F,
+              options = list(dom = 'Bfrlipt', 
+                             colReorder = TRUE))
+
+downloadthis::download_this(crosstab_classifications,
+        output_name = paste0(Sys.time(), 
+        " - Classification_by_Year_Totals"),
+        output_extension = ".xlsx",
+        button_label = 
+            "Download Classification Totals Data",
+         button_type = "success",
+        has_icon = TRUE,
+        self_contained = TRUE,
+        icon = "fa fa-save")
+```
+
+## FTE Totals by Classification and Year
+
+```{r Summary FTE Table Data}
+
+# Get totals and counts for all organisations overall
+all_orgs_totals <- orgs_data %>% 
+  group_by(time) %>% 
+  summarise(fte_total = sum(fte, na.rm = TRUE), orgs_by_year = n(), .groups = "keep") %>% 
+  mutate(classification = "Total")
+
+# get totals and orgs for each classification and
+# combine with totals above
+Org_Clas_Totals <- orgs_data %>% 
+  group_by(time, classification) %>% 
+  summarise(fte_total = sum(fte), orgs_by_year = n()) %>% 
+  rbind(all_orgs_totals) %>% 
+  mutate(classification = factor(classification, 
+                levels = c("Total",
+                           "Department", 
+                           "Agency", 
+                           "External Body"))) %>% 
+  arrange(time, classification)
+
+```
+
+```{r Summary FTE Table}
+# show summary/totals in table
+Org_Clas_Totals %>% 
+    datatable(escape = F, 
+              rownames = F,
+              options = list(dom = 'Bfrlipt', 
+                             colReorder = TRUE))
+
+downloadthis::download_this(Org_Clas_Totals,
+        output_name = paste0(Sys.time(), 
+        " - All_Org_Totals"),
+        output_extension = ".xlsx",
+        button_label = "Download FTE Total Data",
+         button_type = "primary",
+        has_icon = TRUE,
+        self_contained = TRUE,
+        icon = "fa fa-save")
+```
+
+## All Data
+
+```{r Show all data, results='asis'}
+# Show all data for exploring issues
+orgs_data %>% 
+    ungroup() %>% 
+    select(organisation, 
+           time, parent_company, 
+           classification, CoV_fte, fte) %>% 
+datatable(escape = F, 
+              rownames = F,
+              options = list(dom = 'Bfrlipt', 
+                             colReorder = TRUE))
+
+```
+
+```{=html}
+<style>
+table.display td { white-space: nowrap; }
+</style>
+```
