@@ -1,0 +1,264 @@
+---
+title: "Exploring Bakeoff Themes With Webscraping"
+subtitle: "Webscraping in R Demo"
+author: "Martin Ingram"
+date: last-modified
+date-format: "**DD-MM-YYYY**"
+description: "This is a technical demo built using **[Quarto](https://quarto.org/)**"
+title-block-banner: "#1C7AE6"
+title-block-banner-color: "#FFFFFF"
+linkcolor: 'red'
+format: 
+  html:
+    embed-resources: true
+    smooth-scroll: true
+    code-fold: true
+    code-summary: "Reveal code"
+    theme: 
+      - yeti
+    fontcolor: black
+    toc: true
+    toc-location: left
+    toc-expand: 2 
+    toc-title: Summary
+    toc-depth: 2
+---
+
+### Packages
+
+```{r Packages, warning=FALSE}
+suppressPackageStartupMessages({
+    library(rvest)
+    library(httr)
+    library(tidyverse)
+    # library(tidylog) # Debug only - otherwise gives you loads of filter messages
+    library(xml2)
+    library(gt)
+    library(downloadthis)
+    library(reactable)
+})
+
+```
+
+# Create links to Bakeoff Season Pages on Wikipedia
+
+Working on the assumption that each URL for each season of Bakeoff follows the same pattern on wikipedia, with a shared root followed by a number:
+
+["https://en.wikipedia.org/wiki/The_Great_British_Bake_Off\_(series_1)"](%22https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)%22)
+
+\
+
+Rather than copying each URL we can just append 'n)' to the end of the root for each season we're interested in to build all URLs:
+
+#### **Root:** 
+
+#### "https://en.wikipedia.org/wiki/The_Great_British_Bake_Off\_(series\_"
+
+#### **Season Identifier in URL:**
+
+#### "n)"
+
+```{r Create Links}
+# Each season on the wiki page for bakeoff has the same starting structure:  
+Bakeoff_Link <- c("https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_")
+
+# To get each link, we only need to paste on the season number to create the full URL:
+Link_List = tibble(Season_Number = 1:14, 
+                   base_link = rep(Bakeoff_Link, 14), 
+                   URL = paste0(base_link, Season_Number, ")")) %>% 
+  select(URL)
+```
+
+# Scrape Data
+
+Scrape the html data from each URL we build above using the '[rvest](https://rvest.tidyverse.org/)' package, and then clean away noise from our data so we are only left with the following:
+
+-   Season Number
+
+-   Episode Number
+
+-   Theme
+
+```{r Get Data from pages and wrangle into format}
+# Container for the episode information: 
+Bakeoff_Episodes <- tibble()
+
+for (i in seq_along(Link_List$URL)){
+  temp_page <- read_html(GET(Link_List$URL[i], timeout(10))) # read the page
+
+  # process the page:
+  temp_page_processed <- temp_page %>%
+      html_nodes("a") %>% # The <a> tag (anchor tag) in HTML is used to create a hyperlink on the webpage. 
+      html_text("href") %>% # Hypertext reference - The href attribute specifies the URL of the page the link goes to
+      tibble(Theme = .) %>% 
+      filter(grepl("Episode ", 
+                   Theme)) %>% # filter to look for episode titles
+      mutate(Season = i, .before = Theme) %>% # add season
+      mutate(Episode = sub(x = Theme, 
+                           pattern = ":.*",
+                           replacement = "")) %>% # get episode number before the colon
+      mutate(Episode = sub(x = Episode,
+                           pattern = ".* ",
+                           replacement = "")) %>% # tidy episode removing excess content
+      mutate(Theme = sub(x = Theme,
+                         pattern = ".*:",
+                         replacement = "")) %>% # Get the theme before the colon
+      relocate(Episode, 
+               .after = Season) %>% # move the Episode column next to season
+      filter(!grepl("[[:digit:]]Episode ",
+                    Theme)) %>% # Catch a few errors and remove
+      mutate(Theme = str_remove_all(Theme,
+    pattern = " \\(Quarter-final\\)|\\(Quarter-Final\\)")) %>% 
+      mutate(Theme = str_remove_all(Theme,
+    pattern = " \\(Semi-final\\)|\\(Semi-Final\\)")) %>% #Clean themes
+      mutate(Theme = str_remove_all(Theme, 
+        pattern = " \\(Final\\)"))  %>% 
+      mutate(Theme = str_trim(Theme))
+
+  # Add each season to container list of all episodes: 
+  Bakeoff_Episodes <- rbind(Bakeoff_Episodes, temp_page_processed)
+}
+```
+
+# Table of Episodes
+
+```{r show data in table}
+# reactable table output
+reactable(Bakeoff_Episodes,
+          defaultPageSize = 10,
+          filterable = TRUE, 
+          sortable = TRUE, 
+          resizable = TRUE,
+          defaultColDef = colDef(align = "right"))
+```
+
+```{r Download Button All Data, echo=FALSE}
+# option to download data
+Bakeoff_Episodes %>% 
+  download_this(output_name =
+                  paste0(Sys.Date(), " - ",
+                  "Bakeoff Data"),
+      button_label = "Download Bakeoff Episode Data",
+                            output_extension = ".xlsx",
+                            button_type = "success",
+                            has_icon = TRUE,
+                            self_contained = TRUE,
+                            icon = "fa fa-save")
+```
+
+\
+
+### Make Summaries
+
+```{r make summaries}
+# Tidy data and make up the percentage of themes for each episode: 
+# i.e. is the the biscuit episode always on the 2nd episode of each season etc.? 
+Bakeoff_Episodes <- Bakeoff_Episodes %>% 
+  mutate(Theme = recode(Theme, "Cake" = "Cakes")) %>% # harmonise cakes theme
+  group_by(Theme, Episode) %>% # make tallies for each theme per episode
+  add_tally(name = "Ep_Theme_Count") %>% 
+  ungroup() %>%  
+  mutate(Total_Eps = max(as.numeric(Season)), # calculate percentage of theme per episode
+         "%" = round(Ep_Theme_Count / Total_Eps * 100, 1), 
+         Episode = as.numeric(Episode)) %>% 
+  group_by(Theme) %>% 
+  add_tally(name = "Theme_Raw_Count") %>% 
+  ungroup()
+
+# Take unique episode contents for reference
+Unique_Theme_Counts_Only <- Bakeoff_Episodes %>% 
+  select(Theme, Theme_Raw_Count) %>% 
+  distinct() %>% 
+  filter(Theme_Raw_Count == 1)
+
+# Group all unique/one-off episode themes together: 
+Bakeoff_Episodes <- Bakeoff_Episodes %>% 
+  mutate(Theme = if_else(Theme_Raw_Count == 1, "Unique/Others", Theme))
+
+# Get the themes by epsiode data - which % of episodes are each theme? 
+Themes_by_Episode <- Bakeoff_Episodes %>% 
+  select(Episode, Theme, `%`) %>% 
+  distinct()
+
+# Get the themes by season data - what % of themes were in each season?
+Themes_by_Season <- Bakeoff_Episodes %>% 
+  mutate(Season_Length = if_else(Season == 1, 8, 
+                                 if_else(Season == 2, 8, 10))) %>% 
+  group_by(Theme, Season, Season_Length) %>% 
+  add_tally() %>% 
+  ungroup() %>%  
+  mutate("%Season" = round(n / Season_Length * 100, 1), 
+         Season = as.numeric(Season)) %>% 
+  rename("Season_Theme_Count" = n) %>% 
+  select(Season, Theme, "%" = "%Season") %>% 
+  distinct()
+
+```
+
+\
+
+# Typical Themes Per Episode
+
+```{r Themes by Episode}
+# Plot the themes for each episode/ location in the season
+plotly::ggplotly(ggplot(Themes_by_Episode, aes(x = Episode, y = `%`)) +
+  geom_bar(position="fill", stat="identity", aes(fill = Theme), color = "white") +
+  scale_y_continuous(labels = c(0, 25, 50, 75, 100)) +
+  scale_x_continuous(breaks = c(1:10), labels = c(1:10)) +
+  xlab("Episode") +
+  theme_bw() + 
+  labs(fill = NULL)+
+  scale_fill_viridis_d() +
+  labs(title = "Percentage of Themes in Episodes of Bakeoff"),
+    tooltip=c("Episode", "Theme"))
+```
+
+```{r Download Button Themes_by_Episode, echo=FALSE}
+# option to download data
+Themes_by_Episode %>% 
+  download_this(output_name =
+                  paste0(Sys.Date(), " - ",
+                  "Bakeoff Episode Data"),
+      button_label = "Download Bakeoff Episode Data",
+                            output_extension = ".xlsx",
+                            button_type = "danger",
+                            has_icon = TRUE,
+                            self_contained = TRUE,
+                            icon = "fa fa-save")
+```
+
+\
+
+# Themes In Each Season
+
+```{r Themes by Season}
+# Plot the themes for each season: 
+plotly::ggplotly(ggplot(Themes_by_Season, aes(x = Season, y = `%`)) +
+  geom_bar(position="fill", stat="identity", aes(fill = Theme), color = "white") +
+  scale_y_continuous(labels = c(0, 25, 50, 75, 100)) +
+  scale_x_continuous(breaks = c(1:13), labels = c(1:13)) +
+  xlab("Season") +
+  theme_bw() + 
+  labs(fill = NULL)+
+  viridis::scale_fill_viridis(option="plasma", discrete = TRUE)+
+  labs(title = "Percentage of Themes in Episodes of Bakeoff Across Seasons"), tooltip=c("Season", "Theme"))
+```
+
+```{r Download Button Themes_by_Season, echo=FALSE}
+# option to download data
+Themes_by_Season %>% 
+  download_this(output_name =
+                  paste0(Sys.Date(), " - ",
+                  "Bakeoff Season Data"),
+      button_label = "Download Bakeoff Season Data",
+                            output_extension = ".xlsx",
+                            button_type = "info",
+                            has_icon = TRUE,
+                            self_contained = TRUE,
+                            icon = "fa fa-save")
+
+```
+
+```{r Export Data, include=FALSE}
+write_csv(Bakeoff_Episodes, paste0(Sys.Date(), " -  Bakeoff Episodes Data.csv"))
+```
