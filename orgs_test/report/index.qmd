@@ -160,7 +160,6 @@ reactable(table_data,
                                           background = "#e3f4ff"))))
 ```
 
-
 \
 
 # [Tailored Analysis]{.underline}
@@ -292,7 +291,6 @@ render_child <- function(row) {
 }
 ```
 
-
 \
 
 # Summaries By Classification
@@ -357,8 +355,9 @@ purrr::walk(1:nrow(EB_Orgs), ~ render_child(EB_Orgs[.x, ]))
 
 -   GitHub link etc.
 
+<!--# Script for formatting TOC behaviour -->
 
-
+```{=html}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   // Select all h1 elements in the TOC
@@ -375,4 +374,4 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
-
+```
