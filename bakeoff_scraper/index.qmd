@@ -5,7 +5,7 @@ author: "Martin Ingram"
 date: last-modified
 date-format: "**DD-MM-YYYY**"
 description: "This is a technical demo built using **[Quarto](https://quarto.org/)**"
-title-block-banner: "#1C7AE6"
+title-block-banner: "#28445e"
 title-block-banner-color: "#FFFFFF"
 linkcolor: 'red'
 format: 
