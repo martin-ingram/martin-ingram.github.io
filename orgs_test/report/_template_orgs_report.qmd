@@ -1,7 +1,5 @@
 ## *`r organisation`*
 
-\
-
 Stats for **`r organisation`**:
 
 -   Classification: `r classification`
@@ -49,6 +47,8 @@ ggplot2::ggplot(latest_orgs_data,
     ylab("Running Costs (£)")
 ```
 
+\<br\>
+
 ### `r organisation`: FTE Over Time
 
 #### Compared Against Other `r clas_highlight` Organisations
@@ -80,6 +80,8 @@ orgs_data %>%
     #            nudge_y = -10)
 ```
 
+\<br\>
+
 ```{r}
 # waffle plot of funding to costs 
 #| fig.align: center
@@ -99,3 +101,5 @@ waffle::waffle(test, rows = 10, flip = TRUE,
                legend_pos = "bottom") +
   theme(legend.text = element_text(size = 20))
 ```
+
+\<br\>

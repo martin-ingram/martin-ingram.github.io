@@ -1,5 +1,5 @@
 ---
-title: "2023 Organisations Directory"
+title: "2023 Organisations Directory - Report"
 subtitle: "Prototype Organisations Directory"
 author: "**Organisations Team**"
 date: last-modified
@@ -35,11 +35,13 @@ css: styles.css
 
 <!--     gutter-width: 1.5rem -->
 
-# **About**
+# About
 
 -   All data used in this report is synthetic, and used demonstratively for future prototypes with live data
 
 -   Everything in the [Automated Outputs](#automation_output) section is automatically generated using templates, meaning some elements may need to be tweaked.
+
+\
 
 ```{r Setup, include=FALSE}
 library(tidyverse)
@@ -109,7 +111,7 @@ latest_orgs_data %>%
                             icon = "fa fa-save")
 ```
 
-<br>
+\
 
 ```{r Download Button 2, echo=FALSE}
 # option to download data
@@ -127,7 +129,7 @@ orgs_data %>%
 
 <!-- ![](Images/London.png){fig-align="center" background-opacity=0.2} -->
 
-# **Methods and Data Quality**
+# Methods and Data Quality
 
 -   Space for notes on data quality
 
@@ -135,7 +137,9 @@ orgs_data %>%
 
 -   Possibly link to other data sources etc. where relevant
 
-# **Find An Organisation**
+\
+
+# Find An Organisation
 
 #### Interactive Table Example
 
@@ -156,7 +160,12 @@ reactable(table_data,
                                           background = "#e3f4ff"))))
 ```
 
-# **FTE By Running Costs in 2023 (All Orgs)**
+
+\
+
+# [Tailored Analysis]{.underline}
+
+# FTE By Running Costs in 2023 (All Orgs)
 
 #### Interactive Plot Example
 
@@ -283,20 +292,27 @@ render_child <- function(row) {
 }
 ```
 
-# **Summaries By Classification**
+
+\
+
+# Summaries By Classification
 
 ```{r Render Families, results='asis', echo=FALSE}
 purrr::walk(1:nrow(classification_summaries), 
             ~ render_family(classification_summaries[.x, ]))
 ```
 
-# **Summaries By Parent Company**
+\
+
+# Summaries By Parent Company
 
 ```{r Render Parents, results='asis', echo=FALSE}
 purrr::walk(1:nrow(parent_summaries), ~ render_parent(parent_summaries[.x, ]))
 ```
 
-# **Departments: Organisation Summaries**
+\
+
+# Departments: Organisation Summaries
 
 ```{r Render Dept Orgs, results='asis', echo=FALSE}
 Dept_Orgs <- latest_orgs_data %>% 
@@ -305,7 +321,9 @@ Dept_Orgs <- latest_orgs_data %>%
 purrr::walk(1:nrow(Dept_Orgs), ~ render_child(Dept_Orgs[.x, ]))
 ```
 
-# **Agencies: Organisation Summaries**
+\
+
+# Agencies: Organisation Summaries
 
 ```{r Render Agency Orgs, results='asis', echo=FALSE}
 Agency_Orgs <- latest_orgs_data %>% 
@@ -314,7 +332,9 @@ Agency_Orgs <- latest_orgs_data %>%
 purrr::walk(1:nrow(Agency_Orgs), ~ render_child(Agency_Orgs[.x, ]))
 ```
 
-# **External Bodies: Organisation Summaries**
+\
+
+# External Bodies: Organisation Summaries
 
 ```{r Render EB Orgs, results='asis', echo=FALSE}
 EB_Orgs <- latest_orgs_data %>% 
@@ -323,9 +343,11 @@ EB_Orgs <- latest_orgs_data %>%
 purrr::walk(1:nrow(EB_Orgs), ~ render_child(EB_Orgs[.x, ]))
 ```
 
+\
+
 # Other Resources
 
-## **Other Resources**
+## Other Resources
 
 -   Space for other resources
 

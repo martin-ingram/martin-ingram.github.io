@@ -1,7 +1,5 @@
 ## *`r classification`*
 
-\
-
 Stats for all **`r classification`** organisations:
 
 -   Organisations in Scope: `r data$classification_count`
@@ -66,3 +64,5 @@ latest_orgs_data %>%
                             self_contained = TRUE,
                             icon = "fa fa-save")
 ```
+
+\
