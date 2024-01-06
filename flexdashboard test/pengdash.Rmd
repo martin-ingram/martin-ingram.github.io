@@ -1,0 +1,151 @@
+---
+title: "Penguins Dashboard"
+author: "Martin Ingram"
+runtime: shiny
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    social: menu
+    source_code: embed
+    self_contained: no
+    theme:
+      version: 4
+      bg: "#FFFFFF"
+      fg: "#000000" 
+      primary: "#005abb"
+      navbar-bg: "#005abb"
+viewer: browser
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(shiny)
+```
+
+```{r Data Load}
+pengdata <- palmerpenguins::penguins
+```
+
+Sidebar {.sidebar  data-width=200}
+======================================================================
+
+```{r}
+tags$br()
+
+sliderInput(inputId = 'input_years_select', 
+            label = 'Data For Years:',
+            sep = "",  
+            round = TRUE, 
+            min = min(pengdata$year),
+            max = max(pengdata$year),
+            value = c(min(pengdata$year), max(pengdata$year)), 
+            step = 1)
+
+selectInput(inputId = 'species_select', 
+            label = 'Select Species',
+            choices = unique(pengdata$species), 
+            multiple = TRUE, 
+            selected = unique(pengdata$species))
+```
+
+```{r make live data}
+# Read in data and subset for different outputs
+live_pengdata <- reactive({
+  pengdata %>% 
+    filter(year %in%
+               input$input_years_select[1]:
+               input$input_years_select[2]) %>% 
+    filter(species %in% input$species_select)
+   
+})
+```
+
+
+Body Mass
+=======================================================================
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Body Mass Time Plot
+
+```{r}
+output$body_mass_plot <- renderPlot({
+    live_pengdata() %>%
+        drop_na() %>%
+        mutate(year = factor(year)) %>% 
+        ggplot(aes(x = year, y = body_mass_g, fill = species))+
+        geom_jitter(shape = 21, size = 6, alpha = 0.8)+
+            scale_fill_brewer(type = "qual",
+                      palette = "RdYlBu", 
+                      direction = 1)+
+        theme_classic()+
+        labs(x = 'Year', y = 'Body Mass (g)', fill = 'Species')
+})
+
+plotOutput(outputId = 'body_mass_plot')
+
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Gender Plot
+
+```{r}
+output$gender_plot <- renderPlot({
+    live_pengdata() %>%
+        drop_na() %>%
+        ggplot(aes(x = sex, 
+                   y = bill_length_mm, 
+                   fill = species))+
+        geom_boxplot()+
+            scale_fill_brewer(type = "qual",
+                      palette = "RdYlBu", 
+                      direction = 1)+
+        theme_classic()+
+        labs(x = 'Sex', y = 'Bill Length (mm)', fill = 'Species')
+})
+
+plotOutput(outputId = 'gender_plot')
+```
+
+### Table
+
+```{r}
+renderTable({
+  live_pengdata() 
+})
+```
+
+
+Bill Dimensions
+=======================================================================
+
+### Body Mass Time Plot
+
+```{r}
+output$bill_dims_plot <- renderPlot({
+    live_pengdata() %>%
+        drop_na() %>%
+        ggplot(aes(x = bill_length_mm,
+                   y = bill_depth_mm, fill = species))+
+        geom_jitter(shape = 21, size = 6, alpha = 0.5)+
+            scale_fill_brewer(type = "qual",
+                      palette = "RdYlBu", 
+                      direction = 1,
+                      aesthetics = c('fill', 'color'))+
+        theme_classic()+
+        labs(x = 'Bill Length (mm)',
+             y = 'Bill Depth (mm)',
+             fill = 'Species')+
+        stat_smooth(aes(group = species, color = species), 
+                    method = 'lm', fill = 'grey50',
+                    show.legend = FALSE)
+})
+
+plotOutput(outputId = 'bill_dims_plot')
+
+```
