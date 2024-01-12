@@ -13,7 +13,10 @@ library(shinydashboard)
 ## ui.R ##
 
 ui <- dashboardPage(
-    dashboardHeader(title = "PB Test", 
+    dashboardHeader(
+       
+        
+        title = "PB Test",
                     dropdownMenu(type = "tasks", badgeStatus = "success",
                                  taskItem(value = 90, color = "green",
                                           "Documentation"
@@ -32,7 +35,9 @@ ui <- dashboardPage(
                                   min = 1,
                                   max = 50,
                                   value = 30)),
-    dashboardBody(plotOutput("distPlot"))
+    dashboardBody(
+        tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "custom.css")),
+        plotOutput("distPlot"))
 )
 
 # Define server logic required to draw a histogram

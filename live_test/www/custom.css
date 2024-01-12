@@ -1,0 +1,8 @@
+/* custom css for theming */ 
+
+.main-header.logo {
+    background-color: #005abb; 
+}
+.main-sidebar {
+    background-color: #005abb;
+}
