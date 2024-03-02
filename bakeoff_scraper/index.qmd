@@ -50,7 +50,7 @@ Working on the assumption that each URL for each season of Bakeoff follows the s
 
 Rather than copying each URL we can just append 'n)' to the end of the root for each season we're interested in to build all URLs:
 
-#### **Root:** 
+#### **Root:**
 
 #### "https://en.wikipedia.org/wiki/The_Great_British_Bake_Off\_(series\_"
 
@@ -260,5 +260,7 @@ Themes_by_Season %>%
 ```
 
 ```{r Export Data, include=FALSE}
-write_csv(Bakeoff_Episodes, paste0(Sys.Date(), " -  Bakeoff Episodes Data.csv"))
+write_csv(Bakeoff_Episodes, 
+          paste0(Sys.Date(), 
+            " -  Bakeoff Episodes Data.csv"))
 ```
