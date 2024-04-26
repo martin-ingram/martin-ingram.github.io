@@ -1,0 +1,9 @@
+---
+title: "Secret Page"
+---
+
+Extra content
+
+```{r}
+plot(iris)
+```
