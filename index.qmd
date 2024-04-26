@@ -6,6 +6,11 @@ This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
+## Preview of Data
+
 ```{r}
-1 + 1
+head(palmerpenguins::penguins_raw, 6)
 ```
+
+
+## Space For other Stuff
