@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  google-analytics: "G-RQSB9K1JC6"
   title: "martin-ingram.github.io"
   navbar:
     left:
