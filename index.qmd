@@ -9,7 +9,9 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ## Preview of Data
 
 ```{r}
-head(palmerpenguins::penguins_raw, 6)
+library(palmerpenguins)
+
+head(penguins_raw, 6)
 ```
 
 
