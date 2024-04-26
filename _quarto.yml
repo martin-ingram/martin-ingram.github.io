@@ -2,7 +2,11 @@ project:
   type: website
 
 website:
-  google-analytics: "G-RQSB9K1JC6"
+  google-analytics: 
+    tracking-id: "G-RQSB9K1JC6"
+    storage: cookies
+    anonymize-ip: false
+  
   title: "Test Quarto Website"
   navbar:
     left:
