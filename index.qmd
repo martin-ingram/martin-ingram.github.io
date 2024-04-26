@@ -10,7 +10,8 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 #| echo: false
 #| message: false
 #| warning: false
-install.packages("palmerpenguins")
+
+invisible(install.packages("palmerpenguins"))
 ```
 
 
