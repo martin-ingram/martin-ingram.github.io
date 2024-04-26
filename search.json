@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "martin-ingram.github.io",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n# Downloading packages -------------------------------------------------------\n- Downloading palmerpenguins from CRAN ...      OK [2.9 Mb in 0.99s]\nSuccessfully downloaded 1 package in 1.2 seconds.\n\nThe following package(s) will be installed:\n- palmerpenguins [0.1.1]\nThese packages will be installed into \"~/work/martin-ingram.github.io/martin-ingram.github.io/renv/library/R-4.2/x86_64-pc-linux-gnu\".\n\n# Installing packages --------------------------------------------------------\n- Installing palmerpenguins ...                 OK [installed binary and cached in 0.58s]\nSuccessfully installed 1 package in 0.62 seconds."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n# Downloading packages -------------------------------------------------------\n- Downloading palmerpenguins from CRAN ...      OK [2.9 Mb in 1.2s]\nSuccessfully downloaded 1 package in 1.4 seconds.\n\nThe following package(s) will be installed:\n- palmerpenguins [0.1.1]\nThese packages will be installed into \"~/work/martin-ingram.github.io/martin-ingram.github.io/renv/library/R-4.2/x86_64-pc-linux-gnu\".\n\n# Installing packages --------------------------------------------------------\n- Installing palmerpenguins ...                 OK [installed binary and cached in 0.6s]\nSuccessfully installed 1 package in 0.65 seconds."
   },
   {
     "objectID": "index.html#preview-of-data",
