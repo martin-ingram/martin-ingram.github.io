@@ -25,7 +25,14 @@
     "href": "page3.html",
     "title": "Secret Page",
     "section": "",
-    "text": "Extra content\n\nplot(iris)"
+    "text": "plot(iris)\n\n\n\n\n\n\n\n\n\n\n\nplot(iris3)\n\n\n\n\n\n\n\n\n\n\n\nplot(Titanic)"
+  },
+  {
+    "objectID": "page3.html#further-extra-content",
+    "href": "page3.html#further-extra-content",
+    "title": "Secret Page",
+    "section": "",
+    "text": "plot(iris3)\n\n\n\n\n\n\n\n\n\n\n\nplot(Titanic)"
   },
   {
     "objectID": "about.html",
