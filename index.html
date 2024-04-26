@@ -187,24 +187,27 @@ gtag('config', 'G-RQSB9K1JC6', { 'anonymize_ip': true});
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code># Downloading packages -------------------------------------------------------
-- Downloading palmerpenguins from CRAN ...      OK [2.9 Mb in 1.1s]
-Successfully downloaded 1 package in 1.3 seconds.
+- Downloading palmerpenguins from CRAN ...      OK [2.9 Mb in 0.97s]
+Successfully downloaded 1 package in 1.2 seconds.
 
 The following package(s) will be installed:
 - palmerpenguins [0.1.1]
 These packages will be installed into "~/work/martin-ingram.github.io/martin-ingram.github.io/renv/library/R-4.2/x86_64-pc-linux-gnu".
 
 # Installing packages --------------------------------------------------------
-- Installing palmerpenguins ...                 OK [installed binary and cached in 0.59s]
-Successfully installed 1 package in 0.63 seconds.</code></pre>
+- Installing palmerpenguins ...                 OK [installed binary and cached in 0.57s]
+Successfully installed 1 package in 0.61 seconds.</code></pre>
 </div>
 </div>
 <section id="preview-of-data" class="level2">
 <h2 class="anchored" data-anchor-id="preview-of-data">Preview of Data</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(palmerpenguins)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(penguins_raw, <span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>({</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">library</span>(palmerpenguins)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(penguins_raw, <span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>  studyName Sample Number                             Species Region    Island
 1   PAL0708             1 Adelie Penguin (Pygoscelis adeliae) Anvers Torgersen
