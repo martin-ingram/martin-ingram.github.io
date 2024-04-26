@@ -6,6 +6,12 @@ This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
+```{r}
+#| echo: false
+install.packages("palmerpenguins")
+```
+
+
 ## Preview of Data
 
 ```{r}
