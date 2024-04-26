@@ -4,9 +4,9 @@ project:
 website:
   google-analytics: 
     tracking-id: "G-RQSB9K1JC6"
-    storage: none
+    storage: cookies
     anonymize-ip: false
-  
+    
   title: "Test Quarto Website"
   navbar:
     left:
