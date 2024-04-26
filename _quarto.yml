@@ -3,7 +3,7 @@ project:
 
 website:
   google-analytics: "G-RQSB9K1JC6"
-  title: "martin-ingram.github.io"
+  title: "Test Quarto Website"
   navbar:
     left:
       - href: index.qmd

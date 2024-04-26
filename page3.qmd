@@ -2,8 +2,23 @@
 title: "Secret Page"
 ---
 
-Extra content
+# Extra content
 
 ```{r}
 plot(iris)
 ```
+
+
+## Further Extra Content
+
+```{r}
+plot(iris3)
+```
+
+
+### Even More
+
+```{r}
+plot(Titanic)
+```
+
