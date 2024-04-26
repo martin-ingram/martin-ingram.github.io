@@ -21,6 +21,13 @@
     "text": "Space For other Stuff"
   },
   {
+    "objectID": "page3.html",
+    "href": "page3.html",
+    "title": "Secret Page",
+    "section": "",
+    "text": "Extra content\n\nplot(iris)"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
