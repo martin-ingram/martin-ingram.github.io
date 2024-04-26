@@ -184,59 +184,23 @@ gtag('config', 'G-RQSB9K1JC6', { 'anonymize_ip': true});
 
 <p>This is a Quarto website.</p>
 <p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># Downloading packages -------------------------------------------------------
-- Downloading palmerpenguins from CRAN ...      OK [2.9 Mb in 1.4s]
-Successfully downloaded 1 package in 1.6 seconds.
-
-The following package(s) will be installed:
-- palmerpenguins [0.1.1]
-These packages will be installed into "~/work/martin-ingram.github.io/martin-ingram.github.io/renv/library/R-4.2/x86_64-pc-linux-gnu".
-
-# Installing packages --------------------------------------------------------
-- Installing palmerpenguins ...                 OK [installed binary and cached in 0.59s]
-Successfully installed 1 package in 0.63 seconds.</code></pre>
-</div>
-</div>
 <section id="preview-of-data" class="level2">
 <h2 class="anchored" data-anchor-id="preview-of-data">Preview of Data</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">suppressPackageStartupMessages</span>({</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">library</span>(palmerpenguins)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>})</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(penguins_raw, <span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># suppressPackageStartupMessages({</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#     library(palmerpenguins)</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># })</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(cars, <span class="dv">6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>  studyName Sample Number                             Species Region    Island
-1   PAL0708             1 Adelie Penguin (Pygoscelis adeliae) Anvers Torgersen
-2   PAL0708             2 Adelie Penguin (Pygoscelis adeliae) Anvers Torgersen
-3   PAL0708             3 Adelie Penguin (Pygoscelis adeliae) Anvers Torgersen
-4   PAL0708             4 Adelie Penguin (Pygoscelis adeliae) Anvers Torgersen
-5   PAL0708             5 Adelie Penguin (Pygoscelis adeliae) Anvers Torgersen
-6   PAL0708             6 Adelie Penguin (Pygoscelis adeliae) Anvers Torgersen
-               Stage Individual ID Clutch Completion   Date Egg
-1 Adult, 1 Egg Stage          N1A1               Yes 2007-11-11
-2 Adult, 1 Egg Stage          N1A2               Yes 2007-11-11
-3 Adult, 1 Egg Stage          N2A1               Yes 2007-11-16
-4 Adult, 1 Egg Stage          N2A2               Yes 2007-11-16
-5 Adult, 1 Egg Stage          N3A1               Yes 2007-11-16
-6 Adult, 1 Egg Stage          N3A2               Yes 2007-11-16
-  Culmen Length (mm) Culmen Depth (mm) Flipper Length (mm) Body Mass (g)    Sex
-1               39.1              18.7                 181          3750   MALE
-2               39.5              17.4                 186          3800 FEMALE
-3               40.3              18.0                 195          3250 FEMALE
-4                 NA                NA                  NA            NA   &lt;NA&gt;
-5               36.7              19.3                 193          3450 FEMALE
-6               39.3              20.6                 190          3650   MALE
-  Delta 15 N (o/oo) Delta 13 C (o/oo)                       Comments
-1                NA                NA Not enough blood for isotopes.
-2           8.94956         -24.69454                           &lt;NA&gt;
-3           8.36821         -25.33302                           &lt;NA&gt;
-4                NA                NA             Adult not sampled.
-5           8.76651         -25.32426                           &lt;NA&gt;
-6           8.66496         -25.29805                           &lt;NA&gt;</code></pre>
+<pre><code>  speed dist
+1     4    2
+2     4   10
+3     7    4
+4     7   22
+5     8   16
+6     9   10</code></pre>
 </div>
 </div>
 </section>
