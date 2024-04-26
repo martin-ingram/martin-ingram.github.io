@@ -12,19 +12,19 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 #| warning: false
 
 # renv::init()
-invisible(install.packages("palmerpenguins"))
+# invisible(install.packages("palmerpenguins"))
 ```
 
 
 ## Preview of Data
 
 ```{r}
-suppressPackageStartupMessages({
-    library(palmerpenguins)
-})
+# suppressPackageStartupMessages({
+#     library(palmerpenguins)
+# })
 
 
-head(penguins_raw, 6)
+head(cars, 6)
 ```
 
 
