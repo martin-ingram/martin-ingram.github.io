@@ -15,7 +15,10 @@ install.packages("palmerpenguins")
 ## Preview of Data
 
 ```{r}
-library(palmerpenguins)
+suppressPackageStartupMessages({
+    library(palmerpenguins)
+})
+
 
 head(penguins_raw, 6)
 ```
