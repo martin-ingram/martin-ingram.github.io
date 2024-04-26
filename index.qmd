@@ -11,7 +11,9 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 #| message: false
 #| warning: false
 
-invisible(install.packages("palmerpenguins"))
+renv::init()
+
+# invisible(install.packages("palmerpenguins"))
 ```
 
 
