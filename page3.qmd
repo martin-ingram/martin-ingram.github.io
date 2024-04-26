@@ -22,3 +22,13 @@ plot(iris3)
 plot(Titanic)
 ```
 
+## Download Test
+
+```{r}
+install.packages('downloadthis')
+
+downloadthis::download_this(cars, 
+                            output_name = "test_cars_data.xlsx",
+                            output_extension = ".xlsx")
+```
+
