@@ -1,3 +1,3 @@
 ## Test Area
 
-Site: [[https://martin-ingram.github.io/](url)](https://martin-ingram.github.io/)
+Site: https://martin-ingram.github.io/
